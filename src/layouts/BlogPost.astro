@@ -16,48 +16,51 @@ const { title, description, pubDate, updatedDate, heroImage } = Astro.props;
 		<BaseHead title={title} description={description} />
 		<style>
 			main {
-				width: 100%;
-				max-width: 100%;
-				margin: 0;
+				width: 1280px;
+				max-width: calc(100% - 2 * var(--spacing-xxl));
+				margin: 0 auto;
 			}
 			.hero-image {
 				width: 100%;
-				margin-bottom: 2rem;
+				margin-bottom: var(--spacing-xl);
 			}
 			.hero-image img {
 				display: block;
 				margin: 0 auto;
-				border-radius: 16px;
-				border: 1px solid var(--border-color);
-				box-shadow: var(--box-shadow);
+				border-radius: var(--rounded-lg);
+				border: 1px solid var(--colors-hairline);
 			}
 			.prose {
-				width: 760px;
-				max-width: calc(100% - 2em);
+				max-width: 760px;
 				margin: auto;
-				padding: 0 1rem;
-				color: var(--text-body);
+				padding: 0 var(--spacing-md);
+				color: var(--colors-primary);
 			}
 			.title {
-				margin-bottom: 2rem;
-				padding: 1rem 0;
+				margin-bottom: var(--spacing-xl);
+				padding: var(--spacing-lg) 0;
 				text-align: center;
-				line-height: 1.2;
 			}
 			.title h1 {
-				margin: 0 0 0.75rem 0;
-				font-size: 2.75rem;
-				color: var(--text-primary);
+				margin: 0 0 var(--spacing-xs) 0;
+				font-size: 64px;
+				font-weight: 340;
+				line-height: 1.10;
+				letter-spacing: -0.96px;
+				color: var(--colors-primary);
 			}
 			.date {
-				margin-bottom: 0.5rem;
-				color: var(--text-muted);
+				margin-bottom: var(--spacing-xs);
+				color: var(--colors-primary);
 				font-family: var(--font-mono);
-				font-size: 0.9rem;
+				font-size: 14px;
+				text-transform: uppercase;
+				letter-spacing: 0.05em;
+				opacity: 0.8;
 			}
 			.last-updated-on {
 				font-style: italic;
-				color: var(--accent);
+				font-weight: 540;
 			}
 		</style>
 	</head>
