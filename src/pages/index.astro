@@ -1,48 +1,251 @@
 ---
+import { getCollection } from 'astro:content';
 import BaseHead from '../components/BaseHead.astro';
 import Footer from '../components/Footer.astro';
 import Header from '../components/Header.astro';
+import FormattedDate from '../components/FormattedDate.astro';
 import { SITE_DESCRIPTION, SITE_TITLE } from '../consts';
+
+const posts = (await getCollection('blog'))
+	.sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf())
+	.slice(0, 3);
 ---
 
 <!doctype html>
 <html lang="en">
 	<head>
 		<BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
+		<style>
+			.hero {
+				text-align: center;
+				padding: 4rem 1rem 5rem;
+				border-bottom: 1px solid var(--border-color);
+				margin-bottom: 4rem;
+				position: relative;
+				overflow: hidden;
+			}
+			.hero::before {
+				content: '';
+				position: absolute;
+				top: 50%;
+				left: 50%;
+				width: 500px;
+				height: 500px;
+				background: radial-gradient(circle, rgba(245, 158, 11, 0.08) 0%, rgba(0, 0, 0, 0) 70%);
+				transform: translate(-50%, -50%);
+				pointer-events: none;
+				z-index: -1;
+			}
+			.hero h1 {
+				font-size: 3.5rem;
+				line-height: 1.15;
+				margin-bottom: 1.5rem;
+				background: var(--accent-gradient);
+				-webkit-background-clip: text;
+				-webkit-text-fill-color: transparent;
+				background-clip: text;
+				display: inline-block;
+			}
+			@media (max-width: 768px) {
+				.hero h1 {
+					font-size: 2.5rem;
+				}
+			}
+			.hero p {
+				font-size: 1.25rem;
+				color: var(--text-muted);
+				max-width: 650px;
+				margin: 0 auto 2.5rem;
+			}
+			.cta-buttons {
+				display: flex;
+				justify-content: center;
+				gap: 1rem;
+			}
+			.btn {
+				display: inline-block;
+				padding: 0.75rem 1.75rem;
+				border-radius: 8px;
+				font-weight: 600;
+				font-size: 1rem;
+				transition: all 0.2s ease;
+			}
+			.btn-primary {
+				background: var(--accent-gradient);
+				color: var(--bg-dark);
+				border: none;
+				box-shadow: 0 4px 12px rgba(245, 158, 11, 0.25);
+			}
+			.btn-primary:hover {
+				color: var(--bg-dark);
+				transform: translateY(-2px);
+				box-shadow: 0 6px 20px rgba(245, 158, 11, 0.4);
+			}
+			.btn-secondary {
+				background: transparent;
+				color: var(--text-primary);
+				border: 1px solid var(--border-color);
+			}
+			.btn-secondary:hover {
+				background: var(--border-color);
+				color: var(--text-primary);
+				transform: translateY(-2px);
+			}
+			.features {
+				display: grid;
+				grid-template-columns: repeat(3, 1fr);
+				gap: 1.5rem;
+				margin-bottom: 5rem;
+			}
+			@media (max-width: 768px) {
+				.features {
+					grid-template-columns: 1fr;
+				}
+			}
+			.feature-card {
+				background: var(--card-bg);
+				border: 1px solid var(--border-color);
+				border-radius: 12px;
+				padding: 2rem 1.5rem;
+				text-align: center;
+				transition: border-color 0.2s ease;
+			}
+			.feature-card:hover {
+				border-color: var(--accent);
+			}
+			.feature-card .icon {
+				font-size: 2rem;
+				margin-bottom: 1rem;
+				display: inline-block;
+			}
+			.feature-card h3 {
+				font-size: 1.25rem;
+				margin-bottom: 0.75rem;
+			}
+			.feature-card p {
+				font-size: 0.95rem;
+				color: var(--text-muted);
+				margin-bottom: 0;
+			}
+			.section-title {
+				display: flex;
+				justify-content: space-between;
+				align-items: flex-end;
+				margin-bottom: 2rem;
+				border-bottom: 1px solid var(--border-color);
+				padding-bottom: 0.75rem;
+			}
+			.section-title h2 {
+				margin-bottom: 0;
+			}
+			.recent-posts {
+				display: grid;
+				grid-template-columns: repeat(3, 1fr);
+				gap: 1.5rem;
+				margin-bottom: 4rem;
+			}
+			@media (max-width: 768px) {
+				.recent-posts {
+					grid-template-columns: 1fr;
+				}
+			}
+			.post-card {
+				background: var(--card-bg);
+				border: 1px solid var(--border-color);
+				border-radius: 12px;
+				overflow: hidden;
+				display: flex;
+				flex-direction: column;
+				transition: all 0.2s ease;
+			}
+			.post-card:hover {
+				transform: translateY(-4px);
+				border-color: var(--accent);
+				box-shadow: var(--box-shadow);
+			}
+			.post-card img {
+				width: 100%;
+				aspect-ratio: 16/9;
+				object-fit: cover;
+				border: none;
+				border-radius: 0;
+			}
+			.post-card-content {
+				padding: 1.25rem;
+				flex: 1;
+				display: flex;
+				flex-direction: column;
+			}
+			.post-card-content h3 {
+				font-size: 1.1rem;
+				margin-bottom: 0.75rem;
+				color: var(--text-primary);
+				line-height: 1.35;
+			}
+			.post-card-content .date {
+				font-size: 0.8rem;
+				color: var(--text-muted);
+				font-family: var(--font-mono);
+				margin-top: auto;
+			}
+		</style>
 	</head>
 	<body>
 		<Header />
 		<main>
-			<h1>🧑‍🚀 Hello, Astronaut!</h1>
-			<p>
-				Welcome to the official <a href="https://astro.build/">Astro</a> blog starter template. This template
-				serves as a lightweight, minimally-styled starting point for anyone looking to build a personal
-				website, blog, or portfolio with Astro.
-			</p>
-			<p>
-				This template comes with a few integrations already configured in your
-				<code>astro.config.mjs</code> file. You can customize your setup with
-				<a href="https://astro.build/integrations">Astro Integrations</a> to add tools like Tailwind,
-				React, or Vue to your project.
-			</p>
-			<p>Here are a few ideas on how to get started with the template:</p>
-			<ul>
-				<li>Edit this page in <code>src/pages/index.astro</code></li>
-				<li>Edit the site header items in <code>src/components/Header.astro</code></li>
-				<li>Add your name to the footer in <code>src/components/Footer.astro</code></li>
-				<li>Check out the included blog posts in <code>src/content/blog/</code></li>
-				<li>Customize the blog post page layout in <code>src/layouts/BlogPost.astro</code></li>
-			</ul>
-			<p>
-				Have fun! If you get stuck, remember to
-				<a href="https://docs.astro.build/">read the docs</a>
-				or <a href="https://astro.build/chat">join us on Discord</a> to ask questions.
-			</p>
-			<p>
-				Looking for a blog template with a bit more personality? Check out
-				<a href="https://github.com/Charca/astro-blog-template">astro-blog-template</a>
-				by <a href="https://twitter.com/Charca">Maxi Ferreira</a>.
-			</p>
+			<section class="hero">
+				<h1>Type Faster. Write Smarter.</h1>
+				<p>
+					Welcome to Typing Nexus Blogs! Discover key concepts of touch typing, ergonomic mechanical keyboard designs, custom keymap layouts, and expert typing routines.
+				</p>
+				<div class="cta-buttons">
+					<a href="/blog" class="btn btn-primary">Read Blogs</a>
+					<a href="https://github.com/jitendragehlot446" target="_blank" class="btn btn-secondary">Github Profile</a>
+				</div>
+			</section>
+
+			<section class="features">
+				<div class="feature-card">
+					<span class="icon">⌨️</span>
+					<h3>Layout Optimization</h3>
+					<p>Explore Dvorak, Colemak, and other high-efficiency layouts that save finger movement.</p>
+				</div>
+				<div class="feature-card">
+					<span class="icon">⚡</span>
+					<h3>Speed & Accuracy</h3>
+					<p>Step-by-step guides, practice routines, and cognitive habits to increase your WPM.</p>
+				</div>
+				<div class="feature-card">
+					<span class="icon">🛠️</span>
+					<h3>Hardware Guide</h3>
+					<p>Deep-dive into switches, custom keycaps, and ergonomic mechanical keyboard setups.</p>
+				</div>
+			</section>
+
+			<section class="section-title">
+				<h2>Latest Blog Posts</h2>
+				<a href="/blog">View All Posts &rarr;</a>
+			</section>
+
+			<section class="recent-posts">
+				{
+					posts.map((post) => (
+						<article class="post-card">
+							<a href={`/blog/${post.id}/`}>
+								{post.data.heroImage && (
+									<img src={post.data.heroImage} alt="" />
+								)}
+								<div class="post-card-content">
+									<h3>{post.data.title}</h3>
+									<span class="date">
+										<FormattedDate date={post.data.pubDate} />
+									</span>
+								</div>
+							</a>
+						</article>
+					))
+				}
+			</section>
 		</main>
 		<Footer />
 	</body>
