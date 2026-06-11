@@ -58,9 +58,15 @@ A half mistake is counted for:
 
 Your qualification is determined by your **Net Speed (WPM)**, not your Gross Speed. 
 
-$$\text{Gross Speed (WPM)} = \frac{\text{Total Key Depressions Typed} / 5}{\text{Time (10 minutes)}}$$
+**Gross Speed Formula:**
+```text
+Gross Speed (WPM) = (Total Key Depressions Typed / 5) / 10 Minutes
+```
 
-$$\text{Net Speed (WPM)} = \frac{(\text{Total Key Depressions} - \text{Penalty for Errors}) / 5}{\text{Time (10 minutes)}}$$
+**Net Speed Formula:**
+```text
+Net Speed (WPM) = [(Total Key Depressions Typed - Errors Penalty) / 5] / 10 Minutes
+```
 
 To qualify, your **Net Speed** must be at least **30 WPM**. If you type at 40 WPM but commit too many uncorrected errors, your net speed may fall below 30 WPM, leading to disqualification.
 

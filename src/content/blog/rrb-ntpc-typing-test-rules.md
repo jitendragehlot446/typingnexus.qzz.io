@@ -44,16 +44,18 @@ RRB allows a **5% error relaxation** of the total typed words. Any mistakes beyo
 ### The Penalty Formula
 For every mistake beyond the 5% relaxation limit, **10 words are subtracted** from your total typed words to calculate your net speed.
 
-$$\text{Net Speed (WPM)} = \frac{\text{Total Words Typed} - (\text{Mistakes} \times 10)}{\text{Time (10 mins)}}$$
+```text
+Net Speed (WPM) = [Total Words Typed - (Mistakes beyond 5% x 10)] / 10 Minutes
+```
 
 ### Example Calculation:
 Suppose you typed **400 words** in 10 minutes, and made **30 mistakes**:
 
-1. **Allowed Mistakes (5% of 400)**: $400 \times 0.05 = 20$ mistakes.
-2. **Mistakes beyond relaxation**: $30 - 20 = 10$ mistakes.
-3. **Penalty**: $10 \text{ (excess mistakes)} \times 10 = 100$ words.
-4. **Adjusted Words**: $400 - 100 = 300$ words.
-5. **Net Speed**: $\frac{300}{10} = 30$ WPM.
+1. **Allowed Mistakes (5% of 400)**: 400 x 0.05 = 20 mistakes.
+2. **Mistakes beyond relaxation**: 30 - 20 = 10 mistakes.
+3. **Penalty**: 10 (excess mistakes) x 10 = 100 words.
+4. **Adjusted Words**: 400 - 100 = 300 words.
+5. **Net Speed**: 300 / 10 = 30 WPM.
 
 In this case, you qualify because your net speed is exactly 30 WPM. If you had made even one more mistake, your net speed would fall below 30 WPM, resulting in disqualification.
 

@@ -50,7 +50,9 @@ A half error is counted for:
 
 The formula used by SSC to calculate the percentage of errors is:
 
-$$\text{Error \%} = \frac{\text{Number of Full Mistakes} + \left( \frac{\text{Number of Half Mistakes}}{2} \right)}{\text{Total Words/Characters typed}} \times 100$$
+```text
+Error % = [ Full Mistakes + (Half Mistakes / 2) ] / Total Words (or Characters) Typed x 100
+```
 
 ### Error Relaxation Limit
 SSC provides relaxation on error percentages based on category:
