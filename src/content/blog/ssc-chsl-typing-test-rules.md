@@ -5,7 +5,7 @@ pubDate: "2026-06-11"
 heroImage: "/src/assets/blog-placeholder-1.jpg"
 ---
 
-Staff Selection Commission (SSC) Combined Higher Secondary Level (CHSL) exam includes a crucial **Skill Test / Typing Test** in Tier 2. Clearing this test is mandatory to secure posts like LDC, JSA, and DEO. 
+Staff Selection Commission (SSC) Combined Higher Secondary Level (CHSL) exam includes a crucial **Skill Test / Typing Test** in Tier 2. Clearing this test is mandatory to secure posts like LDC, JSA, and DEO. You can practice on paragraphs matching the exact exam interface for free on **[Typing Nexus SSC Practice Portal](https://typingnexus.in)**.
 
 In this article, we explain the detailed evaluation guidelines, speed requirements, and how mistakes are calculated.
 
@@ -63,6 +63,7 @@ If your error percentage exceeds these limits, you will be disqualified, regardl
 
 ## 4. Pro-Tips for SSC CHSL Typing
 
-1. **Focus on Accuracy First**: Since the relaxation limit is strict (7% for General), focus on accuracy. Speed will naturally improve with regular practice.
+1. **Focus on Accuracy First**: Since the relaxation limit is strict (7% for General), focus on accuracy. Speed will naturally improve with regular practice. You can track and monitor your error rates on **[Typing Nexus free test dashboard](https://typingnexus.in)**.
 2. **Practice on Physical Keyboards**: Do not practice on laptop keyboards. Get a standard desktop keyboard (such as TVS Gold, HP, or Dell membrane keyboard) as they are commonly used in exam halls.
 3. **Familiarity with Rhythms**: Maintain a steady typing rhythm instead of bursting and stopping.
+
