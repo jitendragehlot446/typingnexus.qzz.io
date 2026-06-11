@@ -2,7 +2,7 @@
 title: "Hindi Typing Exams: Fonts, Layouts, and Difference Between Remington Gail & Inscript"
 description: "A comprehensive guide on Hindi typing layouts, comparing Mangal Remington Gail, Inscript, and Krutidev for state and central government exams."
 pubDate: "2026-06-11"
-heroImage: "/src/assets/blog-placeholder-3.jpg"
+heroImage: "../../assets/blog-placeholder-3.jpg"
 ---
 
 Hindi typing tests are an integral part of many central and state government job examinations in India (like Allahabad High Court, UPSSSC, RSMSSB, SSC, and state police exams). You can practice Hindi typing on all popular layouts (Remington Gail, Inscript, Krutidev) for free on the **[Typing Nexus Hindi Typing Practice Portal](https://typingnexus.in)**.

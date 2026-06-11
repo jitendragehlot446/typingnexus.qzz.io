@@ -2,7 +2,7 @@
 title: "Indian Army Clerk Typing Test: Speed, Rules, and Evaluation Formula"
 description: "A complete guide to the Indian Army Agniveer Clerk / Office Assistant / SKT typing test, covering the backspace rule, keystrokes, and tips to pass."
 pubDate: "2026-06-12"
-heroImage: "/src/assets/blog-placeholder-4.jpg"
+heroImage: "../../assets/blog-placeholder-4.jpg"
 ---
 
 The Indian Army Agniveer Clerk (Office Assistant) and Store Keeper Technical (SKT) recruitment process includes a mandatory computer-based **Typing Test**. This test is qualifying in nature, meaning you must pass it to proceed in the selection process, but your score won't be added to the final merit list. You can practice and test your speed for free on the **[Typing Nexus Practice Portal](https://typingnexus.in)**.

@@ -2,7 +2,7 @@
 title: "SSC CHSL Typing Test Rules & Evaluation Guidelines"
 description: "Everything you need to know about SSC CHSL typing speed, error calculations, full mistakes, and half mistakes criteria."
 pubDate: "2026-06-11"
-heroImage: "/src/assets/blog-placeholder-1.jpg"
+heroImage: "../../assets/blog-placeholder-1.jpg"
 ---
 
 Staff Selection Commission (SSC) Combined Higher Secondary Level (CHSL) exam includes a crucial **Skill Test / Typing Test** in Tier 2. Clearing this test is mandatory to secure posts like LDC, JSA, and DEO. You can practice on paragraphs matching the exact exam interface for free on **[Typing Nexus SSC Practice Portal](https://typingnexus.in)**.
