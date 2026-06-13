@@ -8,7 +8,7 @@ import Header from '../components/Header.astro';
 
 type Props = CollectionEntry<'blog'>['data'] & { body?: string };
 
-const { title, description, pubDate, updatedDate, heroImage, body } = Astro.props;
+const { title, examName, description, pubDate, updatedDate, heroImage, body } = Astro.props;
 
 const wordsPerMinute = 200;
 const noOfWords = body ? body.trim().split(/\s+/).length : 0;
@@ -64,11 +64,45 @@ const schema = {
 				width: 100%;
 				margin-bottom: var(--spacing-xl);
 			}
+			.hero-image-container {
+				position: relative;
+				max-width: 1020px;
+				margin: 0 auto;
+			}
 			.hero-image img {
 				display: block;
 				margin: 0 auto;
 				border-radius: var(--rounded-lg);
 				border: 1px solid var(--colors-hairline);
+				width: 100%;
+				height: auto;
+			}
+			.exam-badge-overlay {
+				position: absolute;
+				bottom: var(--spacing-lg);
+				left: var(--spacing-lg);
+				background: rgba(255, 255, 255, 0.85);
+				backdrop-filter: blur(12px);
+				-webkit-backdrop-filter: blur(12px);
+				border: 1px solid rgba(255, 255, 255, 0.4);
+				color: var(--colors-primary);
+				padding: 6px 16px;
+				font-family: var(--font-mono);
+				font-size: 14px;
+				font-weight: 600;
+				letter-spacing: 0.05em;
+				text-transform: uppercase;
+				border-radius: var(--rounded-pill);
+				box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+				z-index: 10;
+			}
+			@media (max-width: 768px) {
+				.exam-badge-overlay {
+					bottom: var(--spacing-sm);
+					left: var(--spacing-sm);
+					font-size: 12px;
+					padding: var(--spacing-xxs) var(--spacing-sm);
+				}
 			}
 			.prose {
 				max-width: 760px;
@@ -208,7 +242,10 @@ const schema = {
 		<main>
 			<article>
 				<div class="hero-image">
-					{heroImage && <Image width={1020} height={510} src={heroImage} alt="" />}
+					<div class="hero-image-container">
+						{heroImage && <Image width={1020} height={510} src={heroImage} alt="" />}
+						{examName && <div class="exam-badge-overlay">{examName}</div>}
+					</div>
 				</div>
 				<div class="prose">
 					<div class="title">

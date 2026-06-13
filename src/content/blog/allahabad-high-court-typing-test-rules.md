@@ -1,8 +1,9 @@
 ---
 title: "Allahabad High Court RO/ARO/Clerk Typing Test Guide"
+examName: "Allahabad High Court RO/ARO"
 description: "Everything you need to know about the Allahabad High Court (AHC) RO, ARO, and Computer Assistant typing test speed, legal passages, and layout rules."
 pubDate: "2026-06-12"
-heroImage: "../../assets/blog-placeholder-5.jpg"
+heroImage: "../../assets/covers/allahabad-high-court-typing-test-rules.jpg"
 ---
 
 The Allahabad High Court (AHC) conducts a mandatory **Computer Typing Test** for various recruitments including Review Officer (RO), Assistant Review Officer (ARO), and Clerical Cadre posts.

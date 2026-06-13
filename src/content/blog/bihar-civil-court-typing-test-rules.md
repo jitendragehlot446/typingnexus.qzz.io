@@ -1,8 +1,9 @@
 ---
 title: "Bihar Civil Court Typing Test Rules: English & Hindi Guidelines"
+examName: "Bihar Civil Court"
 description: "A complete guide to the Bihar Civil Court Clerk, Reader, and Stenographer typing test speed limits, Remington Gail layout, and backspace guidelines."
 pubDate: "2026-06-13"
-heroImage: "../../assets/blog-placeholder-4.jpg"
+heroImage: "../../assets/covers/bihar-civil-court-typing-test-rules.jpg"
 ---
 
 The Bihar Civil Court conducts a mandatory **Computer Typing Test** for recruitment to various positions, including Clerk, Court Reader-cum-Deposition Writer, and Stenographer.

@@ -1,8 +1,9 @@
 ---
 title: "Supreme Court JCA Typing Test Rules & Speed Guidelines"
+examName: "Supreme Court JCA"
 description: "A complete guide to the Supreme Court of India Junior Court Assistant (SCI JCA) typing test speed limit, backspace rules, and error calculation formulas."
 pubDate: "2026-06-13"
-heroImage: "../../assets/blog-placeholder-1.jpg"
+heroImage: "../../assets/covers/supreme-court-jca-typing-test-rules.jpg"
 ---
 
 The Supreme Court of India (SCI) conducts a mandatory **Computer Typing Test** for the recruitment of Junior Court Assistants (JCAs).

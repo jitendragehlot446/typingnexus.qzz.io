@@ -1,8 +1,9 @@
 ---
 title: "EPFO Social Security Assistant (SSA) Typing Test Guide"
+examName: "EPFO SSA"
 description: "Everything you need to know about the EPFO SSA typing test speed, Inscript layout rules, key depression requirements, and backspace guidelines."
 pubDate: "2026-06-13"
-heroImage: "../../assets/blog-placeholder-3.jpg"
+heroImage: "../../assets/covers/epfo-ssa-typing-test-rules.jpg"
 ---
 
 The Employees' Provident Fund Organisation (EPFO) conducts a mandatory **Data Entry Skill Test (DEST)** for the recruitment of Social Security Assistants (SSAs).

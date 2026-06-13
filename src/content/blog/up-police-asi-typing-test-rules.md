@@ -1,8 +1,9 @@
 ---
 title: "UP Police ASI Typing Test: Rules, Mangal Font, and Layouts"
+examName: "UP Police ASI"
 description: "A comprehensive guide on UP Police Assistant Sub-Inspector (ASI) typing exam rules, covering the mandatory Inscript layout and speed requirements."
 pubDate: "2026-06-12"
-heroImage: "../../assets/blog-placeholder-2.jpg"
+heroImage: "../../assets/covers/up-police-asi-typing-test-rules.jpg"
 ---
 
 The Uttar Pradesh Police Recruitment and Promotion Board (UPPRPB) conducts a mandatory **Typing Skill Test** for the recruitment of Assistant Sub-Inspector (ASI) Confidential, Clerk, and Accounts posts.

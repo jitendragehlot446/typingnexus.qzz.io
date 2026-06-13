@@ -1,8 +1,9 @@
 ---
 title: "Bihar Beltron DEO Typing Test Rules & Guidelines"
+examName: "Bihar Beltron DEO"
 description: "A complete guide to the Bihar Beltron Data Entry Operator (DEO) typing test speed requirements, Mangal Remington Gail layout, and backspace rules."
 pubDate: "2026-06-13"
-heroImage: "../../assets/blog-placeholder-2.jpg"
+heroImage: "../../assets/covers/bihar-beltron-deo-typing-test-rules.jpg"
 ---
 
 The Bihar State Electronics Development Corporation Limited (BSEDC), commonly known as **Beltron**, conducts a computer typing skill test for the recruitment of Data Entry Operators (DEOs).

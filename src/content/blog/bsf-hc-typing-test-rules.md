@@ -1,8 +1,9 @@
 ---
 title: "BSF Head Constable Typing Test: Backspace Rule and Penalties"
+examName: "BSF Head Constable"
 description: "A complete overview of the Border Security Force (BSF) Head Constable typing test rules, speed limits, disabled backspaces, and penalties."
 pubDate: "2026-06-12"
-heroImage: "../../assets/blog-placeholder-2.jpg"
+heroImage: "../../assets/covers/bsf-hc-typing-test-rules.jpg"
 ---
 
 The Border Security Force (BSF) conducts a mandatory **Typing Skill Test** for the recruitment of Head Constable (Ministerial) and ASI Steno candidates.

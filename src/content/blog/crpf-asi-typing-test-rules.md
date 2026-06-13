@@ -1,8 +1,9 @@
 ---
 title: "CRPF ASI Steno & HC Typing Test Rules"
+examName: "CRPF ASI & HC"
 description: "Everything you need to know about the Central Reserve Police Force (CRPF) ASI and Head Constable typing test speed, disabled backspaces, and evaluation."
 pubDate: "2026-06-12"
-heroImage: "../../assets/blog-placeholder-3.jpg"
+heroImage: "../../assets/covers/crpf-asi-typing-test-rules.jpg"
 ---
 
 The Central Reserve Police Force (CRPF) conducts a mandatory **Typing Skill Test** for the recruitment of Head Constable (Ministerial) and Assistant Sub-Inspector (ASI) Steno posts.

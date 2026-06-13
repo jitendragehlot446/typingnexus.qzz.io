@@ -1,8 +1,9 @@
 ---
 title: "DSSSB LDC Typing Test: Speed, Font, and Rules"
+examName: "DSSSB LDC"
 description: "Everything you need to know about the Delhi Subordinate Services Selection Board (DSSSB) LDC typing test rules, speed, and fonts."
 pubDate: "2026-06-12"
-heroImage: "../../assets/blog-placeholder-4.jpg"
+heroImage: "../../assets/covers/dsssb-ldc-typing-test-rules.jpg"
 ---
 
 The Delhi Subordinate Services Selection Board (DSSSB) conducts a mandatory **Typing Skill Test** for the post of Lower Division Clerk (LDC), Junior Assistant, and other clerical roles.

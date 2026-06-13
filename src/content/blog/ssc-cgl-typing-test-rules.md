@@ -1,8 +1,9 @@
 ---
 title: "SSC CGL DEST Typing Test: Rules, Speed, and Evaluation"
+examName: "SSC CGL DEST"
 description: "A comprehensive guide on the Staff Selection Commission (SSC) CGL Data Entry Speed Test (DEST), covering the allowed error margin, backspace rule, and speed."
 pubDate: "2026-06-12"
-heroImage: "../../assets/blog-placeholder-1.jpg"
+heroImage: "../../assets/covers/ssc-cgl-typing-test-rules.jpg"
 ---
 
 The Staff Selection Commission (SSC) Combined Graduate Level (CGL) examination includes a mandatory **Data Entry Speed Test (DEST)**. It is a qualifying-only test, meaning your marks do not count towards the final merit list, but failing it results in immediate disqualification.

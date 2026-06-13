@@ -1,8 +1,9 @@
 ---
 title: "CISF Head Constable Typing Test Rules and Standards"
+examName: "CISF Head Constable"
 description: "A comprehensive analysis of Central Industrial Security Force (CISF) Head Constable typing test speed, error formulas, and backspace constraints."
 pubDate: "2026-06-12"
-heroImage: "../../assets/blog-placeholder-1.jpg"
+heroImage: "../../assets/covers/cisf-hc-typing-test-rules.jpg"
 ---
 
 The Central Industrial Security Force (CISF) conducts a highly disciplined **Typing Skill Test** for the recruitment of Head Constable (Ministerial) posts.

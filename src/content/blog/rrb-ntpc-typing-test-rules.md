@@ -1,8 +1,9 @@
 ---
 title: "RRB NTPC Typing Test Rules: Backspace and Speed Calculation"
+examName: "RRB NTPC"
 description: "A complete analysis of Railway Recruitment Board (RRB) NTPC typing skill test guidelines, including the disabled backspace rule and formula."
 pubDate: "2026-06-11"
-heroImage: "../../assets/blog-placeholder-2.jpg"
+heroImage: "../../assets/covers/rrb-ntpc-typing-test-rules.jpg"
 ---
 
 The Railway Recruitment Board (RRB) NTPC Typing Skill Test is a qualifying examination for posts like Senior Clerk cum Typist, Junior Accounts Assistant cum Typist, and Accounts Clerk cum Typist. To practice under the exact exam rules, you can use the free **[Typing Nexus RRB NTPC Practice Portal](https://typingnexus.in)**.

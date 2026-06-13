@@ -1,8 +1,9 @@
 ---
 title: "RSMSSB LDC Typing Test: Layout, Speed, and Word-Locking Rule"
+examName: "RSMSSB LDC"
 description: "A complete guide on the Rajasthan RSSB/RSMSSB LDC typing test rules, covering the strict word-locking backspace rule and DevLys 010 font."
 pubDate: "2026-06-12"
-heroImage: "../../assets/blog-placeholder-5.jpg"
+heroImage: "../../assets/covers/rssb-ldc-typing-test-rules.jpg"
 ---
 
 The Rajasthan Staff Selection Board (RSMSSB) conducts a highly challenging **LDC Typing Test** for the recruitment of Lower Division Clerks and Junior Assistants.

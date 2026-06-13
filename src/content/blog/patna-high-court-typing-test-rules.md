@@ -1,8 +1,9 @@
 ---
 title: "Patna High Court Typing Test: Rules, Speed, and Layouts"
+examName: "Patna High Court"
 description: "Everything you need to know about the Patna High Court computer typing test rules, speed, layouts, and disabled backspace key guidelines."
 pubDate: "2026-06-12"
-heroImage: "../../assets/blog-placeholder-4.jpg"
+heroImage: "../../assets/covers/patna-high-court-typing-test-rules.jpg"
 ---
 
 The Patna High Court conducts a computer-based **Typing Test** for posts like Computer Operator-cum-Typist, Assistant, and Stenographer.
