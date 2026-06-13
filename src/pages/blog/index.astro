@@ -10,6 +10,23 @@ import { SITE_DESCRIPTION, SITE_TITLE } from '../../consts';
 const posts = (await getCollection('blog')).sort(
 	(a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf(),
 );
+
+function getPostCategory(id: string) {
+	if (id.includes('court')) return 'High Court';
+	if (id.includes('bsf') || id.includes('cisf') || id.includes('crpf') || id.includes('army') || id.includes('police')) {
+		return 'Police & Defense';
+	}
+	if (id.includes('ssc') || id.includes('rrb') || id.includes('ntpc')) return 'SSC & Railways';
+	if (id.includes('hindi') || id.includes('font') || id.includes('mangal') || id.includes('layout')) return 'Hindi & Fonts';
+	return 'State & Other Exams';
+}
+
+function getReadingTime(text: string) {
+	const wordsPerMinute = 200;
+	const noOfWords = text.trim().split(/\s+/).length;
+	const minutes = Math.ceil(noOfWords / wordsPerMinute);
+	return `${minutes} min read`;
+}
 ---
 
 <!doctype html>
@@ -23,7 +40,7 @@ const posts = (await getCollection('blog')).sort(
 				margin: 0 auto;
 			}
 			.blog-header {
-				margin-bottom: var(--spacing-xxl);
+				margin-bottom: var(--spacing-lg);
 				border-bottom: 1px solid var(--colors-hairline);
 				padding-bottom: var(--spacing-xl);
 			}
@@ -32,6 +49,69 @@ const posts = (await getCollection('blog')).sort(
 				margin-bottom: var(--spacing-sm);
 				opacity: 0.8;
 			}
+
+			/* Controls (Search and Filters) */
+			.controls-section {
+				margin-bottom: var(--spacing-xl);
+				display: flex;
+				flex-direction: column;
+				gap: var(--spacing-md);
+			}
+			.search-box {
+				position: relative;
+				width: 100%;
+				max-width: 500px;
+			}
+			.search-box .search-icon {
+				position: absolute;
+				left: 14px;
+				top: 50%;
+				transform: translateY(-50%);
+				font-size: 16px;
+				opacity: 0.5;
+			}
+			.search-box input {
+				width: 100%;
+				padding: 12px 16px 12px 42px;
+				font-size: 16px;
+				font-family: var(--font-sans);
+				border: 1px solid var(--colors-hairline);
+				border-radius: var(--rounded-pill);
+				background-color: var(--colors-canvas);
+				color: var(--colors-primary);
+				transition: border-color 0.2s ease, box-shadow 0.2s ease;
+			}
+			.search-box input:focus {
+				outline: none;
+				border-color: var(--colors-primary);
+				box-shadow: 0 0 0 3px rgba(0, 0, 0, 0.05);
+			}
+			.category-filters {
+				display: flex;
+				flex-wrap: wrap;
+				gap: var(--spacing-xs);
+			}
+			.filter-btn {
+				background-color: var(--colors-surface-soft);
+				color: var(--colors-primary);
+				border: 1px solid transparent;
+				padding: 8px 16px;
+				font-size: 14px;
+				font-family: var(--font-sans);
+				font-weight: 500;
+				border-radius: var(--rounded-pill);
+				cursor: pointer;
+				transition: background-color 0.15s ease, border-color 0.15s ease;
+			}
+			.filter-btn:hover {
+				background-color: var(--colors-hairline);
+			}
+			.filter-btn.active {
+				background-color: var(--colors-primary);
+				color: var(--colors-on-primary);
+				border-color: var(--colors-primary);
+			}
+
 			.posts-grid {
 				display: grid;
 				grid-template-columns: repeat(2, 1fr);
@@ -77,12 +157,38 @@ const posts = (await getCollection('blog')).sort(
 				flex-direction: column;
 				flex: 1;
 			}
+			.post-category-tag {
+				font-family: var(--font-mono);
+				font-size: 11px;
+				text-transform: uppercase;
+				color: var(--colors-primary);
+				opacity: 0.6;
+				margin-bottom: var(--spacing-xs);
+				display: inline-block;
+				letter-spacing: 0.5px;
+			}
 			.post-card-body h3 {
 				margin-bottom: var(--spacing-xs);
 			}
-			.post-card-body .date {
+			.post-meta-footer {
 				margin-top: auto;
+				display: flex;
+				justify-content: space-between;
+				align-items: center;
+				border-top: 1px solid var(--colors-hairline-soft);
+				padding-top: var(--spacing-sm);
 			}
+			.post-meta-footer .date {
+				margin-top: 0;
+			}
+			.post-meta-footer .reading-time {
+				opacity: 0.6;
+				font-family: var(--font-mono);
+				font-size: 12px;
+				text-transform: uppercase;
+				letter-spacing: 0.6px;
+			}
+
 			/* Hero card (first post) spans full width */
 			.post-card.hero-post {
 				grid-column: span 2;
@@ -126,19 +232,50 @@ const posts = (await getCollection('blog')).sort(
 				<h1 class="display-lg">The Typing Blog</h1>
 			</section>
 
-			<section class="posts-grid">
+			<!-- Search & Filter Controls -->
+			<section class="controls-section">
+				<div class="search-box">
+					<span class="search-icon">🔍</span>
+					<input type="text" id="search-input" placeholder="Search typing rules (e.g., SSC, Mangal)..." aria-label="Search articles" />
+				</div>
+				<div class="category-filters">
+					<button class="filter-btn active" data-filter="all">All Guidelines</button>
+					<button class="filter-btn" data-filter="High Court">High Court</button>
+					<button class="filter-btn" data-filter="Police & Defense">Police & Defense</button>
+					<button class="filter-btn" data-filter="SSC & Railways">SSC & Railways</button>
+					<button class="filter-btn" data-filter="Hindi & Fonts">Hindi & Fonts</button>
+					<button class="filter-btn" data-filter="State & Other Exams">State & Others</button>
+				</div>
+			</section>
+
+			<!-- No Results Message -->
+			<div id="no-results" style="display: none; text-align: center; padding: var(--spacing-xxl) 0;">
+				<h3 class="headline" style="margin-bottom: var(--spacing-md);">No guidelines found matching your search.</h3>
+				<button class="button-secondary" id="reset-filters" style="border: 1px solid var(--colors-hairline);">Reset Filters</button>
+			</div>
+
+			<section class="posts-grid" id="posts-grid">
 				{
 					posts.map((post, index) => (
-						<article class={`post-card ${index === 0 ? 'hero-post' : ''}`}>
+						<article 
+							class={`post-card ${index === 0 ? 'hero-post' : ''}`}
+							data-category={getPostCategory(post.id)}
+							data-title={post.data.title.toLowerCase()}
+							data-description={post.data.description.toLowerCase()}
+						>
 							<a href={`/blog/${post.id}/`}>
 								{post.data.heroImage && (
 									<Image src={post.data.heroImage} alt="" width={720} height={360} />
 								)}
 								<div class="post-card-body">
+									<span class="post-category-tag">{getPostCategory(post.id)}</span>
 									<h3 class={index === 0 ? "display-lg" : "card-title"}>{post.data.title}</h3>
-									<span class="caption date">
-										<FormattedDate date={post.data.pubDate} />
-									</span>
+									<div class="post-meta-footer">
+										<span class="caption date">
+											<FormattedDate date={post.data.pubDate} />
+										</span>
+										<span class="caption reading-time">{getReadingTime(post.body)}</span>
+									</div>
 								</div>
 							</a>
 						</article>
@@ -147,5 +284,63 @@ const posts = (await getCollection('blog')).sort(
 			</section>
 		</main>
 		<Footer />
+
+		<script>
+			const searchInput = document.getElementById('search-input') as HTMLInputElement;
+			const filterBtns = document.querySelectorAll('.filter-btn');
+			const postCards = document.querySelectorAll('.post-card');
+			const noResults = document.getElementById('no-results');
+			const resetBtn = document.getElementById('reset-filters');
+
+			let activeCategory = 'all';
+			let searchQuery = '';
+
+			function filterPosts() {
+				let visibleCount = 0;
+				postCards.forEach((card: any) => {
+					const category = card.getAttribute('data-category');
+					const title = card.getAttribute('data-title') || '';
+					const description = card.getAttribute('data-description') || '';
+					
+					const matchesCategory = activeCategory === 'all' || category === activeCategory;
+					const matchesSearch = title.includes(searchQuery) || description.includes(searchQuery);
+
+					if (matchesCategory && matchesSearch) {
+						card.style.display = '';
+						visibleCount++;
+					} else {
+						card.style.display = 'none';
+					}
+				});
+
+				if (noResults) {
+					noResults.style.display = visibleCount === 0 ? 'block' : 'none';
+				}
+			}
+
+			searchInput?.addEventListener('input', (e) => {
+				searchQuery = (e.target as HTMLInputElement).value.toLowerCase().trim();
+				filterPosts();
+			});
+
+			filterBtns.forEach((btn) => {
+				btn.addEventListener('click', () => {
+					filterBtns.forEach((b) => b.classList.remove('active'));
+					btn.classList.add('active');
+					activeCategory = btn.getAttribute('data-filter') || 'all';
+					filterPosts();
+				});
+			});
+
+			resetBtn?.addEventListener('click', () => {
+				if (searchInput) searchInput.value = '';
+				searchQuery = '';
+				filterBtns.forEach((b) => b.classList.remove('active'));
+				const allBtn = document.querySelector('[data-filter="all"]');
+				allBtn?.classList.add('active');
+				activeCategory = 'all';
+				filterPosts();
+			});
+		</script>
 	</body>
 </html>

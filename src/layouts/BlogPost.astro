@@ -6,9 +6,13 @@ import Footer from '../components/Footer.astro';
 import FormattedDate from '../components/FormattedDate.astro';
 import Header from '../components/Header.astro';
 
-type Props = CollectionEntry<'blog'>['data'];
+type Props = CollectionEntry<'blog'>['data'] & { body?: string };
 
-const { title, description, pubDate, updatedDate, heroImage } = Astro.props;
+const { title, description, pubDate, updatedDate, heroImage, body } = Astro.props;
+
+const wordsPerMinute = 200;
+const noOfWords = body ? body.trim().split(/\s+/).length : 0;
+const readingTime = Math.ceil(noOfWords / wordsPerMinute);
 ---
 
 <html lang="en">
@@ -49,8 +53,12 @@ const { title, description, pubDate, updatedDate, heroImage } = Astro.props;
 				letter-spacing: -0.96px;
 				color: var(--colors-primary);
 			}
-			.date {
-				margin-bottom: var(--spacing-xs);
+			.date-row {
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				gap: var(--spacing-xs);
+				margin-bottom: var(--spacing-sm);
 				color: var(--colors-primary);
 				font-family: var(--font-mono);
 				font-size: 14px;
@@ -58,9 +66,103 @@ const { title, description, pubDate, updatedDate, heroImage } = Astro.props;
 				letter-spacing: 0.05em;
 				opacity: 0.8;
 			}
+			.date-row .separator {
+				opacity: 0.4;
+			}
+			.date-row .reading-time {
+				font-weight: 500;
+			}
 			.last-updated-on {
 				font-style: italic;
+				text-transform: none;
+				letter-spacing: normal;
+				font-family: var(--font-sans);
+				opacity: 0.7;
+			}
+			.share-container {
+				position: relative;
+				display: inline-block;
+				margin-top: var(--spacing-sm);
+			}
+			.share-button {
+				background-color: var(--colors-surface-soft);
+				color: var(--colors-primary);
+				border: 1px solid var(--colors-hairline);
+				padding: 6px 14px;
+				font-family: var(--font-sans);
+				font-size: 14px;
 				font-weight: 540;
+				border-radius: var(--rounded-pill);
+				cursor: pointer;
+				display: inline-flex;
+				align-items: center;
+				gap: 6px;
+				transition: background-color 0.15s ease, transform 0.1s ease;
+			}
+			.share-button:hover {
+				background-color: var(--colors-hairline-soft);
+				transform: translateY(-1px);
+			}
+			.share-button:active {
+				transform: translateY(0);
+			}
+			.share-icon {
+				font-size: 14px;
+			}
+			.share-toast {
+				position: absolute;
+				top: -36px;
+				left: 50%;
+				transform: translateX(-50%) translateY(10px);
+				background-color: var(--colors-inverse-canvas);
+				color: var(--colors-on-primary);
+				padding: 6px 12px;
+				border-radius: var(--rounded-md);
+				font-size: 12px;
+				font-weight: 500;
+				white-space: nowrap;
+				pointer-events: none;
+				opacity: 0;
+				transition: opacity 0.2s ease, transform 0.2s ease;
+				box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+			}
+			.share-toast.show {
+				opacity: 1;
+				transform: translateX(-50%) translateY(0);
+			}
+
+			/* Practice CTA Block */
+			.practice-card-cta {
+				margin-top: var(--spacing-xxl);
+				margin-bottom: var(--spacing-xxl);
+				padding: var(--spacing-xl);
+				background-color: var(--colors-block-mint);
+				border: 1px solid var(--colors-hairline);
+				border-radius: var(--rounded-lg);
+				text-align: center;
+				color: var(--colors-primary);
+			}
+			.practice-card-cta h2 {
+				margin-bottom: var(--spacing-sm);
+				font-size: 32px;
+				font-weight: 600;
+				letter-spacing: -0.5px;
+			}
+			.practice-card-cta p {
+				margin-bottom: var(--spacing-lg);
+				font-size: 16px;
+				line-height: 1.5;
+				opacity: 0.9;
+				max-width: 600px;
+				margin-left: auto;
+				margin-right: auto;
+			}
+			.practice-card-cta .button-primary {
+				font-size: 16px;
+				padding: 12px 24px;
+				background-color: var(--colors-primary);
+				color: var(--colors-on-primary);
+				text-decoration: none;
 			}
 		</style>
 	</head>
@@ -74,23 +176,61 @@ const { title, description, pubDate, updatedDate, heroImage } = Astro.props;
 				</div>
 				<div class="prose">
 					<div class="title">
-						<div class="date">
-							<FormattedDate date={pubDate} />
+						<div class="date-row">
+							<span class="date">
+								<FormattedDate date={pubDate} />
+							</span>
+							{readingTime > 0 && <span class="separator">&bull;</span>}
+							{readingTime > 0 && <span class="reading-time">{readingTime} MIN READ</span>}
 							{
 								updatedDate && (
-									<div class="last-updated-on">
-										Last updated on <FormattedDate date={updatedDate} />
-									</div>
+									<span class="last-updated-on">
+										(Updated on <FormattedDate date={updatedDate} />)
+									</span>
 								)
 							}
 						</div>
 						<h1>{title}</h1>
+						<div class="share-container">
+							<button id="share-btn" class="share-button" aria-label="Share article">
+								<span class="share-icon">🔗</span> Share Guide
+							</button>
+							<span id="share-toast" class="share-toast">Copied link to clipboard!</span>
+						</div>
 						<hr />
 					</div>
 					<slot />
+
+					<!-- Practice Call to Action -->
+					<div class="practice-card-cta">
+						<h2>Ready to Start Practice?</h2>
+						<p>Level up your speed for this typing exam with real mock test paragraphs, customized layouts (Remington Gail, Inscript, Krutidev), and exact exam evaluation rules on the official practice engine.</p>
+						<a href="https://typingnexus.in" target="_blank" rel="noopener noreferrer" class="button-primary">
+							Start Practice on Typing Nexus &rarr;
+						</a>
+					</div>
 				</div>
 			</article>
 		</main>
 		<Footer />
+
+		<script>
+			const shareBtn = document.getElementById('share-btn');
+			const shareToast = document.getElementById('share-toast');
+
+			shareBtn?.addEventListener('click', async () => {
+				try {
+					await navigator.clipboard.writeText(window.location.href);
+					if (shareToast) {
+						shareToast.classList.add('show');
+						setTimeout(() => {
+							shareToast.classList.remove('show');
+						}, 2000);
+					}
+				} catch (err) {
+					console.error('Failed to copy text: ', err);
+				}
+			});
+		</script>
 	</body>
 </html>
