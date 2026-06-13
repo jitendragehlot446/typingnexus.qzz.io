@@ -5,7 +5,12 @@ import HeaderLink from './HeaderLink.astro';
 
 <header class="top-nav">
 	<nav>
-		<h2><a href="/" class="logo">Typing Nexus</a></h2>
+		<h2>
+			<a href="/" class="logo">
+				<img src="/logo.jpg" alt="Typing Nexus Logo" class="logo-img" />
+				Typing Nexus
+			</a>
+		</h2>
 		<div class="internal-links">
 			<HeaderLink href="/">Home</HeaderLink>
 			<HeaderLink href="/blog">Blog</HeaderLink>
@@ -48,6 +53,16 @@ import HeaderLink from './HeaderLink.astro';
 		letter-spacing: -0.8px;
 		color: var(--colors-primary);
 		text-decoration: none;
+		display: flex;
+		align-items: center;
+		gap: var(--spacing-xs);
+	}
+	.logo-img {
+		height: 32px;
+		width: 32px;
+		object-fit: cover;
+		border-radius: var(--rounded-sm);
+		border: 1px solid var(--colors-hairline);
 	}
 	.internal-links {
 		display: flex;
