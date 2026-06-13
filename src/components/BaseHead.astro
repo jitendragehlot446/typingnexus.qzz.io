@@ -32,6 +32,10 @@ const { title, description, image = FallbackImage } = Astro.props;
 />
 <meta name="generator" content={Astro.generator} />
 
+<!-- LLMs Discovery Metadata -->
+<link rel="llms" type="text/plain" href={new URL('llms.txt', Astro.site)} />
+<link rel="llms-full" type="text/plain" href={new URL('llms-full.txt', Astro.site)} />
+
 <Font cssVariable="--font-atkinson" preload />
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
