@@ -16,6 +16,21 @@ interface Props {
 const canonicalURL = new URL(Astro.url.pathname, Astro.site);
 
 const { title, description, image = FallbackImage } = Astro.props;
+
+// Determine if this is the homepage for structured data
+const isHomepage = Astro.url.pathname === '/' || Astro.url.pathname === '/index.html';
+const websiteSchema = isHomepage ? {
+	"@context": "https://schema.org",
+	"@type": "WebSite",
+	"name": "Typing Nexus",
+	"alternateName": "Typing Nexus Blogs",
+	"url": Astro.site ? Astro.site.origin : "https://typingnexus.qzz.io",
+	"potentialAction": {
+		"@type": "SearchAction",
+		"target": `${Astro.site ? Astro.site.origin : "https://typingnexus.qzz.io"}/blog?search={search_term_string}`,
+		"query-input": "required name=search_term_string"
+	}
+} : null;
 ---
 
 <!-- Global Metadata -->
@@ -62,3 +77,5 @@ const { title, description, image = FallbackImage } = Astro.props;
 <meta property="twitter:title" content={title} />
 <meta property="twitter:description" content={description} />
 <meta property="twitter:image" content={new URL(image.src, Astro.url)} />
+
+{websiteSchema && <script type="application/ld+json" set:html={JSON.stringify(websiteSchema)} />}

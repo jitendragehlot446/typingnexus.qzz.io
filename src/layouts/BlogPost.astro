@@ -13,11 +13,47 @@ const { title, description, pubDate, updatedDate, heroImage, body } = Astro.prop
 const wordsPerMinute = 200;
 const noOfWords = body ? body.trim().split(/\s+/).length : 0;
 const readingTime = Math.ceil(noOfWords / wordsPerMinute);
+
+// Format dates for Schema.org (ISO-8601)
+const publishDateISO = pubDate ? new Date(pubDate).toISOString() : '';
+const modifyDateISO = updatedDate ? new Date(updatedDate).toISOString() : publishDateISO;
+
+const baseUrl = Astro.site ? Astro.site.origin : 'https://typingnexus.qzz.io';
+const canonicalURL = new URL(Astro.url.pathname, Astro.site);
+const heroImageUrl = heroImage ? new URL(heroImage.src, Astro.url).href : '';
+
+const schema = {
+	"@context": "https://schema.org",
+	"@type": "BlogPosting",
+	"headline": title,
+	"description": description,
+	"datePublished": publishDateISO,
+	"dateModified": modifyDateISO,
+	"author": {
+		"@type": "Organization",
+		"name": "Typing Nexus",
+		"url": "https://typingnexus.in"
+	},
+	"publisher": {
+		"@type": "Organization",
+		"name": "Typing Nexus",
+		"logo": {
+			"@type": "ImageObject",
+			"url": `${baseUrl}/favicon.svg`
+		}
+	},
+	"mainEntityOfPage": {
+		"@type": "WebPage",
+		"@id": canonicalURL.href
+	},
+	...(heroImageUrl && { "image": heroImageUrl })
+};
 ---
 
 <html lang="en">
 	<head>
 		<BaseHead title={title} description={description} />
+		<script type="application/ld+json" set:html={JSON.stringify(schema)} />
 		<style>
 			main {
 				width: 1280px;
