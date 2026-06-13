@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://typingnexus.qzz.io/sitemap-index.xml
