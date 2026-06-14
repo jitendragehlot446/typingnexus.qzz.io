@@ -13,8 +13,9 @@ export async function GET(context: any) {
 	content += `> ${SITE_DESCRIPTION}\n\n`;
 	
 	content += `## Main Pages\n`;
-	content += `- [Home](${baseUrl}/) - The official homepage of Typing Nexus, offering online practice portal for Indian government typing examinations.\n`;
-	content += `- [Blog](${baseUrl}/blog) - Articles and guidelines for different typing exams.\n\n`;
+	content += `- [Home](${baseUrl}/) - The official blog of Typing Nexus with guides for Indian government typing examinations.\n`;
+	content += `- [Blog](${baseUrl}/blog) - Articles and guidelines for different typing exams.\n`;
+	content += `- [About](${baseUrl}/about) - About Typing Nexus blog and the free typing practice simulator.\n\n`;
 	
 	content += `## Exam Guides & Typing Rules\n`;
 	sortedPosts.forEach((post) => {
