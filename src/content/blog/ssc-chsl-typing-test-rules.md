@@ -28,7 +28,20 @@ In this article, we explain the detailed evaluation guidelines, speed requiremen
 
 ---
 
-## 2. Types of Mistakes & Evaluation
+## 2. Key Rules: Backspace and Navigation
+
+Unlike some strict exams where the backspace is disabled:
+
+*   **Backspace is Allowed**: You can use the backspace key to delete and correct your typing errors.
+*   **Arrow Keys**: You can use the arrow keys to navigate within the text area to correct spelling mistakes.
+*   **Scroll Bar**: If the text passage is long, you may need to use the scroll bar to view the entire content.
+
+> [!WARNING]
+> While backspace is permitted, using it excessively will slow you down. Focus on typing accurately the first time to preserve your speed and rhythm.
+
+---
+
+## 3. Types of Mistakes & Evaluation
 
 SSC classifies typing errors into two categories: **Full Mistakes** and **Half Mistakes**.
 
@@ -47,7 +60,7 @@ A half error is counted for:
 
 ---
 
-## 3. How Error Percentage is Calculated
+## 4. How Error Percentage is Calculated
 
 The formula used by SSC to calculate the percentage of errors is:
 
@@ -64,7 +77,7 @@ If your error percentage exceeds these limits, you will be disqualified, regardl
 
 ---
 
-## 4. Pro-Tips for SSC CHSL Typing
+## 5. Pro-Tips for SSC CHSL Typing
 
 1. **Focus on Accuracy First**: Since the relaxation limit is strict (7% for General), focus on accuracy. Speed will naturally improve with regular practice. You can track and monitor your error rates on **[Typing Nexus free test dashboard](https://typingnexus.in)**.
 2. **Practice on Physical Keyboards**: Do not practice on laptop keyboards. Get a standard desktop keyboard (such as TVS Gold, HP, or Dell membrane keyboard) as they are commonly used in exam halls.

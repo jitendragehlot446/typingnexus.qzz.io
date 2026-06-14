@@ -15,7 +15,7 @@ To qualify, candidates must achieve minimum speeds and perform formatting tasks 
 
 ---
 
-## Part 1: Typing Speed Test
+## 1. Typing Speed Test
 
 The speed test evaluates your typing speed in both Hindi and English on computer systems.
 
@@ -32,7 +32,7 @@ The speed test evaluates your typing speed in both Hindi and English on computer
 
 ---
 
-## Part 2: Computer Efficiency Test
+## 2. Computer Efficiency Test
 
 The efficiency test is conducted to evaluate the candidate's practical skills in basic document formatting and spreadsheet editing.
 
