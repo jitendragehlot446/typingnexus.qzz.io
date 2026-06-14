@@ -1,0 +1,155 @@
+---
+import { getCollection } from 'astro:content';
+import BaseHead from '../components/BaseHead.astro';
+import Footer from '../components/Footer.astro';
+import Header from '../components/Header.astro';
+
+const posts = (await getCollection('blog')).sort(
+	(a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf(),
+);
+
+function getCategory(id: string) {
+	if (id.includes('court')) return 'High Court';
+	if (id.includes('bsf') || id.includes('cisf') || id.includes('crpf') || id.includes('army') || id.includes('police')) return 'Police & Defense';
+	if (id.includes('ssc') || id.includes('rrb') || id.includes('ntpc')) return 'SSC & Railways';
+	if (id.includes('hindi') || id.includes('font') || id.includes('mangal') || id.includes('layout')) return 'Hindi & Fonts';
+	return 'State & Other Exams';
+}
+
+const categories = [
+	{ name: 'SSC & Railways', icon: '🚂' },
+	{ name: 'Police & Defense', icon: '🛡️' },
+	{ name: 'High Court', icon: '⚖️' },
+	{ name: 'State & Other Exams', icon: '📋' },
+	{ name: 'Hindi & Fonts', icon: '🔤' },
+];
+---
+
+<!doctype html>
+<html lang="en">
+	<head>
+		<BaseHead title="Complete Guide to Indian Government Typing Exams | Typing Nexus" description="Your one-stop resource for all Indian government typing exam rules, speed requirements, keyboard layouts, and evaluation criteria. SSC, RRB, UP Police, High Courts and more." />
+		<style>
+			.guide-header {
+				text-align: center;
+				padding: var(--spacing-section) var(--spacing-md);
+				max-width: 800px;
+				margin: 0 auto;
+			}
+			.guide-header h1 {
+				font-size: 48px;
+				font-weight: 500;
+				margin-bottom: var(--spacing-md);
+			}
+			.guide-header p {
+				font-size: 18px;
+				opacity: 0.8;
+				line-height: 1.6;
+			}
+			.stats-row {
+				display: flex;
+				justify-content: center;
+				gap: var(--spacing-xl);
+				margin: var(--spacing-xl) 0;
+				flex-wrap: wrap;
+			}
+			.stat-card {
+				text-align: center;
+				padding: var(--spacing-lg);
+				background: var(--colors-surface-soft);
+				border: 1px solid var(--colors-hairline);
+				border-radius: var(--rounded-md);
+				min-width: 140px;
+			}
+			.stat-card .num {
+				font-size: 36px;
+				font-weight: 600;
+				display: block;
+			}
+			.stat-card .label {
+				font-size: 14px;
+				opacity: 0.7;
+				font-family: var(--font-mono);
+				text-transform: uppercase;
+				letter-spacing: 0.05em;
+			}
+			.category-section {
+				margin-bottom: var(--spacing-xxl);
+			}
+			.category-section h2 {
+				font-size: 28px;
+				font-weight: 600;
+				margin-bottom: var(--spacing-md);
+				border-bottom: 1px solid var(--colors-hairline);
+				padding-bottom: var(--spacing-sm);
+			}
+			.guide-grid {
+				display: grid;
+				grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+				gap: var(--spacing-md);
+			}
+			.guide-card {
+				padding: var(--spacing-lg);
+				border: 1px solid var(--colors-hairline);
+				border-radius: var(--rounded-md);
+				text-decoration: none;
+				color: var(--colors-primary);
+				transition: transform 0.15s ease, border-color 0.15s ease;
+				background: var(--colors-canvas);
+			}
+			.guide-card:hover {
+				transform: translateY(-2px);
+				border-color: var(--colors-primary);
+			}
+			.guide-card h3 {
+				font-size: 18px;
+				font-weight: 600;
+				margin-bottom: var(--spacing-xs);
+			}
+			.guide-card p {
+				font-size: 14px;
+				opacity: 0.7;
+				margin: 0;
+			}
+		</style>
+	</head>
+	<body>
+		<Header />
+		<main>
+			<div class="guide-header">
+				<h1>Complete Guide to Indian Government Typing Exams</h1>
+				<p>Your one-stop resource covering speed requirements, backspace rules, keyboard layouts, and evaluation criteria for all major Indian government typing examinations.</p>
+			</div>
+
+			<div class="stats-row">
+				<div class="stat-card">
+					<span class="num">{posts.length}</span>
+					<span class="label">Exam Guides</span>
+				</div>
+				<div class="stat-card">
+					<span class="num">{categories.length}</span>
+					<span class="label">Exam Categories</span>
+				</div>
+			</div>
+
+			{categories.map((cat) => {
+				const catPosts = posts.filter((p) => getCategory(p.id) === cat.name);
+				if (catPosts.length === 0) return null;
+				return (
+					<section class="category-section">
+						<h2>{cat.icon} {cat.name}</h2>
+						<div class="guide-grid">
+							{catPosts.map((post) => (
+								<a href={`/blog/${post.id}/`} class="guide-card">
+									<h3>{post.data.title}</h3>
+									<p>{post.data.description}</p>
+								</a>
+							))}
+						</div>
+					</section>
+				);
+			})}
+		</main>
+		<Footer />
+	</body>
+</html>

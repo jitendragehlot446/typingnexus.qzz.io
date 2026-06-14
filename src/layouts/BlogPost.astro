@@ -6,15 +6,14 @@ import Footer from '../components/Footer.astro';
 import FormattedDate from '../components/FormattedDate.astro';
 import Header from '../components/Header.astro';
 
-type Props = CollectionEntry<'blog'>['data'] & { body?: string };
+type Props = CollectionEntry<'blog'>['data'] & { body?: string; postId?: string; relatedPosts?: CollectionEntry<'blog'>[] };
 
-const { title, examName, description, pubDate, updatedDate, heroImage, body } = Astro.props;
+const { title, examName, description, pubDate, updatedDate, heroImage, body, postId, relatedPosts } = Astro.props;
 
 const wordsPerMinute = 200;
 const noOfWords = body ? body.trim().split(/\s+/).length : 0;
 const readingTime = Math.ceil(noOfWords / wordsPerMinute);
 
-// Format dates for Schema.org (ISO-8601)
 const publishDateISO = pubDate ? new Date(pubDate).toISOString() : '';
 const modifyDateISO = updatedDate ? new Date(updatedDate).toISOString() : publishDateISO;
 
@@ -22,6 +21,36 @@ const baseUrl = Astro.site ? Astro.site.origin : 'https://typingnexus.qzz.io';
 const canonicalURL = new URL(Astro.url.pathname, Astro.site);
 const heroImageUrl = heroImage ? new URL(heroImage.src, Astro.url).href : '';
 
+// --- Extract sections from body ---
+function extractSections(bodyText: string) {
+	const lines = bodyText.split('\n');
+	const toc: Array<{ id: string; title: string }> = [];
+	let currentHeading = '';
+	let currentLines: string[] = [];
+	const sections: Array<{ heading: string; content: string }> = [];
+	for (const line of lines) {
+		const headingMatch = line.match(/^##\s+(.+)/);
+		if (headingMatch) {
+			if (currentHeading) {
+				sections.push({ heading: currentHeading, content: currentLines.join('\n').trim() });
+			}
+			currentHeading = headingMatch[1];
+			currentLines = [];
+			const slug = currentHeading.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, '');
+			toc.push({ id: slug, title: currentHeading });
+		} else if (currentHeading) {
+			currentLines.push(line);
+		}
+	}
+	if (currentHeading) {
+		sections.push({ heading: currentHeading, content: currentLines.join('\n').trim() });
+	}
+	return { toc, sections };
+}
+
+const { toc, sections } = body ? extractSections(body) : { toc: [], sections: [] };
+
+// --- BlogPosting Schema with Speakable ---
 const schema = {
 	"@context": "https://schema.org",
 	"@type": "BlogPosting",
@@ -29,11 +58,18 @@ const schema = {
 	"description": description,
 	"datePublished": publishDateISO,
 	"dateModified": modifyDateISO,
-	"author": {
-		"@type": "Organization",
-		"name": "Typing Nexus",
-		"url": "https://typingnexus.in"
-	},
+	"author": [
+		{
+			"@type": "Organization",
+			"name": "Typing Nexus",
+			"url": "https://typingnexus.in"
+		},
+		{
+			"@type": "Person",
+			"name": "Jitendra Gehlot",
+			"url": "https://github.com/jitendragehlot446"
+		}
+	],
 	"publisher": {
 		"@type": "Organization",
 		"name": "Typing Nexus",
@@ -46,10 +82,14 @@ const schema = {
 		"@type": "WebPage",
 		"@id": canonicalURL.href
 	},
+	"speakable": {
+		"@type": "SpeakableSpecification",
+		"cssSelector": [".title h1", ".prose p"]
+	},
 	...(heroImageUrl && { "image": heroImageUrl })
 };
 
-// Extract FAQ pairs from blog post headings for FAQPage schema
+// --- FAQPage Schema ---
 function extractFAQs(bodyText: string): Array<{ question: string; answer: string }> {
 	const lines = bodyText.split('\n');
 	const faqs: Array<{ question: string; answer: string }> = [];
@@ -86,6 +126,59 @@ const faqSchema = faqItems.length >= 2 ? {
 		}
 	}))
 } : null;
+
+// --- HowTo Schema (from Tips sections) ---
+function extractHowToSteps(bodyText: string) {
+	const lines = bodyText.split('\n');
+	const steps: Array<{ name: string; text: string }> = [];
+	let inTips = false;
+	let currentStepName = '';
+	let currentStepLines: string[] = [];
+	for (const line of lines) {
+		const headingMatch = line.match(/^##\s+(.+)/i);
+		if (headingMatch) {
+			inTips = /tip|success|prepare|pro.?tip/i.test(headingMatch[1]);
+			if (currentStepName && currentStepLines.some(l => l.trim())) {
+				steps.push({ name: currentStepName, text: currentStepLines.join('\n').trim() });
+			}
+			currentStepName = '';
+			currentStepLines = [];
+			continue;
+		}
+		if (inTips) {
+			const stepMatch = line.match(/^\d+\.\s+\*\*(.+?)\*\*/);
+			if (stepMatch) {
+				if (currentStepName && currentStepLines.some(l => l.trim())) {
+					steps.push({ name: currentStepName, text: currentStepLines.join('\n').trim() });
+				}
+				currentStepName = stepMatch[1];
+				currentStepLines = [line];
+			} else if (currentStepName) {
+				currentStepLines.push(line);
+			}
+		}
+	}
+	if (currentStepName && currentStepLines.some(l => l.trim())) {
+		steps.push({ name: currentStepName, text: currentStepLines.join('\n').trim() });
+	}
+	return steps;
+}
+
+const howToSteps = body ? extractHowToSteps(body) : [];
+const howToSchema = howToSteps.length >= 2 ? {
+	"@context": "https://schema.org",
+	"@type": "HowTo",
+	"name": `Tips for ${title}`,
+	"description": description,
+	"step": howToSteps.map((step, i) => ({
+		"@type": "HowToStep",
+		"position": i + 1,
+		"name": step.name,
+		"text": step.text.slice(0, 300)
+	}))
+} : null;
+
+
 ---
 
 <html lang="en">
@@ -93,6 +186,12 @@ const faqSchema = faqItems.length >= 2 ? {
 		<BaseHead title={title} description={description} pageType="article" pubDate={pubDate} updatedDate={updatedDate} />
 		<script type="application/ld+json" set:html={JSON.stringify(schema)} />
 		{faqSchema && <script type="application/ld+json" set:html={JSON.stringify(faqSchema)} />}
+		{howToSchema && <script type="application/ld+json" set:html={JSON.stringify(howToSchema)} />}
+		<meta name="citation_title" content={title} />
+		<meta name="citation_description" content={description} />
+		{pubDate && <meta name="citation_publication_date" content={publishDateISO} />}
+		<meta name="citation_publisher" content="Typing Nexus" />
+		<meta name="citation_language" content="en" />
 		<style>
 			main {
 				width: 1280px;
@@ -273,6 +372,113 @@ const faqSchema = faqItems.length >= 2 ? {
 				color: var(--colors-on-primary);
 				text-decoration: none;
 			}
+
+			/* Table of Contents */
+			.toc {
+				margin-bottom: var(--spacing-xl);
+				padding: var(--spacing-lg);
+				background: var(--colors-surface-soft);
+				border: 1px solid var(--colors-hairline);
+				border-radius: var(--rounded-md);
+			}
+			.toc h3 {
+				font-size: 14px;
+				text-transform: uppercase;
+				letter-spacing: 0.05em;
+				font-family: var(--font-mono);
+				margin-bottom: var(--spacing-sm);
+			}
+			.toc ul {
+				list-style: none;
+				padding: 0;
+				margin: 0;
+			}
+			.toc li {
+				margin-bottom: var(--spacing-xxs);
+			}
+			.toc a {
+				font-size: 15px;
+				text-decoration: none;
+				color: var(--colors-primary);
+				opacity: 0.8;
+				transition: opacity 0.15s ease;
+			}
+			.toc a:hover { opacity: 1; }
+
+			/* Related Posts */
+			.related-posts-section {
+				margin-top: var(--spacing-xl);
+				margin-bottom: var(--spacing-lg);
+			}
+			.related-posts-section h3 {
+				font-size: 18px;
+				font-weight: 600;
+				margin-bottom: var(--spacing-md);
+			}
+			.related-posts {
+				display: flex;
+				gap: var(--spacing-md);
+				flex-wrap: wrap;
+			}
+			.related-card {
+				flex: 1;
+				min-width: 200px;
+				padding: var(--spacing-md);
+				background: var(--colors-canvas);
+				border: 1px solid var(--colors-hairline);
+				border-radius: var(--rounded-md);
+				text-decoration: none;
+				color: var(--colors-primary);
+				transition: transform 0.15s ease, border-color 0.15s ease;
+				display: flex;
+				flex-direction: column;
+				gap: var(--spacing-xs);
+			}
+			.related-card:hover {
+				transform: translateY(-2px);
+				border-color: var(--colors-primary);
+			}
+			.related-badge {
+				font-family: var(--font-mono);
+				font-size: 11px;
+				text-transform: uppercase;
+				letter-spacing: 0.05em;
+				opacity: 0.6;
+			}
+			.related-title {
+				font-size: 15px;
+				font-weight: 600;
+			}
+
+			/* Author Bio */
+			.author-bio {
+				display: flex;
+				gap: var(--spacing-md);
+				align-items: flex-start;
+				padding: var(--spacing-lg);
+				margin-top: var(--spacing-xl);
+				margin-bottom: var(--spacing-lg);
+				background: var(--colors-surface-soft);
+				border: 1px solid var(--colors-hairline);
+				border-radius: var(--rounded-md);
+			}
+			.author-avatar img {
+				width: 48px;
+				height: 48px;
+				border-radius: 50%;
+				border: 1px solid var(--colors-hairline);
+			}
+			.author-info strong {
+				display: block;
+				font-size: 16px;
+				margin-bottom: 4px;
+			}
+			.author-info p {
+				font-size: 14px;
+				opacity: 0.8;
+				margin: 0;
+				line-height: 1.5;
+			}
 		</style>
 	</head>
 
@@ -311,7 +517,49 @@ const faqSchema = faqItems.length >= 2 ? {
 						</div>
 						<hr />
 					</div>
+
+					{toc.length > 3 && (
+						<div class="toc">
+							<h3>Table of Contents</h3>
+							<ul>
+								{toc.map((item) => (
+									<li><a href={`#${item.id}`}>{item.title}</a></li>
+								))}
+							</ul>
+							<hr />
+						</div>
+					)}
+
 					<slot />
+
+					{toc.length > 0 && (
+						<div class="related-posts-section">
+							<hr />
+							{relatedPosts && relatedPosts.length > 0 && (
+								<>
+									<h3>Related Exam Guides</h3>
+									<div class="related-posts">
+										{relatedPosts.map((rp) => (
+											<a href={`/blog/${rp.id}/`} class="related-card">
+												<span class="related-badge">{rp.data.examName}</span>
+												<span class="related-title">{rp.data.title}</span>
+											</a>
+										))}
+									</div>
+								</>
+							)}
+						</div>
+					)}
+
+					<div class="author-bio">
+						<div class="author-avatar">
+							<img src="/logo.jpg" alt="Typing Nexus" width={48} height={48} />
+						</div>
+						<div class="author-info">
+							<strong>Typing Nexus</strong>
+							<p>Free online typing practice platform for Indian government exams. Practice with real exam simulations, customizable layouts, and detailed performance analytics.</p>
+						</div>
+					</div>
 
 					<!-- Practice Call to Action -->
 					<div class="practice-card-cta">

@@ -34,6 +34,28 @@ const websiteSchema = isHomepage ? {
 		"query-input": "required name=search_term_string"
 	}
 } : null;
+
+// Generate BreadcrumbList from URL
+const pathParts = Astro.url.pathname.split('/').filter(Boolean);
+const breadcrumbItems = [
+	{ position: 1, name: 'Home', item: `${canonicalURL.origin}/` }
+];
+let accumulatedPath = '';
+for (let i = 0; i < pathParts.length; i++) {
+	accumulatedPath += `/${pathParts[i]}`;
+	let label = pathParts[i].replace(/-/g, ' ').replace(/\b\w/g, (c) => c.toUpperCase());
+	if (label === 'Blog') label = 'Blog';
+	breadcrumbItems.push({
+		position: i + 2,
+		name: label,
+		item: `${canonicalURL.origin}${accumulatedPath}/`
+	});
+}
+const breadcrumbSchema = breadcrumbItems.length > 1 ? {
+	"@context": "https://schema.org",
+	"@type": "BreadcrumbList",
+	"itemListElement": breadcrumbItems
+} : null;
 ---
 
 <!-- Global Metadata -->
@@ -84,3 +106,4 @@ const websiteSchema = isHomepage ? {
 <meta property="twitter:image" content={new URL(image.src, Astro.url)} />
 
 {websiteSchema && <script type="application/ld+json" set:html={JSON.stringify(websiteSchema)} />}
+{breadcrumbSchema && <script type="application/ld+json" set:html={JSON.stringify(breadcrumbSchema)} />}
