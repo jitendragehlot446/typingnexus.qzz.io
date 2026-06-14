@@ -56,5 +56,5 @@ Errors are evaluated using a standard point penalty system:
 
 ## 5. Tips for Success
 
-1.  **Practice Exclusively on Inscript Layout**: Since Remington Gail is disabled, spend all your practice time learning Inscript. You can select the Inscript keyboard layout on the **[Typing Nexus Hindi Typing Practice Portal](https://typingnexus.in)**.
+1.  **Practice Exclusively on Inscript Layout**: Since Remington Gail is disabled, spend all your practice time learning Inscript. You can **[practice with the Inscript keyboard layout](https://typingnexus.in)** for free.
 2.  **Maintain 90%+ Accuracy**: The passing accuracy threshold is 85%, but aiming for 90%+ ensures a safe buffer under exam hall pressure.

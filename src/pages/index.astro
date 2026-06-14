@@ -198,8 +198,8 @@ const posts = (await getCollection('blog'))
 				The ultimate online practice portal for Indian government typing examinations. Master speed and accuracy for UP Police, SSC CHSL, DSSSB, High Courts, and more.
 			</p>
 			<div class="cta-buttons">
-				<a href="https://typingnexus.in" target="_blank" class="button-primary">Start Practice</a>
-				<a href="/blog" class="button-secondary">Read Blogs</a>
+				<a href="https://typingnexus.in" target="_blank" class="button-primary">Try a mock test</a>
+				<a href="/blog" class="button-secondary">Read Guides</a>
 			</div>
 		</section>
 
@@ -284,7 +284,7 @@ const posts = (await getCollection('blog'))
 					<p class="body">
 						Practice on interfaces that exactly mirror exams like UP Police, SSC CHSL, DSSSB, Supreme Court JCA, and High Court LDC. Configure custom settings including Remington Gail, Inscript, or Krutidev, and toggle disabled backspace options.
 					</p>
-					<a href="https://typingnexus.in" target="_blank" class="button-primary">Start Exam Prep</a>
+					<a href="https://typingnexus.in" target="_blank" class="button-primary">Try exam simulations</a>
 				</div>
 			</section>
 
@@ -296,7 +296,7 @@ const posts = (await getCollection('blog'))
 					<p class="body">
 						Track your typing speed (WPM) and accuracy in real-time. Typing Nexus maps your errors and highlights specific bottleneck keys and mistyped combinations to help you optimize your speed for competitive exams.
 					</p>
-					<a href="https://typingnexus.in" target="_blank" class="button-secondary">Take a Free Mock Test</a>
+					<a href="https://typingnexus.in" target="_blank" class="button-secondary">Analyze your typing</a>
 				</div>
 			</section>
 
@@ -313,7 +313,7 @@ const posts = (await getCollection('blog'))
 							<a href={`/blog/${post.id}/`}>
 								{post.data.heroImage && (
 									<div class="post-card-image-container">
-										<Image src={post.data.heroImage} alt="" width={720} height={360} />
+										<Image src={post.data.heroImage} alt={`${post.data.examName} typing test rules`} width={720} height={360} />
 										{post.data.examName && <span class="post-card-badge">{post.data.examName}</span>}
 									</div>
 								)}

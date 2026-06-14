@@ -64,4 +64,4 @@ The Supreme Court JCA typing test allows a **maximum error margin of 3%**.
 
 1.  **Practice on Legal Passages**: The Supreme Court typing passages are heavy on legal terminology, judgments, and legal drafts. Practice typing court orders rather than general news stories.
 2.  **Aim for 40+ WPM at Home**: To comfortably qualify on the actual exam day under pressure and with complex legal terms, target a practice speed of 40–45 WPM.
-3.  **Simulate the Plain Interface**: Disable highlighting options on your practice software. Learn to read from a static text block and type below it. You can configure mock exams matching this interface on **[Typing Nexus Exam Simulator](https://typingnexus.in)**.
+3.  **Simulate the Plain Interface**: Disable highlighting options on your practice software. Learn to read from a static text block and type below it. You can **[configure mock exams matching this interface](https://typingnexus.in)**.

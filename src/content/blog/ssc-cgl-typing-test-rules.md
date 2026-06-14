@@ -74,5 +74,5 @@ The allowed error limit varies depending on the category and specific post (some
 
 ## 5. Tips for Practice
 
-1.  **Practice on Real TCS-like Interfaces**: The SSC CGL typing test is conducted by TCS. Practice on simulators that mimic this environment. You can practice for free on the **[Typing Nexus SSC practice portal](https://typingnexus.in)**.
+1.  **Practice on Real TCS-like Interfaces**: The SSC CGL typing test is conducted by TCS. Practice on simulators that mimic this environment. You can **[practice with TCS-style mock tests](https://typingnexus.in)** for free.
 2.  **Focus on 95%+ Accuracy**: Aim to keep your mistakes to a minimum to ensure you qualify for DEST-preferred posts.

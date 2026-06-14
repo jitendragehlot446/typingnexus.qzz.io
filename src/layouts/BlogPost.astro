@@ -48,12 +48,51 @@ const schema = {
 	},
 	...(heroImageUrl && { "image": heroImageUrl })
 };
+
+// Extract FAQ pairs from blog post headings for FAQPage schema
+function extractFAQs(bodyText: string): Array<{ question: string; answer: string }> {
+	const lines = bodyText.split('\n');
+	const faqs: Array<{ question: string; answer: string }> = [];
+	let currentQuestion = '';
+	let currentAnswerLines: string[] = [];
+	for (const line of lines) {
+		const headingMatch = line.match(/^##\s+(.+)/);
+		if (headingMatch) {
+			if (currentQuestion && currentAnswerLines.some(l => l.trim())) {
+				faqs.push({ question: currentQuestion, answer: currentAnswerLines.join('\n').trim() });
+			}
+			currentQuestion = headingMatch[1];
+			currentAnswerLines = [];
+		} else if (currentQuestion) {
+			currentAnswerLines.push(line);
+		}
+	}
+	if (currentQuestion && currentAnswerLines.some(l => l.trim())) {
+		faqs.push({ question: currentQuestion, answer: currentAnswerLines.join('\n').trim() });
+	}
+	return faqs;
+}
+
+const faqItems = body ? extractFAQs(body) : [];
+const faqSchema = faqItems.length >= 2 ? {
+	"@context": "https://schema.org",
+	"@type": "FAQPage",
+	"mainEntity": faqItems.map((item) => ({
+		"@type": "Question",
+		"name": item.question,
+		"acceptedAnswer": {
+			"@type": "Answer",
+			"text": item.answer.slice(0, 500)
+		}
+	}))
+} : null;
 ---
 
 <html lang="en">
 	<head>
-		<BaseHead title={title} description={description} />
+		<BaseHead title={title} description={description} pageType="article" pubDate={pubDate} updatedDate={updatedDate} />
 		<script type="application/ld+json" set:html={JSON.stringify(schema)} />
+		{faqSchema && <script type="application/ld+json" set:html={JSON.stringify(faqSchema)} />}
 		<style>
 			main {
 				width: 1280px;
@@ -243,7 +282,7 @@ const schema = {
 			<article>
 				<div class="hero-image">
 					<div class="hero-image-container">
-						{heroImage && <Image width={1020} height={510} src={heroImage} alt="" />}
+						{heroImage && <Image width={1020} height={510} src={heroImage} alt={`${examName} typing test rules and guidelines`} />}
 						{examName && <div class="exam-badge-overlay">{examName}</div>}
 					</div>
 				</div>
@@ -279,7 +318,7 @@ const schema = {
 						<h2>Ready to Start Practice?</h2>
 						<p>Level up your speed for this typing exam with real mock test paragraphs, customized layouts (Remington Gail, Inscript, Krutidev), and exact exam evaluation rules on the official practice engine.</p>
 						<a href="https://typingnexus.in" target="_blank" rel="noopener noreferrer" class="button-primary">
-							Start Practice on Typing Nexus &rarr;
+							Start practicing now &rarr;
 						</a>
 					</div>
 				</div>

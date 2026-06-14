@@ -58,4 +58,4 @@ The test is qualifying, meaning you must achieve the minimum speed to pass, but 
 
 1.  **Use the Trial Test Wisely**: Press every key on your keyboard during the 2-minute mock run to ensure spacebar, backspace, and letter keys function smoothly.
 2.  **Aim for High Accuracy**: Net speed is calculated by deducting mistakes. Practice maintaining an accuracy rate of **95%+** to ensure your final net speed does not drop below the qualifying mark.
-3.  **Practice on Physical Keyboards**: Do not practice only on soft laptop keys. Practice on standard membrane desktop keyboards, as these are used in KVS centers. You can practice in real exam mode on the **[Typing Nexus Test Simulator](https://typingnexus.in)**.
+3.  **Practice on Physical Keyboards**: Do not practice only on soft laptop keys. Practice on standard membrane desktop keyboards, as these are used in KVS centers. You can **[practice in real exam mode](https://typingnexus.in)**.

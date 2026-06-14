@@ -11,11 +11,14 @@ interface Props {
 	title: string;
 	description: string;
 	image?: ImageMetadata;
+	pageType?: 'website' | 'article';
+	pubDate?: Date;
+	updatedDate?: Date;
 }
 
 const canonicalURL = new URL(Astro.url.pathname, Astro.site);
 
-const { title, description, image = FallbackImage } = Astro.props;
+const { title, description, image = FallbackImage, pageType = 'website', pubDate, updatedDate } = Astro.props;
 
 // Determine if this is the homepage for structured data
 const isHomepage = Astro.url.pathname === '/' || Astro.url.pathname === '/index.html';
@@ -24,10 +27,10 @@ const websiteSchema = isHomepage ? {
 	"@type": "WebSite",
 	"name": "Typing Nexus",
 	"alternateName": "Typing Nexus Blogs",
-	"url": Astro.site ? Astro.site.origin : "https://typingnexus.qzz.io",
+	"url": canonicalURL.href,
 	"potentialAction": {
 		"@type": "SearchAction",
-		"target": `${Astro.site ? Astro.site.origin : "https://typingnexus.qzz.io"}/blog?search={search_term_string}`,
+		"target": `${canonicalURL.href}blog?search={search_term_string}`,
 		"query-input": "required name=search_term_string"
 	}
 } : null;
@@ -65,11 +68,13 @@ const websiteSchema = isHomepage ? {
 
 <!-- Open Graph / Facebook -->
 <meta property="og:site_name" content={SITE_TITLE} />
-<meta property="og:type" content="website" />
+<meta property="og:type" content={pageType} />
 <meta property="og:url" content={Astro.url} />
 <meta property="og:title" content={title} />
 <meta property="og:description" content={description} />
 <meta property="og:image" content={new URL(image.src, Astro.url)} />
+{pageType === 'article' && pubDate && <meta property="article:published_time" content={pubDate.toISOString()} />}
+{pageType === 'article' && updatedDate && <meta property="article:modified_time" content={updatedDate.toISOString()} />}
 
 <!-- Twitter -->
 <meta property="twitter:card" content="summary_large_image" />

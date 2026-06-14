@@ -49,6 +49,6 @@ Errors are evaluated strictly. Mistakes are categorized into:
 ## 5. Tips to Clear the Patna High Court Typing Test
 
 1.  **Practice Legal Terminology**: Since it is a High Court exam, the paragraphs often contain legal terms (e.g., *decree, petition, respondent, jurisdiction*). Practice legal paragraphs regularly.
-2.  **Turn Off Backspace in Practice**: Do not practice with the backspace enabled. Toggle the backspace blocker on the **[Typing Nexus Exam Engine](https://typingnexus.in)**.
+2.  **Turn Off Backspace in Practice**: Do not practice with the backspace enabled. **[Enable the backspace blocker](https://typingnexus.in)** while practicing.
 3.  **Aim for High Accuracy**: Since the English accuracy threshold is a high 90%, prioritize accurate typing over speed bursts. Maintain a calm, steady rhythm.
 4.  **Use Desktop Keyboards**: Practice on standard desktop keyboards with deep key travel to replicate the center environment.

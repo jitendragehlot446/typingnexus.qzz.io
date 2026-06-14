@@ -41,6 +41,6 @@ Candidates must choose their typing language (English or Hindi) at the time of f
 
 ## 4. Tips to Crack the DSSSB LDC Typing Test
 
-1.  **Practice on Simple Interfaces**: Do not practice on platforms that highlight incorrect words in red. Practice on simple interfaces that mirror the official exam screen. You can practice in exam mode for free on the **[Typing Nexus Practice Portal](https://typingnexus.in)**.
+1.  **Practice on Simple Interfaces**: Do not practice on platforms that highlight incorrect words in red. Practice on simple interfaces that mirror the official exam screen. You can **[practice in exam mode](https://typingnexus.in)** for free.
 2.  **Aim for 40+ WPM at Home**: Because of the examination pressure and keyboard variations, target a practice speed of at least 40 WPM in English (or 35 WPM in Hindi) to qualify easily.
 3.  **Keep Accuracy Above 95%**: Since the evaluation is strict, focus on key accuracy and steady rhythm.

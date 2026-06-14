@@ -1,49 +1,97 @@
 ---
-import AboutHeroImage from '../assets/blog-placeholder-about.jpg';
-import Layout from '../layouts/BlogPost.astro';
+import BaseHead from '../components/BaseHead.astro';
+import Footer from '../components/Footer.astro';
+import Header from '../components/Header.astro';
+
+const title = "About Typing Nexus";
+const description = "Learn about the purpose, practice simulator, and resources offered by Typing Nexus for government typing exams.";
+
+const schema = {
+	"@context": "https://schema.org",
+	"@type": "AboutPage",
+	"name": title,
+	"description": description,
+	"url": new URL(Astro.url.pathname, Astro.site).href,
+	"mainEntity": {
+		"@type": "WebSite",
+		"name": "Typing Nexus",
+		"url": "https://typingnexus.in"
+	}
+};
 ---
 
-<Layout
-	title="About Typing Nexus"
-	description="Learn about the purpose, practice simulator, and resources offered by Typing Nexus for government typing exams."
-	pubDate={new Date('June 12 2026')}
-	heroImage={AboutHeroImage}
->
-	<p>
-		Welcome to the official blog extension of <strong><a href="https://typingnexus.in" target="_blank" rel="noopener noreferrer">Typing Nexus</a></strong>!
-	</p>
+<!doctype html>
+<html lang="en">
+	<head>
+		<BaseHead title={title} description={description} />
+		<script type="application/ld+json" set:html={JSON.stringify(schema)} />
+		<style>
+			main {
+				width: 760px;
+				max-width: calc(100% - 2 * var(--spacing-xxl));
+				margin: 0 auto;
+				padding: var(--spacing-section) 0;
+			}
+			main h1 {
+				font-size: 48px;
+				font-weight: 500;
+				margin-bottom: var(--spacing-lg);
+			}
+			main h3 {
+				font-size: 24px;
+				font-weight: 600;
+				margin-top: var(--spacing-xl);
+				margin-bottom: var(--spacing-sm);
+			}
+			main p, main ul {
+				font-size: 18px;
+				line-height: 1.6;
+				margin-bottom: var(--spacing-md);
+			}
+		</style>
+	</head>
+	<body>
+		<Header />
+		<main>
+			<h1>About Typing Nexus</h1>
+			<p>
+				Welcome to the official blog extension of <strong><a href="https://typingnexus.in" target="_blank" rel="noopener noreferrer">Typing Nexus</a></strong>!
+			</p>
 
-	<p>
-		Our mission is to help government job aspirants in India master the typing tests required for various competitive examinations. Typing tests are often the final hurdle in securing coveted positions, and failing them due to small, misunderstood rules is a common challenge. We are here to bridge that gap.
-	</p>
+			<p>
+				Our mission is to help government job aspirants in India master the typing tests required for various competitive examinations. Typing tests are often the final hurdle in securing coveted positions, and failing them due to small, misunderstood rules is a common challenge. We are here to bridge that gap.
+			</p>
 
-	<h3>What We Do</h3>
-	<p>
-		On this blog, we provide comprehensive, step-by-step guides explaining the exact specifications, speed calculation formulas, backspace limitations, and keyboard layouts for major central and state-level exams, including:
-	</p>
-	<ul>
-		<li><strong>Staff Selection Commission (SSC)</strong>: CGL DEST, CHSL Typing Skill Test.</li>
-		<li><strong>Railways</strong>: RRB NTPC Typing Skill Test.</li>
-		<li><strong>Police &amp; Defense</strong>: UP Police ASI, Delhi Police Head Constable (Ministerial), CISF HC, BSF HC, CRPF ASI.</li>
-		<li><strong>State &amp; High Court Exams</strong>: Patna High Court, Allahabad High Court, RSMSSB LDC, DSSSB LDC.</li>
-	</ul>
+			<h3>What We Do</h3>
+			<p>
+				On this blog, we provide comprehensive, step-by-step guides explaining the exact specifications, speed calculation formulas, backspace limitations, and keyboard layouts for major central and state-level exams, including:
+			</p>
+			<ul>
+				<li><strong>Staff Selection Commission (SSC)</strong>: CGL DEST, CHSL Typing Skill Test.</li>
+				<li><strong>Railways</strong>: RRB NTPC Typing Skill Test.</li>
+				<li><strong>Police &amp; Defense</strong>: UP Police ASI, Delhi Police Head Constable (Ministerial), CISF HC, BSF HC, CRPF ASI.</li>
+				<li><strong>State &amp; High Court Exams</strong>: Patna High Court, Allahabad High Court, RSMSSB LDC, DSSSB LDC.</li>
+			</ul>
 
-	<h3>The Typing Nexus Advantage</h3>
-	<p>
-		Typing Nexus is not just an information portal. We run a <strong>Free Online Typing Practice Simulator</strong> at <strong><a href="https://typingnexus.in" target="_blank" rel="noopener noreferrer">typingnexus.in</a></strong> designed specifically to match the exam-day interface.
-	</p>
-	<p>
-		Features of our practice engine include:
-	</p>
-	<ul>
-		<li><strong>Exact Exam Interfaces</strong>: We simulate the software interfaces of SSC, RRB, High Court, and police portals.</li>
-		<li><strong>Remington Gail, Inscript &amp; Krutidev Support</strong>: Toggle between standard Hindi keyboard layouts.</li>
-		<li><strong>Backspace Blocker</strong>: Toggle backspace on or off to simulate strict BSF, CRPF, or Patna High Court restrictions.</li>
-		<li><strong>Word-Locking Option</strong>: Experience RSMSSB's word-locking mechanism before your actual exam.</li>
-		<li><strong>Real-time Analytics</strong>: Detailed speed (WPM) and accuracy breakdowns indicating your mistake patterns.</li>
-	</ul>
+			<h3>The Typing Nexus Advantage</h3>
+			<p>
+				Typing Nexus is not just an information portal. We run a <strong>Free Online Typing Practice Simulator</strong> at <strong><a href="https://typingnexus.in" target="_blank" rel="noopener noreferrer">typingnexus.in</a></strong> designed specifically to match the exam-day interface.
+			</p>
+			<p>
+				Features of our practice engine include:
+			</p>
+			<ul>
+				<li><strong>Exact Exam Interfaces</strong>: We simulate the software interfaces of SSC, RRB, High Court, and police portals.</li>
+				<li><strong>Remington Gail, Inscript &amp; Krutidev Support</strong>: Toggle between standard Hindi keyboard layouts.</li>
+				<li><strong>Backspace Blocker</strong>: Toggle backspace on or off to simulate strict BSF, CRPF, or Patna High Court restrictions.</li>
+				<li><strong>Word-Locking Option</strong>: Experience RSMSSB's word-locking mechanism before your actual exam.</li>
+				<li><strong>Real-time Analytics</strong>: Detailed speed (WPM) and accuracy breakdowns indicating your mistake patterns.</li>
+			</ul>
 
-	<p>
-		We want to bridge the gap between candidate preparation and actual examination-hall environments. Start your preparation today and secure your seat!
-	</p>
-</Layout>
+			<p>
+				We want to bridge the gap between candidate preparation and actual examination-hall environments. Start your preparation today and secure your seat!
+			</p>
+		</main>
+		<Footer />
+	</body>
+</html>

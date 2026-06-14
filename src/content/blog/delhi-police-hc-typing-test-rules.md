@@ -50,5 +50,5 @@ Your score is directly proportional to your speed. Here is how speed is classifi
 
 1.  **Practice Paper-to-Screen**: Do not practice only on screens. Place a physical book or printout next to your keyboard, and practice typing into Notepad without looking at your screen constantly.
 2.  **Toggle on Desktop Keyboards**: Always practice on standard mechanical/membrane keyboards rather than laptop keys.
-3.  **Use Typing Simulator**: You can simulate the timing and detailed scoring breakdown using **[Typing Nexus Mock Test Engine](https://typingnexus.in)**.
+3.  **Use Typing Simulator**: You can **[simulate the exact timing and scoring](https://typingnexus.in)** with mock tests.
 4.  **Balance Speed & Accuracy**: Since errors penalize your speed calculation, high accuracy is the key to maintaining a speed above 50 WPM to claim the full 25 marks.

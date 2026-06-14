@@ -293,7 +293,7 @@ function getReadingTime(text: string) {
 							<a href={`/blog/${post.id}/`}>
 								{post.data.heroImage && (
 									<div class="post-card-image-container">
-										<Image src={post.data.heroImage} alt="" width={720} height={360} />
+										<Image src={post.data.heroImage} alt={`${post.data.examName} typing test rules`} width={720} height={360} />
 										{post.data.examName && <span class="post-card-badge">{post.data.examName}</span>}
 									</div>
 								)}

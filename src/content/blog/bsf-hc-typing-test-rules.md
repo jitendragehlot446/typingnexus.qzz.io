@@ -52,6 +52,6 @@ Net Speed (WPM) = [Total Words Typed - (Mistakes beyond 5% x 10)] / 10 Minutes
 
 ## 5. Tips to Pass the BSF Typing Test
 
-1.  **Stop Relying on Backspace**: Force yourself to practice with backspace disabled. You can disable the backspace key on the **[Typing Nexus Test Simulator](https://typingnexus.in)**.
+1.  **Stop Relying on Backspace**: Force yourself to practice with backspace disabled. You can **[practice with backspace disabled](https://typingnexus.in)**.
 2.  **Aim for Rhythm Over Speed**: Typing at a steady, uniform pace helps build rhythm, which naturally minimizes typos.
 3.  **High Accuracy is Key**: Because of the 10-word penalty, even a few extra mistakes can lower your speed below the qualifying 35 WPM. Prioritize accuracy first.

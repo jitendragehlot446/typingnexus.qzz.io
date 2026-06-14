@@ -61,5 +61,5 @@ Beltron uses the standard 5-character evaluation formula:
 ## 5. Tips to Clear the Beltron DEO Exam
 
 1.  **Don't Over-correct**: While backspace is enabled, correcting errors continuously takes up valuable seconds and reduces your gross typing speed. Focus on rhythm and type carefully.
-2.  **Practice on TCS-like Simulators**: Familiarize yourself with portals that highlight text in yellow and flag errors. You can practice on the **[Typing Nexus Beltron practice portal](https://typingnexus.in)**.
+2.  **Practice on TCS-like Simulators**: Familiarize yourself with portals that highlight text in yellow and flag errors. You can **[practice with TCS-like exam simulators](https://typingnexus.in)**.
 3.  **Learn Remington Gail Symbol Codes**: Hindi Remington Gail features special symbols and characters (like *halant*, *chandra-bindu*, etc.) that require specific key combinations. Master these during daily practice.

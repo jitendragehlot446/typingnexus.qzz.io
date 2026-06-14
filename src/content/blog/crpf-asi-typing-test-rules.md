@@ -51,6 +51,6 @@ Net Speed (WPM) = [Total Words Typed - (Mistakes beyond 5% x 10)] / 10 Minutes
 
 ## 5. Tips to Clear the CRPF Typing Test
 
-1.  **Practice in Strict Mode**: Always practice with your backspace key completely disabled. You can configure this setting for free on the **[Typing Nexus Exam Simulator](https://typingnexus.in)**.
+1.  **Practice in Strict Mode**: Always practice with your backspace key completely disabled. You can **[configure strict-mode practice](https://typingnexus.in)** for free.
 2.  **Focus on 98%+ Accuracy**: Since 1 mistake beyond the 5% margin deducts 10 words, accuracy is far more important than raw speed. Maintain a steady, calm rhythm.
 3.  **Keyboard Travel**: Practice on standard desktop keyboards with deep key travel to match the mechanical/membrane keyboards used in CRPF exam centers.

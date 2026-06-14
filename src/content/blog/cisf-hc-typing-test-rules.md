@@ -51,6 +51,6 @@ Net Speed (WPM) = [Total Words Typed - (Mistakes beyond 5% x 10)] / 10 Minutes
 
 ## 5. Tips to Pass the CISF Typing Test
 
-1.  **Practice Without Backspace**: Since editing is disabled, toggle the backspace off. Practice on the **[Typing Nexus Test Simulator](https://typingnexus.in)** with the backspace blocker enabled.
+1.  **Practice Without Backspace**: Since editing is disabled, toggle the backspace off. **[Practice with the backspace blocker enabled](https://typingnexus.in)**.
 2.  **Aim for 98%+ Accuracy**: Focus on steady rhythm. Typing slower but accurately is far better than typing fast with many mistakes due to the harsh 10-word deduction penalty.
 3.  **Simulate Center Conditions**: Practice on a standard membrane desktop keyboard to build realistic finger muscle memory.

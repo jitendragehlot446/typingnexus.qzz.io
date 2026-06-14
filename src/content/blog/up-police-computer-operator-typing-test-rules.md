@@ -55,6 +55,6 @@ To pass, candidates must maintain at least **85% accuracy** in each session. Mis
 
 ## 5. Tips for Success
 
-1.  **Learn the Inscript Layout**: Since legacy layouts like Remington Gail are disabled, dedicate your Hindi practice entirely to Inscript. You can practice on the Inscript layout for free on the **[Typing Nexus Practice Portal](https://typingnexus.in)**.
+1.  **Learn the Inscript Layout**: Since legacy layouts like Remington Gail are disabled, dedicate your Hindi practice entirely to Inscript. You can **[practice on the Inscript layout](https://typingnexus.in)** for free.
 2.  **Practice in Blind Mode**: Do not rely on red/green highlights to catch your typos. Practice on plain, notepad-style interfaces to build muscle memory and rhythm.
 3.  **Aim for 90%+ Accuracy**: While the passing limit is 85%, aiming higher during your home practice will ensure a comfortable pass in the actual examination.

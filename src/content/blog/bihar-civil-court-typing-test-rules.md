@@ -38,7 +38,7 @@ Using the correct layout during practice is critical, as state court exams do no
 
 *   **Disabled Backspace**: In several recent recruitment cycles conducted by the Bihar Civil Court and Patna High Court, the **Backspace key was completely disabled** during the actual typing test.
 *   **Arrow Navigation**: Navigating using the arrow keys to correct previous words is also disabled.
-*   **Practice Recommendation**: Because of this strict policy, it is highly recommended to practice with backspace turned off. You can disable the backspace key on the **[Typing Nexus Exam Engine](https://typingnexus.in)**.
+*   **Practice Recommendation**: Because of this strict policy, it is highly recommended to practice with backspace turned off. You can **[disable the backspace key in mock tests](https://typingnexus.in)**.
 
 ---
 
@@ -56,5 +56,5 @@ Bihar Civil Court tests have strict accuracy gates. Often, a minimum accuracy of
 ## 5. Tips to Pass the Bihar Civil Court Typing Test
 
 1.  **Prioritize Accuracy Over Speed**: Since error penalties are high and accuracy thresholds are strict, focus on key accuracy first. Speed will follow naturally.
-2.  **Practice on Legal and Court Passages**: Court typing passages feature legal jargon (e.g., *petitioner, respondent, decree, jurisdiction, summon*). Practicing general stories will not prepare you for this vocabulary. You can access free legal typing mock tests on **[Typing Nexus](https://typingnexus.in)**.
+2.  **Practice on Legal and Court Passages**: Court typing passages feature legal jargon (e.g., *petitioner, respondent, decree, jurisdiction, summon*). Practicing general stories will not prepare you for this vocabulary. You can **[practice with court-specific vocabulary passages](https://typingnexus.in)** for free.
 3.  **Master Remington Gail Keymaps**: Learn to type Hindi half-letters and special symbols on Remington Gail layout without looking down at your keyboard.

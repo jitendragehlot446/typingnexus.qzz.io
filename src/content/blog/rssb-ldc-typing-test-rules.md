@@ -46,5 +46,5 @@ Unlike central government tests, RSMSSB implements a strict editing limit:
 
 1.  **Stop Backspacing Out of Habit**: Because you can't correct a word once you press space, focus on typing the word correctly on the first attempt.
 2.  **Practice on DevLys 010**: Practicing on Mangal or Unicode fonts will not help. Ensure you practice typing on the legacy **DevLys 010** font.
-3.  **Simulate Word Locking**: You can practice with word-locking rules turned on for free on **[Typing Nexus RSMSSB simulator](https://typingnexus.in)**.
+3.  **Simulate Word Locking**: You can **[practice with word-locking rules turned on](https://typingnexus.in)** for free.
 4.  **Efficiency Test Prep**: Do not ignore the efficiency test. Learn basic MS Word and MS Excel formatting, margins, tables, and borders, as they carry a massive 50 marks.

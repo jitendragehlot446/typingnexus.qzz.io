@@ -47,6 +47,6 @@ The requirements are post-dependent but generally follow these guidelines:
 
 ## 5. Tips to Clear AHC Typing Test
 
-1.  **Practice on Legal Paragraphs**: Do not practice only on stories or general news. Practice typing real court orders and judgments. You can access free legal typing passages on **[Typing Nexus Legal practice portal](https://typingnexus.in)**.
+1.  **Practice on Legal Paragraphs**: Do not practice only on stories or general news. Practice typing real court orders and judgments. You can **[practice with legal typing passages](https://typingnexus.in)** for free.
 2.  **Aim for 35+ WPM at Home**: To ensure you comfortably clear the 30 WPM threshold on complex legal text, practice general texts at 35–40 WPM.
 3.  **Perfect Special Characters**: Learn to type symbols, numbers, and uppercase characters smoothly without looking down at the keyboard.
