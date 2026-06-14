@@ -6,9 +6,16 @@ import Footer from '../components/Footer.astro';
 import FormattedDate from '../components/FormattedDate.astro';
 import Header from '../components/Header.astro';
 
-type Props = CollectionEntry<'blog'>['data'] & { body?: string; postId?: string; relatedPosts?: CollectionEntry<'blog'>[] };
+type Props = CollectionEntry<'blog'>['data'] & { body?: string; postId?: string; relatedPosts?: CollectionEntry<'blog'>[]; allPosts?: CollectionEntry<'blog'>[] };
 
-const { title, examName, description, pubDate, updatedDate, heroImage, body, postId, relatedPosts } = Astro.props;
+const { title, examName, description, pubDate, updatedDate, heroImage, body, postId, relatedPosts, allPosts } = Astro.props;
+
+const popularExams = allPosts
+	? allPosts
+		.filter((p) => p.id !== postId)
+		.sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf())
+		.slice(0, 5)
+	: [];
 
 const wordsPerMinute = 200;
 const noOfWords = body ? body.trim().split(/\s+/).length : 0;
@@ -86,6 +93,7 @@ const schema = {
 		"@type": "SpeakableSpecification",
 		"cssSelector": [".title h1", ".prose p"]
 	},
+	"wordCount": noOfWords,
 	...(heroImageUrl && { "image": heroImageUrl })
 };
 
@@ -192,6 +200,7 @@ const howToSchema = howToSteps.length >= 2 ? {
 		{pubDate && <meta name="citation_publication_date" content={publishDateISO} />}
 		<meta name="citation_publisher" content="Typing Nexus" />
 		<meta name="citation_language" content="en" />
+		{heroImageUrl && <link rel="preload" as="image" href={heroImageUrl} />}
 		<style>
 			main {
 				width: 1280px;
@@ -286,33 +295,6 @@ const howToSchema = howToSteps.length >= 2 ? {
 				letter-spacing: normal;
 				font-family: var(--font-sans);
 				opacity: 0.7;
-			}
-			.share-container {
-				position: relative;
-				display: inline-block;
-				margin-top: var(--spacing-sm);
-			}
-			.share-button {
-				background-color: var(--colors-surface-soft);
-				color: var(--colors-primary);
-				border: 1px solid var(--colors-hairline);
-				padding: 6px 14px;
-				font-family: var(--font-sans);
-				font-size: 14px;
-				font-weight: 540;
-				border-radius: var(--rounded-pill);
-				cursor: pointer;
-				display: inline-flex;
-				align-items: center;
-				gap: 6px;
-				transition: background-color 0.15s ease, transform 0.1s ease;
-			}
-			.share-button:hover {
-				background-color: var(--colors-hairline-soft);
-				transform: translateY(-1px);
-			}
-			.share-button:active {
-				transform: translateY(0);
 			}
 			.share-icon {
 				font-size: 14px;
@@ -479,6 +461,69 @@ const howToSchema = howToSteps.length >= 2 ? {
 				margin: 0;
 				line-height: 1.5;
 			}
+
+			/* Share Buttons - improved */
+			.share-container {
+				display: flex;
+				justify-content: center;
+				flex-wrap: wrap;
+				gap: var(--spacing-xs);
+			}
+			.share-button {
+				background-color: var(--colors-surface-soft);
+				color: var(--colors-primary);
+				border: 1px solid var(--colors-hairline);
+				padding: 6px 14px;
+				font-family: var(--font-sans);
+				font-size: 14px;
+				font-weight: 540;
+				border-radius: var(--rounded-pill);
+				cursor: pointer;
+				display: inline-flex;
+				align-items: center;
+				gap: 6px;
+				text-decoration: none;
+				transition: background-color 0.15s ease, transform 0.1s ease;
+			}
+			.share-button:hover {
+				background-color: var(--colors-hairline-soft);
+				transform: translateY(-1px);
+			}
+			.share-wa:hover { background-color: #25D366; color: white; border-color: #25D366; }
+			.share-tw:hover { background-color: #000; color: white; border-color: #000; }
+
+			/* Popular Exams */
+			.popular-exams-section {
+				margin-bottom: var(--spacing-lg);
+			}
+			.popular-exams-section h3 {
+				font-size: 18px;
+				font-weight: 600;
+				margin-bottom: var(--spacing-md);
+			}
+			.popular-grid {
+				display: flex;
+				flex-wrap: wrap;
+				gap: var(--spacing-xs);
+			}
+			.popular-chip {
+				padding: 6px 16px;
+				background: var(--colors-canvas);
+				border: 1px solid var(--colors-hairline);
+				border-radius: var(--rounded-pill);
+				font-size: 13px;
+				font-family: var(--font-mono);
+				text-transform: uppercase;
+				letter-spacing: 0.03em;
+				text-decoration: none;
+				color: var(--colors-primary);
+				transition: background-color 0.15s ease, border-color 0.15s ease;
+			}
+			.popular-chip:hover {
+				background-color: var(--colors-primary);
+				color: var(--colors-on-primary);
+				border-color: var(--colors-primary);
+			}
 		</style>
 	</head>
 
@@ -510,9 +555,15 @@ const howToSchema = howToSteps.length >= 2 ? {
 						</div>
 						<h1>{title}</h1>
 						<div class="share-container">
-							<button id="share-btn" class="share-button" aria-label="Share article">
-								<span class="share-icon">🔗</span> Share Guide
+							<button id="share-btn" class="share-button" aria-label="Copy link">
+								<span class="share-icon">🔗</span> Copy Link
 							</button>
+							<a href={`https://wa.me/?text=${encodeURIComponent(title + ' ' + canonicalURL.href)}`} target="_blank" rel="noopener noreferrer" class="share-button share-wa" aria-label="Share on WhatsApp">
+								<span class="share-icon">💬</span> WhatsApp
+							</a>
+							<a href={`https://twitter.com/intent/tweet?text=${encodeURIComponent(title)}&url=${encodeURIComponent(canonicalURL.href)}`} target="_blank" rel="noopener noreferrer" class="share-button share-tw" aria-label="Share on Twitter">
+								<span class="share-icon">𝕏</span> Twitter
+							</a>
 							<span id="share-toast" class="share-toast">Copied link to clipboard!</span>
 						</div>
 						<hr />
@@ -548,6 +599,19 @@ const howToSchema = howToSteps.length >= 2 ? {
 									</div>
 								</>
 							)}
+						</div>
+					)}
+					{popularExams.length > 0 && (
+						<div class="popular-exams-section">
+							<hr />
+							<h3>Popular Typing Exams</h3>
+							<div class="popular-grid">
+								{popularExams.map((pe) => (
+									<a href={`/blog/${pe.id}/`} class="popular-chip">
+										{pe.data.examName}
+									</a>
+								))}
+							</div>
 						</div>
 					)}
 

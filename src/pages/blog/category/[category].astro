@@ -1,0 +1,71 @@
+---
+import { getCollection } from 'astro:content';
+import BaseHead from '../../../components/BaseHead.astro';
+import Footer from '../../../components/Footer.astro';
+import Header from '../../../components/Header.astro';
+import FormattedDate from '../../../components/FormattedDate.astro';
+
+export async function getStaticPaths() {
+	const posts = await getCollection('blog');
+	const categories = new Map<string, { name: string; desc: string }>();
+	for (const post of posts) {
+		let cat: string, name: string, desc: string;
+		if (post.id.includes('court')) { cat = 'high-court'; name = 'High Court'; desc = 'High Court typing exam rules including Patna, Allahabad, Rajasthan, and Delhi High Courts.'; }
+		else if (post.id.includes('bsf') || post.id.includes('cisf') || post.id.includes('crpf') || post.id.includes('army') || post.id.includes('police')) { cat = 'defense'; name = 'Police & Defense'; desc = 'Typing test guidelines for Police and Defense force examinations.'; }
+		else if (post.id.includes('ssc') || post.id.includes('rrb') || post.id.includes('ntpc')) { cat = 'central'; name = 'SSC & Railways'; desc = 'SSC (CGL, CHSL) and RRB NTPC typing skill test rules and evaluation criteria.'; }
+		else if (post.id.includes('hindi') || post.id.includes('font') || post.id.includes('mangal') || post.id.includes('layout')) { cat = 'hindi'; name = 'Hindi & Fonts'; desc = 'Hindi typing layouts like Remington Gail, Inscript, Krutidev and Mangal font guidelines.'; }
+		else { cat = 'other'; name = 'State & Other Exams'; desc = 'State-level and other government typing examination rules.'; }
+		if (!categories.has(cat)) categories.set(cat, { name, desc });
+	}
+	return Array.from(categories.entries()).map(([cat, meta]) => ({
+		params: { category: cat },
+		props: { category: cat, categoryName: meta.name, description: meta.desc, posts: posts.filter(p => {
+			if (cat === 'high-court') return p.id.includes('court');
+			if (cat === 'defense') return p.id.includes('bsf') || p.id.includes('cisf') || p.id.includes('crpf') || p.id.includes('army') || p.id.includes('police');
+			if (cat === 'central') return p.id.includes('ssc') || p.id.includes('rrb') || p.id.includes('ntpc');
+			if (cat === 'hindi') return p.id.includes('hindi') || p.id.includes('font') || p.id.includes('mangal') || p.id.includes('layout');
+			return true;
+		}).sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf()) },
+	}));
+}
+
+type Props = { category: string; categoryName: string; description: string; posts: any[] };
+const { categoryName, description, posts } = Astro.props;
+---
+
+<!doctype html>
+<html lang="en">
+	<head>
+		<BaseHead title={`${categoryName} Typing Test Rules | Typing Nexus Blog`} description={description} />
+		<style>
+			.category-header { text-align: center; padding: var(--spacing-xxl) 0; }
+			.category-header h1 { font-size: 42px; font-weight: 500; margin-bottom: var(--spacing-sm); }
+			.category-header p { font-size: 18px; opacity: 0.7; max-width: 600px; margin: 0 auto; }
+			.posts-list { max-width: 760px; margin: 0 auto; }
+			.post-item { display: block; padding: var(--spacing-lg); border: 1px solid var(--colors-hairline); border-radius: var(--rounded-md); margin-bottom: var(--spacing-md); text-decoration: none; color: var(--colors-primary); transition: transform 0.15s ease; }
+			.post-item:hover { transform: translateY(-2px); border-color: var(--colors-primary); }
+			.post-item h3 { font-size: 20px; font-weight: 600; margin-bottom: var(--spacing-xs); }
+			.post-item p { font-size: 15px; opacity: 0.7; margin-bottom: var(--spacing-xs); }
+			.post-item .date { font-size: 12px; font-family: var(--font-mono); text-transform: uppercase; opacity: 0.5; }
+		</style>
+	</head>
+	<body>
+		<Header />
+		<main>
+			<section class="category-header">
+				<h1>{categoryName} Typing Test Rules</h1>
+				<p>{description}</p>
+			</section>
+			<section class="posts-list">
+				{posts.map((post) => (
+					<a href={`/blog/${post.id}/`} class="post-item">
+						<h3>{post.data.title}</h3>
+						<p>{post.data.description}</p>
+						<span class="date"><FormattedDate date={post.data.pubDate} /></span>
+					</a>
+				))}
+			</section>
+		</main>
+		<Footer />
+	</body>
+</html>

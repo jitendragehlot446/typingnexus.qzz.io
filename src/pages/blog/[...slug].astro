@@ -30,6 +30,6 @@ const relatedPosts = allPosts
 	.slice(0, 3);
 ---
 
-<BlogPost {...post.data} body={post.body} postId={post.id} relatedPosts={relatedPosts}>
+<BlogPost {...post.data} body={post.body} postId={post.id} relatedPosts={relatedPosts} allPosts={allPosts}>
 	<Content />
 </BlogPost>
