@@ -1,9 +1,10 @@
 ---
 title: "SSC CHSL Typing Test Rules & Evaluation Guidelines"
 examName: "SSC CHSL"
-description: "Everything you need to know about SSC CHSL typing speed, error calculations, full mistakes, and half mistakes criteria."
+description: "A complete guide to SSC CHSL typing test rules: speed requirements, error calculations, full and half mistakes criteria, and category-wise error relaxation limits."
 pubDate: "2026-06-11"
 heroImage: "../../assets/covers/ssc-chsl-typing-test-rules.jpg"
+imageAlt: "SSC CHSL typing test rules guide with full and half mistakes evaluation"
 ---
 
 Staff Selection Commission (SSC) Combined Higher Secondary Level (CHSL) exam includes a crucial **Skill Test / Typing Test** in Tier 2. Clearing this test is mandatory to secure posts like LDC, JSA, and DEO. You can **[practice with exam-matching paragraphs](https://typingnexus.in)** for free.
@@ -82,4 +83,5 @@ If your error percentage exceeds these limits, you will be disqualified, regardl
 1. **Focus on Accuracy First**: Since the relaxation limit is strict (7% for General), focus on accuracy. Speed will naturally improve with regular practice. You can **[track your error rates with a free dashboard](https://typingnexus.in)**.
 2. **Practice on Physical Keyboards**: Do not practice on laptop keyboards. Get a standard desktop keyboard (such as TVS Gold, HP, or Dell membrane keyboard) as they are commonly used in exam halls.
 3. **Familiarity with Rhythms**: Maintain a steady typing rhythm instead of bursting and stopping.
+4. Also read the **[SSC CGL DEST typing test rules](/blog/ssc-cgl-typing-test-rules)** for the graduate level data entry speed test guide.
 

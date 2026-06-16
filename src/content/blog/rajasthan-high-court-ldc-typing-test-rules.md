@@ -1,9 +1,10 @@
 ---
 title: "Rajasthan High Court LDC Typing & Efficiency Test Guide"
 examName: "Rajasthan High Court LDC"
-description: "A comprehensive guide on the Rajasthan High Court Lower Division Clerk (LDC) typing speed requirements, Kruti Dev 010 font layout, and Microsoft Word/Excel efficiency test rules."
+description: "A complete guide on the Rajasthan High Court LDC typing test: speed requirements, Kruti Dev 010 font layout, and MS Word & Excel efficiency test rules."
 pubDate: "2026-06-13"
 heroImage: "../../assets/covers/rajasthan-high-court-ldc-typing-test-rules.jpg"
+imageAlt: "Rajasthan High Court LDC typing test rules guide with Kruti Dev 010 and efficiency test"
 ---
 
 The Rajasthan High Court (HCRAJ) conducts a mandatory two-part practical exam for the recruitment of Lower Division Clerks (LDC) and Junior Assistants:
@@ -59,4 +60,5 @@ The efficiency test is conducted to evaluate the candidate's practical skills in
 
 1.  **Do Not Ignore the Efficiency Test**: Many candidates focus 100% of their energy on typing speed but fail the formatting efficiency test. Spend at least 30 minutes daily practicing MS Word and Excel shortcuts.
 2.  **Practice on Kruti Dev 010**: Remington Gail layouts behave slightly differently on Kruti Dev compared to Mangal Unicode. Standardize your keyboard layout to Kruti Dev in your settings.
-3.  **Accuracy is Key to Marks**: Since marks are computed based on error-deducted net speeds, maintaining high accuracy translates directly into higher marks. You can **[practice with mock tests matching these exact rules](https://typingnexus.in)**.
+3. **Accuracy is Key to Marks**: Since marks are computed based on error-deducted net speeds, maintaining high accuracy translates directly into higher marks. You can **[practice with mock tests matching these exact rules](https://typingnexus.in)**.
+4. Also see the **[RSMSSB LDC typing test rules](/blog/rssb-ldc-typing-test-rules)** for another Rajasthan board typing exam with legacy font requirements.

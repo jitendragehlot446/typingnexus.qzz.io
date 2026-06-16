@@ -4,6 +4,7 @@ examName: "KVS JSA"
 description: "A comprehensive guide on the Kendriya Vidyalaya Sangathan (KVS) Junior Secretariat Assistant (JSA) typing test speed, Kruti Dev font rules, and backspace guidelines."
 pubDate: "2026-06-13"
 heroImage: "../../assets/covers/kvs-jsa-typing-test-rules.jpg"
+imageAlt: "KVS JSA typing test rules guide with Kruti Dev font and backspace guidelines"
 ---
 
 The Kendriya Vidyalaya Sangathan (KVS) conducts a mandatory **Typing Skill Test** for the recruitment of Junior Secretariat Assistants (JSA), formerly known as Lower Division Clerks (LDC).
@@ -58,4 +59,5 @@ The test is qualifying, meaning you must achieve the minimum speed to pass, but 
 
 1.  **Use the Trial Test Wisely**: Press every key on your keyboard during the 2-minute mock run to ensure spacebar, backspace, and letter keys function smoothly.
 2.  **Aim for High Accuracy**: Net speed is calculated by deducting mistakes. Practice maintaining an accuracy rate of **95%+** to ensure your final net speed does not drop below the qualifying mark.
-3.  **Practice on Physical Keyboards**: Do not practice only on soft laptop keys. Practice on standard membrane desktop keyboards, as these are used in KVS centers. You can **[practice in real exam mode](https://typingnexus.in)**.
+3. **Practice on Physical Keyboards**: Do not practice only on soft laptop keys. Practice on standard membrane desktop keyboards, as these are used in KVS centers. You can **[practice in real exam mode](https://typingnexus.in)**.
+4. Also check the **[SSC CHSL typing test rules](/blog/ssc-chsl-typing-test-rules)** for another central government clerical typing exam with similar speed requirements.

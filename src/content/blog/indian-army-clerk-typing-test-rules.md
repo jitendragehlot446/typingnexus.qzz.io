@@ -1,9 +1,10 @@
 ---
-title: "Indian Army Clerk Typing Test: Speed, Rules, and Evaluation Formula"
+title: "Indian Army Clerk Typing Test: Rules & Speed Guide"
 examName: "Indian Army Clerk"
 description: "A complete guide to the Indian Army Agniveer Clerk / Office Assistant / SKT typing test, covering the backspace rule, keystrokes, and tips to pass."
 pubDate: "2026-06-12"
 heroImage: "../../assets/covers/indian-army-clerk-typing-test-rules.jpg"
+imageAlt: "Indian Army Clerk typing test rules guide with speed and evaluation formula"
 ---
 
 The Indian Army Agniveer Clerk (Office Assistant) and Store Keeper Technical (SKT) recruitment process includes a mandatory computer-based **Typing Test**. This test is qualifying in nature, meaning you must pass it to proceed in the selection process, but your score won't be added to the final merit list. You can **[test your speed with mock exams](https://typingnexus.in)** for free.
@@ -78,5 +79,6 @@ To qualify, your **Net Speed** must be at least **30 WPM**. If you type at 40 WP
 1.  **Set a Target of 35+ WPM**: During practice, do not satisfy yourself with exactly 30 WPM. Aim for 35–40 WPM at home so that you can easily clear the 30 WPM threshold even under exam hall pressure.
 2.  **Practice on a Standard Desktop Keyboard**: The keyboards at exam centers are membrane-based desktop keyboards with deep key travel. Avoid practicing exclusively on soft laptop keyboards.
 3.  **Focus on Accuracy over Speed**: Try to keep your accuracy above 95%. This minimizes the need to use the Backspace key, saving you time and keeping your typing rhythm steady.
-4.  **Simulate the Exam Environment**: Practice using a timer of exactly 10 minutes. You can **[practice with timed exam-like paragraphs](https://typingnexus.in)** and get immediate analysis of your speed and accuracy.
+4. **Simulate the Exam Environment**: Practice using a timer of exactly 10 minutes. You can **[practice with timed exam-like paragraphs](https://typingnexus.in)** and get immediate analysis of your speed and accuracy.
+5. Also read the **[RRB NTPC typing test rules](/blog/rrb-ntpc-typing-test-rules)** for another central government typing exam that disables the backspace key.
 

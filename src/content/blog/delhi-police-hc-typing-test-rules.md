@@ -4,6 +4,7 @@ examName: "Delhi Police HC"
 description: "A complete guide on Delhi Police Head Constable (Ministerial) typing test rules, including paper-to-screen mode and the 25-marks scoring system."
 pubDate: "2026-06-12"
 heroImage: "../../assets/covers/delhi-police-hc-typing-test-rules.jpg"
+imageAlt: "Delhi Police Head Constable typing test rules guide with paper-to-screen format"
 ---
 
 The Delhi Police Head Constable (Ministerial) recruitment process features a highly competitive **Typing Test**. Unlike most qualifying-only typing tests, this exam is worth **25 marks**, and the marks you score are added directly to your final merit list. 
@@ -51,4 +52,5 @@ Your score is directly proportional to your speed. Here is how speed is classifi
 1.  **Practice Paper-to-Screen**: Do not practice only on screens. Place a physical book or printout next to your keyboard, and practice typing into Notepad without looking at your screen constantly.
 2.  **Toggle on Desktop Keyboards**: Always practice on standard mechanical/membrane keyboards rather than laptop keys.
 3.  **Use Typing Simulator**: You can **[simulate the exact timing and scoring](https://typingnexus.in)** with mock tests.
-4.  **Balance Speed & Accuracy**: Since errors penalize your speed calculation, high accuracy is the key to maintaining a speed above 50 WPM to claim the full 25 marks.
+4. **Balance Speed & Accuracy**: Since errors penalize your speed calculation, high accuracy is the key to maintaining a speed above 50 WPM to claim the full 25 marks.
+5. Also see the **[DSSSB LDC typing test rules](/blog/dsssb-ldc-typing-test-rules)** for another Delhi-based typing exam with different evaluation criteria.

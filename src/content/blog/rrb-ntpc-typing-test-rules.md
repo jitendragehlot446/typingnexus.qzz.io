@@ -4,6 +4,7 @@ examName: "RRB NTPC"
 description: "A complete analysis of Railway Recruitment Board (RRB) NTPC typing skill test guidelines, including the disabled backspace rule and formula."
 pubDate: "2026-06-11"
 heroImage: "../../assets/covers/rrb-ntpc-typing-test-rules.jpg"
+imageAlt: "RRB NTPC typing test rules guide with backspace disabled and penalty formula"
 ---
 
 The Railway Recruitment Board (RRB) NTPC Typing Skill Test is a qualifying examination for posts like Senior Clerk cum Typist, Junior Accounts Assistant cum Typist, and Accounts Clerk cum Typist. To practice under the exact exam rules, you can use **[RRB NTPC-style mock tests](https://typingnexus.in)**.
@@ -67,4 +68,5 @@ In this case, you qualify because your net speed is exactly 30 WPM. If you had m
 1. **Practice without Backspace**: Spend at least 30 minutes every day practicing on software with backspace completely disabled. You can **[practice with backspace disabled](https://typingnexus.in)** to simulate this strict exam environment.
 2. **Focus on Rhythm**: Do not speed up on easy words. Maintain a uniform pace to minimize mistakes.
 3. **Accuracy Over Speed**: Since the penalty is high (10 words deducted per excess mistake), aiming for 95%+ accuracy is the safest path to clear the exam.
+4. Also read the **[SSC CHSL typing test rules](/blog/ssc-chsl-typing-test-rules)** for another central government typing exam with different evaluation criteria.
 

@@ -1,9 +1,10 @@
 ---
-title: "Bihar Civil Court Typing Test Rules: English & Hindi Guidelines"
+title: "Bihar Civil Court Typing Test: English & Hindi Rules"
 examName: "Bihar Civil Court"
 description: "A complete guide to the Bihar Civil Court Clerk, Reader, and Stenographer typing test speed limits, Remington Gail layout, and backspace guidelines."
 pubDate: "2026-06-13"
 heroImage: "../../assets/covers/bihar-civil-court-typing-test-rules.jpg"
+imageAlt: "Bihar Civil Court typing test rules guide with speed and layout requirements"
 ---
 
 The Bihar Civil Court conducts a mandatory **Computer Typing Test** for recruitment to various positions, including Clerk, Court Reader-cum-Deposition Writer, and Stenographer.
@@ -57,4 +58,5 @@ Bihar Civil Court tests have strict accuracy gates. Often, a minimum accuracy of
 
 1.  **Prioritize Accuracy Over Speed**: Since error penalties are high and accuracy thresholds are strict, focus on key accuracy first. Speed will follow naturally.
 2.  **Practice on Legal and Court Passages**: Court typing passages feature legal jargon (e.g., *petitioner, respondent, decree, jurisdiction, summon*). Practicing general stories will not prepare you for this vocabulary. You can **[practice with court-specific vocabulary passages](https://typingnexus.in)** for free.
-3.  **Master Remington Gail Keymaps**: Learn to type Hindi half-letters and special symbols on Remington Gail layout without looking down at your keyboard.
+3. **Master Remington Gail Keymaps**: Learn to type Hindi half-letters and special symbols on Remington Gail layout without looking down at your keyboard.
+4. Also see the **[Patna High Court typing test rules](/blog/patna-high-court-typing-test-rules)** for similar speed and layout guidelines.

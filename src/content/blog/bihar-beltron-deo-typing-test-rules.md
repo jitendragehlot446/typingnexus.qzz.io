@@ -4,6 +4,7 @@ examName: "Bihar Beltron DEO"
 description: "A complete guide to the Bihar Beltron Data Entry Operator (DEO) typing test speed requirements, Mangal Remington Gail layout, and backspace rules."
 pubDate: "2026-06-13"
 heroImage: "../../assets/covers/bihar-beltron-deo-typing-test-rules.jpg"
+imageAlt: "Bihar Beltron DEO typing test rules guide with speed and backspace guidelines"
 ---
 
 The Bihar State Electronics Development Corporation Limited (BSEDC), commonly known as **Beltron**, conducts a computer typing skill test for the recruitment of Data Entry Operators (DEOs).
@@ -62,4 +63,5 @@ Beltron uses the standard 5-character evaluation formula:
 
 1.  **Don't Over-correct**: While backspace is enabled, correcting errors continuously takes up valuable seconds and reduces your gross typing speed. Focus on rhythm and type carefully.
 2.  **Practice on TCS-like Simulators**: Familiarize yourself with portals that highlight text in yellow and flag errors. You can **[practice with TCS-like exam simulators](https://typingnexus.in)**.
-3.  **Learn Remington Gail Symbol Codes**: Hindi Remington Gail features special symbols and characters (like *halant*, *chandra-bindu*, etc.) that require specific key combinations. Master these during daily practice.
+3. **Learn Remington Gail Symbol Codes**: Hindi Remington Gail features special symbols and characters (like *halant*, *chandra-bindu*, etc.) that require specific key combinations. Master these during daily practice.
+4. Also see the **[Bihar Civil Court typing test rules](/blog/bihar-civil-court-typing-test-rules)** for another Bihar state typing exam with similar Remington Gail layout requirements.

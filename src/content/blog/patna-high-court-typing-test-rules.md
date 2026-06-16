@@ -4,6 +4,7 @@ examName: "Patna High Court"
 description: "Everything you need to know about the Patna High Court computer typing test rules, speed, layouts, and disabled backspace key guidelines."
 pubDate: "2026-06-12"
 heroImage: "../../assets/covers/patna-high-court-typing-test-rules.jpg"
+imageAlt: "Patna High Court typing test rules guide with disabled backspace and accuracy requirements"
 ---
 
 The Patna High Court conducts a computer-based **Typing Test** for posts like Computer Operator-cum-Typist, Assistant, and Stenographer.
@@ -51,4 +52,5 @@ Errors are evaluated strictly. Mistakes are categorized into:
 1.  **Practice Legal Terminology**: Since it is a High Court exam, the paragraphs often contain legal terms (e.g., *decree, petition, respondent, jurisdiction*). Practice legal paragraphs regularly.
 2.  **Turn Off Backspace in Practice**: Do not practice with the backspace enabled. **[Enable the backspace blocker](https://typingnexus.in)** while practicing.
 3.  **Aim for High Accuracy**: Since the English accuracy threshold is a high 90%, prioritize accurate typing over speed bursts. Maintain a calm, steady rhythm.
-4.  **Use Desktop Keyboards**: Practice on standard desktop keyboards with deep key travel to replicate the center environment.
+4. **Use Desktop Keyboards**: Practice on standard desktop keyboards with deep key travel to replicate the center environment.
+5. Also read the **[Bihar Civil Court typing test rules](/blog/bihar-civil-court-typing-test-rules)** for another Bihar state court exam guide.

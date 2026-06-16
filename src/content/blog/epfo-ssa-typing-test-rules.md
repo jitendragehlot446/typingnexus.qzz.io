@@ -4,6 +4,7 @@ examName: "EPFO SSA"
 description: "Everything you need to know about the EPFO SSA typing test speed, Inscript layout rules, key depression requirements, and backspace guidelines."
 pubDate: "2026-06-13"
 heroImage: "../../assets/covers/epfo-ssa-typing-test-rules.jpg"
+imageAlt: "EPFO SSA typing test rules guide with Inscript layout and key depression requirements"
 ---
 
 The Employees' Provident Fund Organisation (EPFO) conducts a mandatory **Data Entry Skill Test (DEST)** for the recruitment of Social Security Assistants (SSAs).
@@ -51,4 +52,5 @@ EPFO measures typing speed in words per minute (WPM), which corresponds to a spe
 
 1.  **Practice on Inscript Layout**: If you are typing in Hindi, make sure you transition to Inscript. Most candidates make the mistake of practicing on Remington Gail or Krutidev.
 2.  **Aim for Higher Speeds at Home**: Aim for a consistent speed of **40+ WPM in English** or **35+ WPM in Hindi** at home. This provides a safety margin for exam-day stress and unfamiliar keyboards.
-3.  **Optimize Backspace Usage**: While backspace is allowed, using it continuously interrupts your typing rhythm and slows down your overall net speed. Focus on typing accurately on the first attempt. You can **[practice with real exam settings](https://typingnexus.in)**.
+3. **Optimize Backspace Usage**: While backspace is allowed, using it continuously interrupts your typing rhythm and slows down your overall net speed. Focus on typing accurately on the first attempt. You can **[practice with real exam settings](https://typingnexus.in)**.
+4. Also read the **[SSC CGL DEST typing test rules](/blog/ssc-cgl-typing-test-rules)** for another central government data entry speed test guide.

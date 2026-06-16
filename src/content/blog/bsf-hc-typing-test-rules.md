@@ -4,6 +4,7 @@ examName: "BSF Head Constable"
 description: "A complete overview of the Border Security Force (BSF) Head Constable typing test rules, speed limits, disabled backspaces, and penalties."
 pubDate: "2026-06-12"
 heroImage: "../../assets/covers/bsf-hc-typing-test-rules.jpg"
+imageAlt: "BSF Head Constable typing test rules guide with backspace and penalty rules"
 ---
 
 The Border Security Force (BSF) conducts a mandatory **Typing Skill Test** for the recruitment of Head Constable (Ministerial) and ASI Steno candidates.
@@ -54,4 +55,5 @@ Net Speed (WPM) = [Total Words Typed - (Mistakes beyond 5% x 10)] / 10 Minutes
 
 1.  **Stop Relying on Backspace**: Force yourself to practice with backspace disabled. You can **[practice with backspace disabled](https://typingnexus.in)**.
 2.  **Aim for Rhythm Over Speed**: Typing at a steady, uniform pace helps build rhythm, which naturally minimizes typos.
-3.  **High Accuracy is Key**: Because of the 10-word penalty, even a few extra mistakes can lower your speed below the qualifying 35 WPM. Prioritize accuracy first.
+3. **High Accuracy is Key**: Because of the 10-word penalty, even a few extra mistakes can lower your speed below the qualifying 35 WPM. Prioritize accuracy first.
+4. Also check the **[CISF Head Constable](/blog/cisf-hc-typing-test-rules)** and **[CRPF ASI typing test rules](/blog/crpf-asi-typing-test-rules)** for comparable paramilitary typing exam rules.

@@ -4,6 +4,7 @@ examName: "Supreme Court JCA"
 description: "A complete guide to the Supreme Court of India Junior Court Assistant (SCI JCA) typing test speed limit, backspace rules, and error calculation formulas."
 pubDate: "2026-06-13"
 heroImage: "../../assets/covers/supreme-court-jca-typing-test-rules.jpg"
+imageAlt: "Supreme Court JCA typing test rules guide with error margin and legal passages"
 ---
 
 The Supreme Court of India (SCI) conducts a mandatory **Computer Typing Test** for the recruitment of Junior Court Assistants (JCAs).
@@ -64,4 +65,5 @@ The Supreme Court JCA typing test allows a **maximum error margin of 3%**.
 
 1.  **Practice on Legal Passages**: The Supreme Court typing passages are heavy on legal terminology, judgments, and legal drafts. Practice typing court orders rather than general news stories.
 2.  **Aim for 40+ WPM at Home**: To comfortably qualify on the actual exam day under pressure and with complex legal terms, target a practice speed of 40–45 WPM.
-3.  **Simulate the Plain Interface**: Disable highlighting options on your practice software. Learn to read from a static text block and type below it. You can **[configure mock exams matching this interface](https://typingnexus.in)**.
+3. **Simulate the Plain Interface**: Disable highlighting options on your practice software. Learn to read from a static text block and type below it. You can **[configure mock exams matching this interface](https://typingnexus.in)**.
+4. Also see the **[Allahabad High Court typing test rules](/blog/allahabad-high-court-typing-test-rules)** for another court-related typing exam with legal passages.

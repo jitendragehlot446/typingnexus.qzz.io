@@ -4,6 +4,7 @@ examName: "SSC CGL DEST"
 description: "A comprehensive guide on the Staff Selection Commission (SSC) CGL Data Entry Speed Test (DEST), covering the allowed error margin, backspace rule, and speed."
 pubDate: "2026-06-12"
 heroImage: "../../assets/covers/ssc-cgl-typing-test-rules.jpg"
+imageAlt: "SSC CGL DEST typing test rules guide with key depressions and error percentage"
 ---
 
 The Staff Selection Commission (SSC) Combined Graduate Level (CGL) examination includes a mandatory **Data Entry Speed Test (DEST)**. It is a qualifying-only test, meaning your marks do not count towards the final merit list, but failing it results in immediate disqualification.
@@ -75,4 +76,5 @@ The allowed error limit varies depending on the category and specific post (some
 ## 5. Tips for Practice
 
 1.  **Practice on Real TCS-like Interfaces**: The SSC CGL typing test is conducted by TCS. Practice on simulators that mimic this environment. You can **[practice with TCS-style mock tests](https://typingnexus.in)** for free.
-2.  **Focus on 95%+ Accuracy**: Aim to keep your mistakes to a minimum to ensure you qualify for DEST-preferred posts.
+2. **Focus on 95%+ Accuracy**: Aim to keep your mistakes to a minimum to ensure you qualify for DEST-preferred posts.
+3. Also check the **[SSC CHSL typing test rules](/blog/ssc-chsl-typing-test-rules)** for the combined higher secondary level typing exam guide.

@@ -4,6 +4,7 @@ examName: "RSMSSB LDC"
 description: "A complete guide on the Rajasthan RSSB/RSMSSB LDC typing test rules, covering the strict word-locking backspace rule and DevLys 010 font."
 pubDate: "2026-06-12"
 heroImage: "../../assets/covers/rssb-ldc-typing-test-rules.jpg"
+imageAlt: "RSMSSB LDC typing test rules guide with word-locking backspace rule and DevLys font"
 ---
 
 The Rajasthan Staff Selection Board (RSMSSB) conducts a highly challenging **LDC Typing Test** for the recruitment of Lower Division Clerks and Junior Assistants.
@@ -47,4 +48,5 @@ Unlike central government tests, RSMSSB implements a strict editing limit:
 1.  **Stop Backspacing Out of Habit**: Because you can't correct a word once you press space, focus on typing the word correctly on the first attempt.
 2.  **Practice on DevLys 010**: Practicing on Mangal or Unicode fonts will not help. Ensure you practice typing on the legacy **DevLys 010** font.
 3.  **Simulate Word Locking**: You can **[practice with word-locking rules turned on](https://typingnexus.in)** for free.
-4.  **Efficiency Test Prep**: Do not ignore the efficiency test. Learn basic MS Word and MS Excel formatting, margins, tables, and borders, as they carry a massive 50 marks.
+4. **Efficiency Test Prep**: Do not ignore the efficiency test. Learn basic MS Word and MS Excel formatting, margins, tables, and borders, as they carry a massive 50 marks.
+5. Also check the **[Rajasthan High Court LDC typing test rules](/blog/rajasthan-high-court-ldc-typing-test-rules)** for another Rajasthan typing exam with similar efficiency test requirements.

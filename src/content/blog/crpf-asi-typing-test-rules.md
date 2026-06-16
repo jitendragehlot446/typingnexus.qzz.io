@@ -4,6 +4,7 @@ examName: "CRPF ASI & HC"
 description: "Everything you need to know about the Central Reserve Police Force (CRPF) ASI and Head Constable typing test speed, disabled backspaces, and evaluation."
 pubDate: "2026-06-12"
 heroImage: "../../assets/covers/crpf-asi-typing-test-rules.jpg"
+imageAlt: "CRPF ASI Steno and Head Constable typing test rules guide"
 ---
 
 The Central Reserve Police Force (CRPF) conducts a mandatory **Typing Skill Test** for the recruitment of Head Constable (Ministerial) and Assistant Sub-Inspector (ASI) Steno posts.
@@ -53,4 +54,5 @@ Net Speed (WPM) = [Total Words Typed - (Mistakes beyond 5% x 10)] / 10 Minutes
 
 1.  **Practice in Strict Mode**: Always practice with your backspace key completely disabled. You can **[configure strict-mode practice](https://typingnexus.in)** for free.
 2.  **Focus on 98%+ Accuracy**: Since 1 mistake beyond the 5% margin deducts 10 words, accuracy is far more important than raw speed. Maintain a steady, calm rhythm.
-3.  **Keyboard Travel**: Practice on standard desktop keyboards with deep key travel to match the mechanical/membrane keyboards used in CRPF exam centers.
+3. **Keyboard Travel**: Practice on standard desktop keyboards with deep key travel to match the mechanical/membrane keyboards used in CRPF exam centers.
+4. Also read the **[CISF Head Constable](/blog/cisf-hc-typing-test-rules)** and **[BSF Head Constable typing test rules](/blog/bsf-hc-typing-test-rules)** for similar paramilitary typing exam guidelines.

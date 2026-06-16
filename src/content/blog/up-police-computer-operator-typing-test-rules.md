@@ -1,14 +1,17 @@
 ---
-title: "UP Police Computer Operator Typing Test: Speed, Layout, and Rules"
+title: "UP Police Computer Operator Typing Test Rules"
 examName: "UP Police Computer Operator"
 description: "A comprehensive guide on the UP Police Computer Operator typing test rules, speed requirements, Unicode Mangal font, and Inscript layout."
 pubDate: "2026-06-13"
 heroImage: "../../assets/covers/up-police-computer-operator-typing-test-rules.jpg"
+imageAlt: "UP Police Computer Operator typing test rules guide with Inscript layout requirements"
 ---
 
 The Uttar Pradesh Police Recruitment and Promotion Board (UPPRPB) conducts a mandatory **Typing Skill Test** for the recruitment of Computer Operator Grade-A posts.
 
-The typing test is qualifying in nature, but because it enforces a minimum accuracy threshold of 85% and mandates the use of the Inscript keyboard layout for Hindi, candidates must prepare systematically to clear it.
+The Computer Operator role is more technical than clerical positions—operators manage computerized record systems, data entry applications, and digital databases within the UP Police infrastructure. The typing test is qualifying in nature, but because it enforces a minimum accuracy threshold of 85% and mandates the use of the Inscript keyboard layout for Hindi, candidates must prepare systematically to clear it.
+
+Unlike the ASI Clerk posts, Computer Operators may also face a practical computer proficiency evaluation during later selection stages.
 
 ---
 
@@ -57,4 +60,6 @@ To pass, candidates must maintain at least **85% accuracy** in each session. Mis
 
 1.  **Learn the Inscript Layout**: Since legacy layouts like Remington Gail are disabled, dedicate your Hindi practice entirely to Inscript. You can **[practice on the Inscript layout](https://typingnexus.in)** for free.
 2.  **Practice in Blind Mode**: Do not rely on red/green highlights to catch your typos. Practice on plain, notepad-style interfaces to build muscle memory and rhythm.
-3.  **Aim for 90%+ Accuracy**: While the passing limit is 85%, aiming higher during your home practice will ensure a comfortable pass in the actual examination.
+3. **Build Stamina for 15-Minute Sessions**: With 15 minutes per language plus a 10-minute break, the total typing duration is 40 minutes. Practice full-length mock sessions to build endurance.
+4. **Develop General Computer Skills**: Computer Operators may face additional practical evaluations. Familiarize yourself with basic data entry software and spreadsheet operations alongside typing practice.
+5. Also check the **[UP Police ASI typing test rules](/blog/up-police-asi-typing-test-rules)** for the ASI Confidential and Clerk typing exam with the same Inscript layout requirements.

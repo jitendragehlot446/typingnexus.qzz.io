@@ -1,9 +1,10 @@
 ---
-title: "Hindi Typing Exams: Fonts, Layouts, and Difference Between Remington Gail & Inscript"
+title: "Hindi Typing Layouts: Mangal, Remington Gail & Inscript Guide"
 examName: "Hindi Typing Exams"
 description: "A comprehensive guide on Hindi typing layouts, comparing Mangal Remington Gail, Inscript, and Krutidev for state and central government exams."
 pubDate: "2026-06-11"
 heroImage: "../../assets/covers/hindi-typing-exams-layouts-mangal-remington.jpg"
+imageAlt: "Hindi typing layouts guide comparing Mangal, Remington Gail, Inscript and Kruti Dev fonts"
 ---
 
 Hindi typing tests are an integral part of many central and state government job examinations in India (like Allahabad High Court, UPSSSC, RSMSSB, SSC, and state police exams). You can **[practice Hindi typing on all popular layouts](https://typingnexus.in)** (Remington Gail, Inscript, Krutidev) for free.
@@ -41,7 +42,7 @@ For Unicode typing (Mangal font), candidates generally select between two main k
 
 | Scenario | Recommended Font / Layout |
 | --- | --- |
-| Preparing for SSC & RRB Exams | **Mangal Font (Remington Gail / Inscript)** |
+| Preparing for [SSC CHSL](/blog/ssc-chsl-typing-test-rules) & [RRB NTPC](/blog/rrb-ntpc-typing-test-rules) Exams | **Mangal Font (Remington Gail / Inscript)** |
 | Already know Krutidev/Typewriter | **Mangal (Remington Gail)** |
 | Starting Hindi Typing from Scratch | **Mangal (Inscript)** (faster to learn and optimize) |
 | Preparing for UP Police / Court Exams | Check the official notice, but usually **Krutidev** or **Mangal Remington** |
