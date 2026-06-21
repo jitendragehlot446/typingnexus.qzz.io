@@ -1,80 +1,38 @@
 ---
-title: "SSC CGL DEST Typing Test: Rules, Speed, and Evaluation"
-examName: "SSC CGL DEST"
-description: "A comprehensive guide on the Staff Selection Commission (SSC) CGL Data Entry Speed Test (DEST), covering the allowed error margin, backspace rule, and speed."
-pubDate: "2026-06-12"
+title: "SSC Cgl Typing Test: Rules, Speed & Details"
+examName: "SSC Cgl"
+description: "Everything you need to know about the SSC Cgl typing test. Understand the exact 35 WPM speed requirements, backspace rules, and layout options."
+pubDate: "2026-06-21"
 heroImage: "../../assets/covers/ssc-cgl-typing-test-rules.jpg"
-imageAlt: "SSC CGL DEST typing test rules guide with key depressions and error percentage"
+imageAlt: "SSC Cgl typing test rules and speed guide"
 ---
 
-The Staff Selection Commission (SSC) Combined Graduate Level (CGL) examination includes a mandatory **Data Entry Speed Test (DEST)**. It is a qualifying-only test, meaning your marks do not count towards the final merit list, but failing it results in immediate disqualification.
-
-DEST has strict evaluation criteria. Understanding the exact regulations around speed, accuracy, and formatting is critical to passing the exam.
-
----
-
-## 1. Speed & Key Depressions Requirement
-
-The DEST is conducted on a computer in English. The requirements are:
-
-*   **Target Key Depressions**: Approximately **2,000 key depressions**.
-*   **Time Duration**: **15 minutes**.
-*   **Equivalent Speed**: This equates to a speed of roughly **27 WPM** (or approximately **35 WPM** in practice to comfortably cover errors and margin).
-*   **Standard Word Definition**: 1 word is calculated as **5 key depressions** (including spaces, punctuation, and letters).
+Cracking the **SSC Cgl** requires not just academic knowledge, but also lightning-fast typing skills. Below is a detailed explanation of the official typing test rules, speed benchmarks, and keyboard layouts.
 
 ---
 
-## 2. Key Rules: Backspace and Navigation
+## 1. Speed Requirements and Time Limit
 
-Unlike some strict exams where the backspace is disabled:
-
-*   **Backspace is Allowed**: You can use the backspace key to delete and correct your typing errors.
-*   **Arrow Keys**: You can use the arrow keys to navigate within the text area to correct spelling mistakes.
-*   **Scroll Bar**: If the text passage is long, you may need to use the scroll bar to view the entire content.
-
-> [!WARNING]
-> While backspace is permitted, using it excessively will slow you down. If you run out of time and fail to complete the 2,000 key depressions, you will be penalized heavily. Focus on typing accurately the first time.
+According to the official notification, candidates must achieve a minimum English typing speed of **35 WPM** and a Hindi typing speed of **30 WPM**. The test is typically conducted for exactly **15 mins** on a computer.
 
 ---
 
-## 3. Types of Mistakes & Evaluation Criteria
+## 2. Font Specifications (Mangal/Remington)
 
-SSC classifies typing errors into two categories:
-
-### A. Full Mistakes
-A full mistake is counted for:
-1.  **Omission of a word/figure**: Skipping words present in the original text.
-2.  **Substitution**: Replacing a word/number with another.
-3.  **Addition**: Inserting words or figures not present in the passage.
-4.  **Spelling Error**: Omission, repetition, or addition of letters in a word.
-
-### B. Half Mistakes
-A half mistake is counted for:
-1.  **Spacing Errors**: Not leaving space between words, or leaving double/multiple spaces.
-2.  **Wrong Capitalization**: Typing uppercase instead of lowercase, or vice versa.
-3.  **Punctuation Errors**: Omitting or adding incorrect punctuation marks.
-4.  **Transposition**: Transposing letters within a word.
+While English typing is straightforward on a QWERTY layout, Hindi typing requires specific preparation. The exam software uses the **Mangal Font**, and candidates are typically provided with the Remington Gail keyboard layout.
 
 ---
 
-## 4. How Error Percentage is Calculated
+## 3. Rules on Accuracy and Mistakes
 
-The error percentage is calculated using the following formula:
-
-```text
-Error % = [ Full Mistakes + (Half Mistakes / 2) ] / Total Words or Characters Typed x 100
-```
-
-### Error Relaxation Limit
-The allowed error limit varies depending on the category and specific post (some posts require higher standards like 5% or 7%):
-*   **General (UR)**: 20% max error (5% or 7% for specific DEST-preferred posts).
-*   **OBC / EWS**: 25% max error (10% for specific DEST-preferred posts).
-*   **SC / ST / PwD**: 30% max error.
+In most modern online typing tests for this exam, the **backspace key is allowed**. However, excessive use of backspace will slow down your gross speed. You must maintain an accuracy of at least 95% to avoid heavy penalties.
 
 ---
 
-## 5. Tips for Practice
+## 4. Official Practice Links
 
-1.  **Practice on Real TCS-like Interfaces**: The SSC CGL typing test is conducted by TCS. Practice on simulators that mimic this environment. You can **[practice with TCS-style mock tests](https://typingnexus.in)** for free.
-2. **Focus on 95%+ Accuracy**: Aim to keep your mistakes to a minimum to ensure you qualify for DEST-preferred posts.
-3. Also check the **[SSC CHSL typing test rules](/blog/ssc-chsl-typing-test-rules)** for the combined higher secondary level typing exam guide.
+Start practicing on an interface that perfectly simulates the real exam environment. Click the links below to test your speed:
+
+* **[Practice Exams on Typing Nexus](https://typingnexus.in/practice-exams)**
+
+Aim high and practice daily!

@@ -1,52 +1,49 @@
 ---
-title: "Allahabad High Court 300 Typing Test: Guidelines & Practice"
+title: "Allahabad High Court Group C Typing Test: 300 Words Rule"
 examName: "Allahabad High Court 300"
-description: "A comprehensive guide on the Allahabad High Court 300 typing test speed requirements, error calculation, and official practice test links."
+description: "Prepare for the Allahabad High Court Group C clerical posts. Understand the specific English and Hindi typing requirements and the exact 300-word paragraph rule."
 pubDate: "2026-06-21"
 heroImage: "../../assets/covers/allahabad-high-court-300-typing-test-rules.jpg"
-imageAlt: "Allahabad High Court 300 typing test mock exams and speed rules"
+imageAlt: "Allahabad High Court Group C 300 words typing test guide"
 ---
 
-Welcome to the comprehensive guide for the **Allahabad High Court 300** typing examination. 
+The Allahabad High Court conducts recruitment for **Group C** clerical posts, and a major component of the selection process is the typing test. Unlike the RO/ARO exams which require a 500-word typing test, the standard Group C posts involve a **300-word paragraph** test.
 
-If you are preparing for this competitive exam, passing the computer-based typing speed test is a mandatory and critical stage of the selection process. This guide provides access to our official exam-simulated practice links to help you achieve your required Words Per Minute (WPM) or Keystrokes Per Hour (KDPH).
+Here are the official rules, speed benchmarks, and evaluation methods for this specific exam.
 
 ---
 
-## 1. Official Practice Test Links
+## 1. Speed Requirements and Words
 
-To crack the exam, you need to practice in an environment that exactly mirrors the real testing interface. We have designed professional mock exams specifically for this test:
+Candidates must typically type in both English and Hindi:
+
+*   **English Typing**: A minimum speed of **30 Words Per Minute (WPM)**. You must type a passage of exactly **300 words** in **10 minutes**.
+*   **Hindi Typing**: A minimum speed of **25 Words Per Minute (WPM)**. You must type a passage of exactly **250 words** in **10 minutes**.
+*   **Total Marks**: The typing test carries a maximum of **50 marks** (25 for English, 25 for Hindi).
+*   **Qualifying Marks**: Candidates must score a minimum of 10 marks out of 25 in each language to qualify.
+
+---
+
+## 2. Hindi Keyboard and Layout
+
+*   **Hindi Font**: **Mangal Font** is strictly used.
+*   **Hindi Layout**: Candidates are provided with the **Inscript** keyboard layout. *Note: Remington Gail is generally not used for Allahabad High Court Group C, so practice specifically on Inscript.*
+
+---
+
+## 3. Backspace and Marking Formula
+
+*   **Backspace**: Yes, backspace is **allowed** during the 10-minute test to correct any mistakes before you proceed.
+*   **Deduction Scheme**: For every mistake (wrong word, spelling error, missing word), **0.1 marks** are deducted out of the 25 total marks.
+*   **Formula**: `Marks = 25 - (Mistakes x 0.1)`.
+*   If you fail to type the complete 300 words in English or 250 words in Hindi, you will heavily lose marks for all the un-typed words, usually resulting in disqualification.
+
+---
+
+## 4. Practice Link
+
+Use our 300-word simulation environment specifically designed for Allahabad HC:
 
 * **[Practice Allahabad High Court 300](https://typingnexus.in/practice-exams/allahabad-high-court-300)**
 
-> [!TIP]
-> Click on the links above to launch the exam simulator. Our platform uses the same word highlighting, scroll logic, and backspace rules as the official testing agency.
-
----
-
-## 2. General Speed & Accuracy Guidelines
-
-While specific rules may vary slightly depending on the exact post or year, most government clerical typing tests adhere to the following standards:
-
-*   **English Typing Requirement**: Usually around **30 to 35 Words Per Minute (WPM)**.
-*   **Hindi Typing Requirement**: Usually around **25 to 30 Words Per Minute (WPM)**.
-*   **Word Formula**: Standard calculation is generally **1 Word = 5 Keystrokes** (including spaces).
-*   **Accuracy Benchmark**: Candidates should aim to maintain an accuracy of **95% or higher** to ensure they do not fail due to excessive negative marking.
-
----
-
-## 3. Keyboard Layout and Font Setup
-
-If you are taking the test in Hindi, it is crucial to practice on the correct keyboard layout authorized by the testing agency.
-*   **Default English Setup**: Standard QWERTY keyboard.
-*   **Hindi Setup**: Most modern exams use the **Mangal Font**. You may be given the option to choose between the **Inscript** or **Remington Gail** keyboard layouts on the screen before the exam begins. Check your official notification to confirm the exact layout required.
-
----
-
-## 4. Tips to Succeed in the Test
-
-1.  **Do Not Look at the Keyboard**: Touch typing is the only reliable way to achieve high speeds. Keep your eyes fixed on the source text on the screen.
-2.  **Avoid Excessive Backspace**: Even if backspace is permitted, every time you use it, you lose precious fractions of a second. Practice typing accurately the first time.
-3.  **Simulate Exam Pressure**: Practice with a strict countdown timer (10 or 15 minutes) every day to overcome test anxiety.
-
-Begin your preparation today by using the practice links provided above. Best of luck!
+Focus on zero errors to score the maximum 50/50 marks!

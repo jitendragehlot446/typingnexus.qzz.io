@@ -1,62 +1,45 @@
 ---
-title: "Bihar Civil Court Typing Test: English & Hindi Rules"
+title: "Bihar Civil Court Clerk & Peon Typing Test Rules"
 examName: "Bihar Civil Court"
-description: "A complete guide to the Bihar Civil Court Clerk, Reader, and Stenographer typing test speed limits, Remington Gail layout, and backspace guidelines."
-pubDate: "2026-06-13"
+description: "Everything you need to know about the Bihar Civil Court typing test for Clerk and Peon posts. Learn the 40 WPM English and 30 WPM Hindi speed requirements."
+pubDate: "2026-06-21"
 heroImage: "../../assets/covers/bihar-civil-court-typing-test-rules.jpg"
-imageAlt: "Bihar Civil Court typing test rules guide with speed and layout requirements"
+imageAlt: "Bihar Civil Court Clerk typing test guidelines"
 ---
 
-The Bihar Civil Court conducts a mandatory **Computer Typing Test** for recruitment to various positions, including Clerk, Court Reader-cum-Deposition Writer, and Stenographer.
+The **Bihar Civil Court** conducts recruitment for various posts, including Clerks. A critical component of the selection process is the typing skill test.
 
-To qualify for these positions, candidates must meet strict typing speed and accuracy standards. Below is a comprehensive breakdown of the official guidelines, layout rules, and evaluation methods.
-
----
-
-## 1. Speed and Duration Requirements
-
-The typing test is evaluated separately for English and Hindi:
-
-*   **English Typing Speed**: Minimum **35 to 40 WPM** (depending on the post).
-*   **Hindi Typing Speed**: Minimum **30 WPM**.
-*   **Test Duration**: **10 minutes** for each language.
-*   **Keystroke Calculation**: Speed is calculated using the standard 5-stroke rule (5 key depressions = 1 word).
+This test is qualifying in nature, but the standards are strictly enforced. Below are the specific rules and speed requirements you need to know to pass.
 
 ---
 
-## 2. Keyboard Layout and Fonts
+## 1. Speed Requirements
 
-Using the correct layout during practice is critical, as state court exams do not allow layout changes on the exam day.
+The Bihar Civil Court demands a relatively high speed compared to standard exams:
 
-*   **English**: Standard QWERTY layout.
-*   **Hindi Font**: **Unicode Mangal Font**.
-*   **Hindi Layout**: **Remington Gail Keyboard Layout** is standard for clerical positions in the Bihar courts.
-*   *Note:* Ensure you do not practice on Krutidev or Inscript layouts, as these are typically not accepted.
-
----
-
-## 3. The Backspace Rule
-
-*   **Disabled Backspace**: In several recent recruitment cycles conducted by the Bihar Civil Court and Patna High Court, the **Backspace key was completely disabled** during the actual typing test.
-*   **Arrow Navigation**: Navigating using the arrow keys to correct previous words is also disabled.
-*   **Practice Recommendation**: Because of this strict policy, it is highly recommended to practice with backspace turned off. You can **[disable the backspace key in mock tests](https://typingnexus.in)**.
+*   **English Typing**: A minimum speed of **40 Words Per Minute (WPM)**.
+*   **Hindi Typing**: A minimum speed of **30 Words Per Minute (WPM)**.
+*   **Test Duration**: Exactly **10 minutes** for each language.
 
 ---
 
-## 4. Evaluation and Accuracy Standards
+## 2. Keyboard Layout and Font Specifications
 
-Bihar Civil Court tests have strict accuracy gates. Often, a minimum accuracy of **90% for English** and **85% for Hindi** is required to qualify.
-
-### Common Mistake Penalties:
-*   **Full Mistakes**: Omission of words, substitution of words, or addition of words not in the passage.
-*   **Half Mistakes**: Spelling errors, capitalization errors, punctuation errors, or spacing errors.
-*   *Note:* Each mistake deducts from your gross words to calculate your Net Words Per Minute.
+*   **Hindi Setup**: The standard font used is **Mangal Font**. Candidates must type using the **Remington Gail** layout.
+*   **English Setup**: Standard QWERTY keyboard layout.
 
 ---
 
-## 5. Tips to Pass the Bihar Civil Court Typing Test
+## 3. Backspace and Error Calculation
 
-1.  **Prioritize Accuracy Over Speed**: Since error penalties are high and accuracy thresholds are strict, focus on key accuracy first. Speed will follow naturally.
-2.  **Practice on Legal and Court Passages**: Court typing passages feature legal jargon (e.g., *petitioner, respondent, decree, jurisdiction, summon*). Practicing general stories will not prepare you for this vocabulary. You can **[practice with court-specific vocabulary passages](https://typingnexus.in)** for free.
-3. **Master Remington Gail Keymaps**: Learn to type Hindi half-letters and special symbols on Remington Gail layout without looking down at your keyboard.
-4. Also see the **[Patna High Court typing test rules](/blog/patna-high-court-typing-test-rules)** for similar speed and layout guidelines.
+*   **Backspace**: Backspace is **allowed** and can be used to correct errors while typing.
+*   **Error Penalty**: Errors like missing a word, substituting a wrong word, or adding extra words are counted as Full Mistakes.
+*   **Accuracy Benchmark**: You must maintain an accuracy of **at least 90-95%** to comfortably pass the net speed threshold.
+
+---
+
+## 4. Official Practice Links
+
+Practice on our specialized exam simulator which mimics the real Bihar Civil Court test interface:
+
+* **[Practice Bihar Civil Court Hindi Typing (Remington Gail)](https://typingnexus.in/practice-exams/bihar-civil-court-hindi-typing-remington-gail-keyboard)**

@@ -1,52 +1,49 @@
 ---
-title: "Aiims Junior Admin Cre Typing Test: Guidelines & Practice"
-examName: "Aiims Junior Admin Cre"
-description: "A comprehensive guide on the Aiims Junior Admin Cre typing test speed requirements, error calculation, and official practice test links."
+title: "AIIMS Junior Administrative Assistant (CRE) Typing Rules"
+examName: "AIIMS Junior Admin CRE"
+description: "Crack the AIIMS Junior Administrative Assistant typing test. Understand the exact 35 WPM requirement, backspace rules, and layout options for Hindi and English."
 pubDate: "2026-06-21"
 heroImage: "../../assets/covers/aiims-junior-admin-cre-typing-test-rules.jpg"
-imageAlt: "Aiims Junior Admin Cre typing test mock exams and speed rules"
+imageAlt: "AIIMS Junior Administrative Assistant typing test guidelines"
 ---
 
-Welcome to the comprehensive guide for the **Aiims Junior Admin Cre** typing examination. 
+The **Junior Administrative Assistant (JAA)** post under the AIIMS CRE requires excellent data entry skills. Because the job involves heavy documentation and administrative work, the typing test is a strict qualifying hurdle.
 
-If you are preparing for this competitive exam, passing the computer-based typing speed test is a mandatory and critical stage of the selection process. This guide provides access to our official exam-simulated practice links to help you achieve your required Words Per Minute (WPM) or Keystrokes Per Hour (KDPH).
-
----
-
-## 1. Official Practice Test Links
-
-To crack the exam, you need to practice in an environment that exactly mirrors the real testing interface. We have designed professional mock exams specifically for this test:
-
-* **[Practice Aiims Junior Admin Cre](https://typingnexus.in/practice-exams/aiims-junior-admin-cre)**
-
-> [!TIP]
-> Click on the links above to launch the exam simulator. Our platform uses the same word highlighting, scroll logic, and backspace rules as the official testing agency.
+Here are the official typing test rules for the AIIMS Junior Admin post.
 
 ---
 
-## 2. General Speed & Accuracy Guidelines
+## 1. Key Depressions and Speed Target
 
-While specific rules may vary slightly depending on the exact post or year, most government clerical typing tests adhere to the following standards:
+AIIMS calculates speed based on KDPH (Key Depressions Per Hour) rather than traditional WPM counting. 
 
-*   **English Typing Requirement**: Usually around **30 to 35 Words Per Minute (WPM)**.
-*   **Hindi Typing Requirement**: Usually around **25 to 30 Words Per Minute (WPM)**.
-*   **Word Formula**: Standard calculation is generally **1 Word = 5 Keystrokes** (including spaces).
-*   **Accuracy Benchmark**: Candidates should aim to maintain an accuracy of **95% or higher** to ensure they do not fail due to excessive negative marking.
-
----
-
-## 3. Keyboard Layout and Font Setup
-
-If you are taking the test in Hindi, it is crucial to practice on the correct keyboard layout authorized by the testing agency.
-*   **Default English Setup**: Standard QWERTY keyboard.
-*   **Hindi Setup**: Most modern exams use the **Mangal Font**. You may be given the option to choose between the **Inscript** or **Remington Gail** keyboard layouts on the screen before the exam begins. Check your official notification to confirm the exact layout required.
+*   **English Speed Requirement**: **10,500 KDPH** (which translates to 35 Words Per Minute).
+*   **Hindi Speed Requirement**: **9,000 KDPH** (which translates to 30 Words Per Minute).
+*   **Duration**: **10 Minutes**.
+*   **Target Strokes**: To qualify, you must successfully hit at least 1750 correct keystrokes in 10 minutes for English, or 1500 correct keystrokes for Hindi.
 
 ---
 
-## 4. Tips to Succeed in the Test
+## 2. Keyboard and Layout Options
 
-1.  **Do Not Look at the Keyboard**: Touch typing is the only reliable way to achieve high speeds. Keep your eyes fixed on the source text on the screen.
-2.  **Avoid Excessive Backspace**: Even if backspace is permitted, every time you use it, you lose precious fractions of a second. Practice typing accurately the first time.
-3.  **Simulate Exam Pressure**: Practice with a strict countdown timer (10 or 15 minutes) every day to overcome test anxiety.
+*   **English**: Standard QWERTY layout.
+*   **Hindi**: **Mangal Font** with a choice between **Remington Gail** or **Inscript** keyboard layouts.
+*   **Hardware**: Standard membrane keyboards are used at test centers. Avoid practicing exclusively on flat laptop keyboards to ensure you are comfortable with deep key travel.
 
-Begin your preparation today by using the practice links provided above. Best of luck!
+---
+
+## 3. Backspace and Correction Rules
+
+*   **Backspace Allowed**: You are allowed to use the backspace key to correct errors. 
+*   **Arrow Keys**: Left and Right arrow keys are usually disabled. You must use backspace to delete the word entirely to fix a mistake in the middle of it.
+*   **Error Limit**: The allowed error percentage varies by category but typically hovers around 5% to 7% for unreserved categories. Maintaining 95% accuracy is crucial.
+
+---
+
+## 4. AIIMS Junior Admin Practice Links
+
+We have created an exact replica of the AIIMS typing test interface. Click the link below to start a mock test:
+
+* **[Practice AIIMS Junior Admin CRE](https://typingnexus.in/practice-exams/aiims-junior-admin-cre)**
+
+Make sure to practice daily with a 10-minute timer to build speed and stamina.

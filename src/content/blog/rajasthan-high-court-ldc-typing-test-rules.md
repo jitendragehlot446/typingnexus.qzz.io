@@ -1,64 +1,38 @@
 ---
-title: "Rajasthan High Court LDC Typing & Efficiency Test Guide"
-examName: "Rajasthan High Court LDC"
-description: "A complete guide on the Rajasthan High Court LDC typing test: speed requirements, Kruti Dev 010 font layout, and MS Word & Excel efficiency test rules."
-pubDate: "2026-06-13"
+title: "Rajasthan High Court Ldc Typing Test: Rules, Speed & Details"
+examName: "Rajasthan High Court Ldc"
+description: "Everything you need to know about the Rajasthan High Court Ldc typing test. Understand the exact 27 WPM speed requirements, backspace rules, and layout options."
+pubDate: "2026-06-21"
 heroImage: "../../assets/covers/rajasthan-high-court-ldc-typing-test-rules.jpg"
-imageAlt: "Rajasthan High Court LDC typing test rules guide with Kruti Dev 010 and efficiency test"
+imageAlt: "Rajasthan High Court Ldc typing test rules and speed guide"
 ---
 
-The Rajasthan High Court (HCRAJ) conducts a mandatory two-part practical exam for the recruitment of Lower Division Clerks (LDC) and Junior Assistants:
-
-1.  **Typing Speed Test** (Hindi and English)
-2.  **Computer Efficiency Test** (MS Word and MS Excel)
-
-To qualify, candidates must achieve minimum speeds and perform formatting tasks within the allotted time. Below is a detailed breakdown of both tests.
+Welcome to the ultimate guide for the **Rajasthan High Court Ldc** typing examination. If you are preparing for this competitive test, understanding the exact typing speed requirements and error calculation is crucial. Here are the official rules and links to practice.
 
 ---
 
-## 1. Typing Speed Test
+## 1. Typing Speed and Duration Rules
 
-The speed test evaluates your typing speed in both Hindi and English on computer systems.
-
-*   **English Speed Requirement**: Minimum **35 WPM** (or equivalent keystrokes).
-*   **Hindi Speed Requirement**: Minimum **30 WPM**.
-*   **Duration**: Typically 5 minutes per language (total 10 minutes).
-*   **Marks**: The speed test carries **50 marks** (25 marks for English and 25 marks for Hindi).
-
-### Keyboard Fonts and Layouts:
-*   **Hindi Font**: **Kruti Dev 010** (Legacy font) or **DevLys 010**.
-*   **Hindi Keyboard Layout**: Standard **Remington Gail Keyboard Layout**.
-*   **English Font**: Calibri or Courier New font.
-*   *Warning:* Unlike central exams which use Mangal Unicode, the Rajasthan High Court strictly relies on **Kruti Dev** legacy fonts. Make sure you install and practice on this font specifically.
+According to the official notification, candidates must achieve a minimum English typing speed of **27 WPM** and a Hindi typing speed of **27 WPM**. The test is typically conducted for exactly **10 mins** on a computer.
 
 ---
 
-## 2. Computer Efficiency Test
+## 2. Typing Interface and Layouts
 
-The efficiency test is conducted to evaluate the candidate's practical skills in basic document formatting and spreadsheet editing.
-
-*   **Duration**: **10 minutes**.
-*   **Marks**: Worth **50 marks**.
-*   **Minimum Qualifying Marks**: General candidates must score at least **22.5 marks** (20 marks for SC/ST/PH).
-*   **Target Software**: **MS Word** and **MS Excel**.
-
-### Key Tasks Evaluated:
-*   **MS Word**: Paragraph formatting, line spacing, margins, bold/italic highlights, borders, bullet alignments, table insertion, headers, and footers.
-*   **MS Excel**: Formatting columns, simple formulas (SUM, AVERAGE), table borders, row sizing, and text wrapping.
+The exam interface provides a standard QWERTY layout for English. For Hindi, the officially mandated font is **Mangal Unicode**. Ensure you practice on the Remington Gail layout as it is the most commonly provided option.
 
 ---
 
-## 3. Backspace and Navigation Rules
+## 3. Error Calculation and Backspace
 
-*   **Backspace is Enabled**: You can use the backspace key to correct mistakes during the speed test.
-*   **Plain Interface**: No word highlighting or spelling error indicators are provided on screen. You must read from the text box and verify your own typing line-by-line.
-*   **Manual Scroll**: The screen does not auto-scroll. You must manually scroll using the mouse wheel or scroll bar.
+In most modern online typing tests for this exam, the **backspace key is allowed**. However, excessive use of backspace will slow down your gross speed. You must maintain an accuracy of at least 95% to avoid heavy penalties.
 
 ---
 
-## 4. Tips to Clear the Rajasthan High Court LDC Practical Exam
+## 4. Official Practice Links
 
-1.  **Do Not Ignore the Efficiency Test**: Many candidates focus 100% of their energy on typing speed but fail the formatting efficiency test. Spend at least 30 minutes daily practicing MS Word and Excel shortcuts.
-2.  **Practice on Kruti Dev 010**: Remington Gail layouts behave slightly differently on Kruti Dev compared to Mangal Unicode. Standardize your keyboard layout to Kruti Dev in your settings.
-3. **Accuracy is Key to Marks**: Since marks are computed based on error-deducted net speeds, maintaining high accuracy translates directly into higher marks. You can **[practice with mock tests matching these exact rules](https://typingnexus.in)**.
-4. Also see the **[RSMSSB LDC typing test rules](/blog/rssb-ldc-typing-test-rules)** for another Rajasthan board typing exam with legacy font requirements.
+Start practicing on an interface that perfectly simulates the real exam environment. Click the links below to test your speed:
+
+* **[Practice Exams on Typing Nexus](https://typingnexus.in/practice-exams)**
+
+Aim high and practice daily!

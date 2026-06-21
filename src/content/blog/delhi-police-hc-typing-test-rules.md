@@ -1,56 +1,38 @@
 ---
-title: "Delhi Police Head Constable (HC) Typing Test Guide"
-examName: "Delhi Police HC"
-description: "A complete guide on Delhi Police Head Constable (Ministerial) typing test rules, including paper-to-screen mode and the 25-marks scoring system."
-pubDate: "2026-06-12"
+title: "Delhi Police Hc Typing Test: Rules, Speed & Details"
+examName: "Delhi Police Hc"
+description: "Everything you need to know about the Delhi Police Hc typing test. Understand the exact 30 WPM speed requirements, backspace rules, and layout options."
+pubDate: "2026-06-21"
 heroImage: "../../assets/covers/delhi-police-hc-typing-test-rules.jpg"
-imageAlt: "Delhi Police Head Constable typing test rules guide with paper-to-screen format"
+imageAlt: "Delhi Police Hc typing test rules and speed guide"
 ---
 
-The Delhi Police Head Constable (Ministerial) recruitment process features a highly competitive **Typing Test**. Unlike most qualifying-only typing tests, this exam is worth **25 marks**, and the marks you score are added directly to your final merit list.
-
-Furthermore, the test is conducted in **paper-to-screen** format, making it quite different from standard online typing assessments.
-
----
-
-## 1. Speed and Marks Distribution
-
-Your score is directly proportional to your speed. Here is how speed is classified for both languages:
-
-*   **English Typing Speed**: Minimum **30 Words Per Minute (WPM)** required.
-*   **Hindi Typing Speed**: Minimum **25 Words Per Minute (WPM)** required.
-*   **Test Duration**: **10 minutes**.
-
-### Marks Breakdown (English/Hindi speed vs Marks):
-*   Under 30 WPM (English) / 25 WPM (Hindi): **Disqualified** (0 Marks)
-*   30 WPM / 25 WPM: **10 Marks**
-*   31-35 WPM / 26-30 WPM: **12 Marks**
-*   36-40 WPM / 31-35 WPM: **15 Marks**
-*   41-45 WPM / 36-40 WPM: **18 Marks**
-*   46-50 WPM / 41-45 WPM: **21 Marks**
-*   Above 50 WPM / Above 45 WPM: **25 Marks**
+The **Delhi Police Hc** typing test is a strict qualifying stage for candidates aiming to secure a clerical post. This article breaks down the exact Words Per Minute (WPM), backspace rules, and layout options you need to know.
 
 ---
 
-## 2. Test Format: Paper-to-Screen
+## 1. Typing Speed and Duration Rules
 
-*   **Printed Sheet**: You will be handed a printed sheet containing the passage to type.
-*   **No On-screen Text**: The text does not appear on screen in a split pane; you must look down at the paper and type it directly into a text editor (similar to Notepad).
-*   **Target Keystrokes**: Candidates should aim to type at least 2,000 keystrokes in English (approx. 400 words) or 1,750 keystrokes in Hindi (approx. 350 words) to cover the passage and mistakes.
+The typing test is highly competitive. The benchmark is set at **30 WPM** for English typists and **25 WPM** for Hindi typists. You will be given **10 mins** to type the passage accurately.
 
 ---
 
-## 3. Keyboard and Font Rules
+## 2. Keyboard Layout and Fonts
 
-*   **Backspace is Allowed**: The backspace key is fully enabled, and you are allowed to correct your typos.
-*   **Hindi Font**: The exam traditionally uses the **Kruti Dev** font on a Remington layout. Verify your admit card instructions for any changes to Unicode (Mangal).
+The exam interface provides a standard QWERTY layout for English. For Hindi, the officially mandated font is **Mangal Unicode**. Ensure you practice on the Remington Gail layout as it is the most commonly provided option.
 
 ---
 
-## 4. Tips to Score 25/25 Marks
+## 3. Rules on Accuracy and Mistakes
 
-1.  **Practice Paper-to-Screen**: Do not practice only on screens. Place a physical book or printout next to your keyboard, and practice typing into Notepad without looking at your screen constantly.
-2.  **Toggle on Desktop Keyboards**: Always practice on standard mechanical/membrane keyboards rather than laptop keys.
-3.  **Use Typing Simulator**: You can **[simulate the exact timing and scoring](https://typingnexus.in)** with mock tests.
-4. **Balance Speed & Accuracy**: Since errors penalize your speed calculation, high accuracy is the key to maintaining a speed above 50 WPM to claim the full 25 marks.
-5. Also see the **[DSSSB LDC typing test rules](/blog/dsssb-ldc-typing-test-rules)** for another Delhi-based typing exam with different evaluation criteria.
+Can you use backspace? Yes, backspace is generally permitted during the test. But beware: every spelling mistake, omission, or punctuation error is counted as a mistake and deducts from your net WPM.
+
+---
+
+## 4. Official Practice Links
+
+Start practicing on an interface that perfectly simulates the real exam environment. Click the links below to test your speed:
+
+* **[Practice Exams on Typing Nexus](https://typingnexus.in/practice-exams)**
+
+Aim high and practice daily!

@@ -1,87 +1,38 @@
 ---
-title: "SSC CHSL Typing Test Rules & Evaluation Guidelines"
-examName: "SSC CHSL"
-description: "A complete guide to SSC CHSL typing test rules: speed requirements, error calculations, full and half mistakes criteria, and category-wise error relaxation limits."
-pubDate: "2026-06-11"
+title: "SSC Chsl Typing Test: Rules, Speed & Details"
+examName: "SSC Chsl"
+description: "Everything you need to know about the SSC Chsl typing test. Understand the exact 35 WPM speed requirements, backspace rules, and layout options."
+pubDate: "2026-06-21"
 heroImage: "../../assets/covers/ssc-chsl-typing-test-rules.jpg"
-imageAlt: "SSC CHSL typing test rules guide with full and half mistakes evaluation"
+imageAlt: "SSC Chsl typing test rules and speed guide"
 ---
 
-Staff Selection Commission (SSC) Combined Higher Secondary Level (CHSL) exam includes a crucial **Skill Test / Typing Test** in Tier 2. Clearing this test is mandatory to secure posts like LDC, JSA, and DEO. You can **[practice with exam-matching paragraphs](https://typingnexus.in)** for free.
-
-In this article, we explain the detailed evaluation guidelines, speed requirements, and how mistakes are calculated.
-
----
-
-## 1. Speed & Key Depressions Requirement
-
-* **English Medium**:
-  * Required speed: **35 words per minute (WPM)**.
-  * Corresponding key depressions: **10500 Key Depressions Per Hour (KDPH)**.
-  * Test duration: **10 minutes**.
-  * Total characters to type: approximately **1750 key depressions**.
-
-* **Hindi Medium**:
-  * Required speed: **30 words per minute (WPM)**.
-  * Corresponding key depressions: **9000 Key Depressions Per Hour (KDPH)**.
-  * Test duration: **10 minutes**.
-  * Total characters to type: approximately **1500 key depressions**.
+Welcome to the ultimate guide for the **SSC Chsl** typing examination. If you are preparing for this competitive test, understanding the exact typing speed requirements and error calculation is crucial. Here are the official rules and links to practice.
 
 ---
 
-## 2. Key Rules: Backspace and Navigation
+## 1. Typing Speed and Duration Rules
 
-Unlike some strict exams where the backspace is disabled:
-
-*   **Backspace is Allowed**: You can use the backspace key to delete and correct your typing errors.
-*   **Arrow Keys**: You can use the arrow keys to navigate within the text area to correct spelling mistakes.
-*   **Scroll Bar**: If the text passage is long, you may need to use the scroll bar to view the entire content.
-
-> [!WARNING]
-> While backspace is permitted, using it excessively will slow you down. Focus on typing accurately the first time to preserve your speed and rhythm.
+The typing test is highly competitive. The benchmark is set at **35 WPM** for English typists and **30 WPM** for Hindi typists. You will be given **10 mins** to type the passage accurately.
 
 ---
 
-## 3. Types of Mistakes & Evaluation
+## 2. Typing Interface and Layouts
 
-SSC classifies typing errors into two categories: **Full Mistakes** and **Half Mistakes**.
-
-### A. Full Mistakes
-A full error is counted when you make the following mistakes:
-1. **Omission of a word or figure**: Skipping a word present in the passage.
-2. **Substitution of a wrong word/figure**: Typing a different word instead of the original word.
-3. **Addition of a word/figure**: Typing an extra word not present in the passage.
-4. **Spelling errors**: Typing a word with incorrect spelling (transposing letters, omitting letters, etc.).
-
-### B. Half Mistakes
-A half error is counted for:
-1. **Spacing errors**: Not leaving a space between two words or leaving double/multiple spaces.
-2. **Punctuation errors**: Omitting a punctuation mark or adding an incorrect punctuation mark.
-3. **Wrong Capitalization**: Typing a capital letter instead of a lowercase letter, or vice versa (e.g., typing "the" as "The" or "THE").
+For English typing, the standard QWERTY keyboard is used. However, for Hindi typing, candidates must use the **Mangal Font**. You will generally have the option to select either the Remington Gail or Inscript layout.
 
 ---
 
-## 4. How Error Percentage is Calculated
+## 3. Error Calculation and Backspace
 
-The formula used by SSC to calculate the percentage of errors is:
-
-```text
-Error % = [ Full Mistakes + (Half Mistakes / 2) ] / Total Words (or Characters) Typed x 100
-```
-
-### Error Relaxation Limit
-SSC provides relaxation on error percentages based on category:
-* **UR (General)**: Up to **7%** error allowed.
-* **OBC / EWS / SC / ST / PwD**: Up to **10%** error allowed.
-
-If your error percentage exceeds these limits, you will be disqualified, regardless of how high your typing speed is.
+Can you use backspace? Yes, backspace is generally permitted during the test. But beware: every spelling mistake, omission, or punctuation error is counted as a mistake and deducts from your net WPM.
 
 ---
 
-## 5. Pro-Tips for SSC CHSL Typing
+## 4. Official Practice Links
 
-1. **Focus on Accuracy First**: Since the relaxation limit is strict (7% for General), focus on accuracy. Speed will naturally improve with regular practice. You can **[track your error rates with a free dashboard](https://typingnexus.in)**.
-2. **Practice on Physical Keyboards**: Do not practice on laptop keyboards. Get a standard desktop keyboard (such as TVS Gold, HP, or Dell membrane keyboard) as they are commonly used in exam halls.
-3. **Familiarity with Rhythms**: Maintain a steady typing rhythm instead of bursting and stopping.
-4. Also read the **[SSC CGL DEST typing test rules](/blog/ssc-cgl-typing-test-rules)** for the graduate level data entry speed test guide.
+Start practicing on an interface that perfectly simulates the real exam environment. Click the links below to test your speed:
 
+* **[Practice Exams on Typing Nexus](https://typingnexus.in/practice-exams)**
+
+Aim high and practice daily!

@@ -1,53 +1,50 @@
 ---
-title: "Aiims Cre Typing Test: Guidelines & Practice"
-examName: "Aiims Cre"
-description: "A comprehensive guide on the Aiims Cre typing test speed requirements, error calculation, and official practice test links."
+title: "AIIMS CRE General Typing Test: Complete Speed and Accuracy Guide"
+examName: "AIIMS CRE General"
+description: "Everything you need to know about the AIIMS CRE Typing Test for general administrative posts, including KDPH requirements, Mangal font rules, and backspace usage."
 pubDate: "2026-06-21"
 heroImage: "../../assets/covers/aiims-cre-typing-test-rules.jpg"
-imageAlt: "Aiims Cre typing test mock exams and speed rules"
+imageAlt: "AIIMS CRE general typing test rules and speed guide"
 ---
 
-Welcome to the comprehensive guide for the **Aiims Cre** typing examination. 
+The **AIIMS Common Recruitment Exam (CRE)** is the central gateway for securing LDC, JSA, and other clerical positions across various AIIMS institutes in India. The Stage II of this exam involves a rigorous typing skill test.
 
-If you are preparing for this competitive exam, passing the computer-based typing speed test is a mandatory and critical stage of the selection process. This guide provides access to our official exam-simulated practice links to help you achieve your required Words Per Minute (WPM) or Keystrokes Per Hour (KDPH).
-
----
-
-## 1. Official Practice Test Links
-
-To crack the exam, you need to practice in an environment that exactly mirrors the real testing interface. We have designed professional mock exams specifically for this test:
-
-* **[Practice Aiims Cre](https://typingnexus.in/practice-exams/aiims-cre)**
-* **[Practice Aiims Cre Hindi Typing Skill Test](https://typingnexus.in/practice-exams/aiims-cre-hindi-typing-skill-test)**
-
-> [!TIP]
-> Click on the links above to launch the exam simulator. Our platform uses the same word highlighting, scroll logic, and backspace rules as the official testing agency.
+This guide provides a deep dive into the official rules, speed benchmarks, and the evaluation criteria used by AIIMS.
 
 ---
 
-## 2. General Speed & Accuracy Guidelines
+## 1. Official Speed Criteria
 
-While specific rules may vary slightly depending on the exact post or year, most government clerical typing tests adhere to the following standards:
+The typing test evaluates candidates on their ability to type quickly and accurately on a computer keyboard. 
 
-*   **English Typing Requirement**: Usually around **30 to 35 Words Per Minute (WPM)**.
-*   **Hindi Typing Requirement**: Usually around **25 to 30 Words Per Minute (WPM)**.
-*   **Word Formula**: Standard calculation is generally **1 Word = 5 Keystrokes** (including spaces).
-*   **Accuracy Benchmark**: Candidates should aim to maintain an accuracy of **95% or higher** to ensure they do not fail due to excessive negative marking.
-
----
-
-## 3. Keyboard Layout and Font Setup
-
-If you are taking the test in Hindi, it is crucial to practice on the correct keyboard layout authorized by the testing agency.
-*   **Default English Setup**: Standard QWERTY keyboard.
-*   **Hindi Setup**: Most modern exams use the **Mangal Font**. You may be given the option to choose between the **Inscript** or **Remington Gail** keyboard layouts on the screen before the exam begins. Check your official notification to confirm the exact layout required.
+*   **For English Typists**: You must achieve a speed of **35 WPM**. This is equal to making **10,500 KDPH (Key Depressions Per Hour)**.
+*   **For Hindi Typists**: You must achieve a speed of **30 WPM**. This is equivalent to making **9,000 KDPH**.
+*   **Time Limit**: You will be given exactly **10 minutes** to type the provided passage.
+*   **Word Calculation**: In AIIMS CRE, 5 keystrokes (including space and punctuation) constitute one word.
 
 ---
 
-## 4. Tips to Succeed in the Test
+## 2. Interface and Font Rules
 
-1.  **Do Not Look at the Keyboard**: Touch typing is the only reliable way to achieve high speeds. Keep your eyes fixed on the source text on the screen.
-2.  **Avoid Excessive Backspace**: Even if backspace is permitted, every time you use it, you lose precious fractions of a second. Practice typing accurately the first time.
-3.  **Simulate Exam Pressure**: Practice with a strict countdown timer (10 or 15 minutes) every day to overcome test anxiety.
+The testing interface is usually a split-screen software where the passage is displayed on the top half, and you type in the bottom half.
 
-Begin your preparation today by using the practice links provided above. Best of luck!
+*   **Hindi Font**: **Unicode Mangal Font** is mandatory for the Hindi typing test.
+*   **Hindi Layout**: Candidates are provided the option of **Inscript** or **Remington Gail**. Be sure to select the correct layout before the exam starts, as it cannot be changed mid-way.
+
+---
+
+## 3. Typing Test Rules
+
+*   **Backspace**: Backspace is generally **enabled**. You can correct any misspelled words as long as you catch the error before submitting or running out of time.
+*   **Scroll Bar**: You must use the mouse to scroll down the passage text box once you reach the end of the visible lines.
+*   **Highlighting**: Word-by-word highlighting may or may not be present, so practice without relying heavily on screen highlights.
+
+---
+
+## 4. Practice for AIIMS CRE
+
+Use our official simulation to test your current WPM speed and accuracy according to AIIMS rules:
+
+* **[Practice AIIMS CRE Hindi Typing Skill Test](https://typingnexus.in/practice-exams/aiims-cre-hindi-typing-skill-test)**
+
+Aim for at least 40 WPM in practice to ensure you clear the 35 WPM hurdle on exam day!

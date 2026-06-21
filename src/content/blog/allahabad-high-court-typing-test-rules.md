@@ -1,54 +1,38 @@
 ---
-title: "Allahabad High Court RO/ARO/Clerk Typing Test Guide"
-examName: "Allahabad High Court RO/ARO"
-description: "Everything you need to know about the Allahabad High Court (AHC) RO, ARO, and Computer Assistant typing test speed, legal passages, and layout rules."
-pubDate: "2026-06-12"
+title: "Allahabad High Court Typing Test: Rules, Speed & Details"
+examName: "Allahabad High Court"
+description: "Everything you need to know about the Allahabad High Court typing test. Understand the exact 30 WPM speed requirements, backspace rules, and layout options."
+pubDate: "2026-06-21"
 heroImage: "../../assets/covers/allahabad-high-court-typing-test-rules.jpg"
-imageAlt: "Allahabad High Court RO/ARO typing test rules guide with legal passage requirements"
+imageAlt: "Allahabad High Court typing test rules and speed guide"
 ---
 
-The Allahabad High Court (AHC) conducts a mandatory **Computer Typing Test** for various recruitments including Review Officer (RO), Assistant Review Officer (ARO), and Clerical Cadre posts.
-
-Unlike normal clerk exams, the AHC typing test features complex legal texts, strict evaluations, and layout challenges.
-
----
-
-## 1. Speed and Qualifying Marks
-
-The requirements are post-dependent but generally follow these guidelines:
-
-*   **English Typing Speed**: **30 Words Per Minute (WPM)** (minimum requirement).
-*   **Hindi Typing Speed**: **25 Words Per Minute (WPM)** (where applicable).
-*   **Test Duration**: **10 minutes**.
-*   **Qualifying Marks**: The typing test is often worth **50 marks**, with a minimum qualifying threshold (typically **25 marks** or 17 marks depending on the post). Failing to meet the minimum marks results in disqualification.
+Welcome to the ultimate guide for the **Allahabad High Court** typing examination. If you are preparing for this competitive test, understanding the exact typing speed requirements and error calculation is crucial. Here are the official rules and links to practice.
 
 ---
 
-## 2. Text Type: Legal Passages
+## 1. Official Speed Criteria
 
-*   **Legal Jargon**: Unlike general typing tests with common prose, AHC passages contain legal judgments, drafts, and legal terminology (e.g., *appellant, prosecution, litigation, petitioner, decree*).
-*   **Special Characters**: Passages contain numbers, section symbols (like §), brackets, and abbreviations (like vs., u/s, etc.).
-
----
-
-## 3. Keyboard Layout and Font Rules
-
-*   **English**: Standard QWERTY layout.
-*   **Hindi Font**: **Unicode Mangal Font** is standard.
-*   **Hindi Layout**: Generally supports **Inscript** or **Remington Gail** layout. Refer to your specific post's notification to confirm.
+The typing test is highly competitive. The benchmark is set at **30 WPM** for English typists and **25 WPM** for Hindi typists. You will be given **10 mins** to type the passage accurately.
 
 ---
 
-## 4. Backspace and strict navigation
+## 2. Font Specifications (Mangal/Remington)
 
-*   **Strict Evaluation**: While backspace is enabled in some versions, the software utilizes a strict character-matching layout where typos and excessive deletions consume valuable seconds.
-*   **No Auto-Scroll**: Be prepared to manually scroll down the passage using the mouse or scroll bar if the text is longer than the display box.
+For English typing, the standard QWERTY keyboard is used. However, for Hindi typing, candidates must use the **Mangal Font**. You will generally have the option to select either the Remington Gail or Inscript layout.
 
 ---
 
-## 5. Tips to Clear AHC Typing Test
+## 3. Rules on Accuracy and Mistakes
 
-1.  **Practice on Legal Paragraphs**: Do not practice only on stories or general news. Practice typing real court orders and judgments. You can **[practice with legal typing passages](https://typingnexus.in)** for free.
-2.  **Aim for 35+ WPM at Home**: To ensure you comfortably clear the 30 WPM threshold on complex legal text, practice general texts at 35–40 WPM.
-3. **Perfect Special Characters**: Learn to type symbols, numbers, and uppercase characters smoothly without looking down at the keyboard.
-4. Also check the **[Supreme Court JCA](/blog/supreme-court-jca-typing-test-rules)** and **[Patna High Court typing test rules](/blog/patna-high-court-typing-test-rules)** for other court typing exam guidelines.
+Can you use backspace? Yes, backspace is generally permitted during the test. But beware: every spelling mistake, omission, or punctuation error is counted as a mistake and deducts from your net WPM.
+
+---
+
+## 4. Official Practice Links
+
+Start practicing on an interface that perfectly simulates the real exam environment. Click the links below to test your speed:
+
+* **[Practice Exams on Typing Nexus](https://typingnexus.in/practice-exams)**
+
+Aim high and practice daily!

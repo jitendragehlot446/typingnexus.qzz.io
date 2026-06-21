@@ -1,52 +1,40 @@
 ---
-title: "Bombay High Court Typing Test: Guidelines & Practice"
+title: "Bombay High Court Clerk Typing Test: Exact Rules and Speed"
 examName: "Bombay High Court"
-description: "A comprehensive guide on the Bombay High Court typing test speed requirements, error calculation, and official practice test links."
+description: "Everything about the Bombay High Court Clerk typing test. Understand the unique 40 WPM English requirement and marking scheme."
 pubDate: "2026-06-21"
 heroImage: "../../assets/covers/bombay-high-court-typing-test-rules.jpg"
-imageAlt: "Bombay High Court typing test mock exams and speed rules"
+imageAlt: "Bombay High Court Clerk typing test exact rules"
 ---
 
-Welcome to the comprehensive guide for the **Bombay High Court** typing examination. 
+The **Bombay High Court** conducts a typing test for its **Clerk** recruitment. 
 
-If you are preparing for this competitive exam, passing the computer-based typing speed test is a mandatory and critical stage of the selection process. This guide provides access to our official exam-simulated practice links to help you achieve your required Words Per Minute (WPM) or Keystrokes Per Hour (KDPH).
+Here are the detailed official rules, speed requirements, and marking schemes for the Bombay High Court typing test.
 
 ---
 
-## 1. Official Practice Test Links
+## 1. Speed Requirement and Marks
 
-To crack the exam, you need to practice in an environment that exactly mirrors the real testing interface. We have designed professional mock exams specifically for this test:
+*   **Language**: The test is conducted in **English**.
+*   **Speed Requirement**: A minimum speed of **40 Words Per Minute (WPM)**.
+*   **Test Duration**: **10 minutes**.
+*   **Total Marks**: The typing test typically carries **20 Marks**.
+
+---
+
+## 2. Marking Scheme and Penalty
+
+*   High accuracy is expected for High Court documentation. Errors will result in proportional mark deductions.
+
+---
+
+## 3. Interface and Backspace Rules
+
+*   **Backspace is Fully Allowed**: You can use the backspace key to correct errors.
+*   **Exact Replica**: The text passage is displayed on the screen. You have to type it exactly as shown.
+
+---
+
+## 4. Official Practice Links
 
 * **[Practice Bombay High Court English Typing 510](https://typingnexus.in/practice-exams/bombay-high-court-english-typing-510)**
-
-> [!TIP]
-> Click on the links above to launch the exam simulator. Our platform uses the same word highlighting, scroll logic, and backspace rules as the official testing agency.
-
----
-
-## 2. General Speed & Accuracy Guidelines
-
-While specific rules may vary slightly depending on the exact post or year, most government clerical typing tests adhere to the following standards:
-
-*   **English Typing Requirement**: Usually around **30 to 35 Words Per Minute (WPM)**.
-*   **Hindi Typing Requirement**: Usually around **25 to 30 Words Per Minute (WPM)**.
-*   **Word Formula**: Standard calculation is generally **1 Word = 5 Keystrokes** (including spaces).
-*   **Accuracy Benchmark**: Candidates should aim to maintain an accuracy of **95% or higher** to ensure they do not fail due to excessive negative marking.
-
----
-
-## 3. Keyboard Layout and Font Setup
-
-If you are taking the test in Hindi, it is crucial to practice on the correct keyboard layout authorized by the testing agency.
-*   **Default English Setup**: Standard QWERTY keyboard.
-*   **Hindi Setup**: Most modern exams use the **Mangal Font**. You may be given the option to choose between the **Inscript** or **Remington Gail** keyboard layouts on the screen before the exam begins. Check your official notification to confirm the exact layout required.
-
----
-
-## 4. Tips to Succeed in the Test
-
-1.  **Do Not Look at the Keyboard**: Touch typing is the only reliable way to achieve high speeds. Keep your eyes fixed on the source text on the screen.
-2.  **Avoid Excessive Backspace**: Even if backspace is permitted, every time you use it, you lose precious fractions of a second. Practice typing accurately the first time.
-3.  **Simulate Exam Pressure**: Practice with a strict countdown timer (10 or 15 minutes) every day to overcome test anxiety.
-
-Begin your preparation today by using the practice links provided above. Best of luck!
