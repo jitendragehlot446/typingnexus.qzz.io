@@ -15,7 +15,7 @@ In this article, we explain the detailed evaluation guidelines, speed requiremen
 
 ## 1. Speed & Key Depressions Requirement
 
-* **English Medium**: 
+* **English Medium**:
   * Required speed: **35 words per minute (WPM)**.
   * Corresponding key depressions: **10500 Key Depressions Per Hour (KDPH)**.
   * Test duration: **10 minutes**.

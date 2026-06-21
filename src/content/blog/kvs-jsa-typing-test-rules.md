@@ -46,11 +46,11 @@ KVS exams typically use legacy font structures for Hindi typing tests:
 The test is qualifying, meaning you must achieve the minimum speed to pass, but your score is not added to the final merit list:
 
 *   **Net WPM Calculation**:
-    
+
     ```text
     Net Speed = [Total Keystrokes / 5 - Mistakes] / 10 Minutes
     ```
-    
+
 *   **Qualifying Threshold**: Minimum net speed of 35 WPM (English) or 30 WPM (Hindi).
 
 ---

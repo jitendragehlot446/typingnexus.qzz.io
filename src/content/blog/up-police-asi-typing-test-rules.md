@@ -33,7 +33,7 @@ Unlike other Hindi typing tests which allow options, UP Police ASI is highly spe
 
 *   **Hindi Font**: **Unicode Mangal Font** is mandatory.
 *   **Hindi Keyboard Layout**: You must use the **Inscript keyboard layout**.
-*   **Not Permitted**: Remington Gail (Indic Input 3), Devlys, or Krutidev layouts are **NOT** permitted in this test. 
+*   **Not Permitted**: Remington Gail (Indic Input 3), Devlys, or Krutidev layouts are **NOT** permitted in this test.
 *   **English Layout**: Standard QWERTY layout.
 
 > [!IMPORTANT]

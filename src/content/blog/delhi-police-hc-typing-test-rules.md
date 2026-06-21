@@ -7,7 +7,7 @@ heroImage: "../../assets/covers/delhi-police-hc-typing-test-rules.jpg"
 imageAlt: "Delhi Police Head Constable typing test rules guide with paper-to-screen format"
 ---
 
-The Delhi Police Head Constable (Ministerial) recruitment process features a highly competitive **Typing Test**. Unlike most qualifying-only typing tests, this exam is worth **25 marks**, and the marks you score are added directly to your final merit list. 
+The Delhi Police Head Constable (Ministerial) recruitment process features a highly competitive **Typing Test**. Unlike most qualifying-only typing tests, this exam is worth **25 marks**, and the marks you score are added directly to your final merit list.
 
 Furthermore, the test is conducted in **paper-to-screen** format, making it quite different from standard online typing assessments.
 

@@ -24,7 +24,7 @@ The typing test conducted by RRB is widely known to be one of the most challengi
 
 ## 2. The Golden Rule: Backspace is Disabled
 
-Unlike SSC exams where you can use the backspace key to correct mistakes, **the backspace key is completely disabled** in the RRB NTPC typing test. 
+Unlike SSC exams where you can use the backspace key to correct mistakes, **the backspace key is completely disabled** in the RRB NTPC typing test.
 
 * Once you press a character or space bar, you **cannot edit it**.
 * If you make a mistake, you must ignore it, keep typing the next words, and maintain your speed.

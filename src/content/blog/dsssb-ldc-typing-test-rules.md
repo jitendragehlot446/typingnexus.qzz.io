@@ -27,7 +27,7 @@ Candidates must choose their typing language (English or Hindi) at the time of f
 ## 2. Keyboard Layout and Font Choices
 
 *   **English**: Standard QWERTY keyboard layout.
-*   **Hindi Font & Layout**: 
+*   **Hindi Font & Layout**:
     *   Candidates can type in **Kruti Dev** (standard Remington layout) or **Mangal Font** (usually Inscript layout).
     *   The choice of font must be selected as per the admit card guidelines or during the test login.
 

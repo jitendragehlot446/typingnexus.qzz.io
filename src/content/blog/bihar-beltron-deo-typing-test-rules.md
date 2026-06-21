@@ -52,7 +52,7 @@ Beltron uses the standard 5-character evaluation formula:
 
 *   **Gross Words**: Total key depressions divided by 5.
 *   **Net Speed (WPM)**: Calculated by taking the Gross Words, subtracting penalties for errors, and dividing by 10 minutes:
-    
+
     ```text
     Net Speed = [Gross Words - (Mistakes x Penalty)] / 10 Minutes
     ```

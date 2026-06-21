@@ -45,7 +45,7 @@ Using the correct layout during practice is critical, as state court exams do no
 
 ## 4. Evaluation and Accuracy Standards
 
-Bihar Civil Court tests have strict accuracy gates. Often, a minimum accuracy of **90% for English** and **85% for Hindi** is required to qualify. 
+Bihar Civil Court tests have strict accuracy gates. Often, a minimum accuracy of **90% for English** and **85% for Hindi** is required to qualify.
 
 ### Common Mistake Penalties:
 *   **Full Mistakes**: Omission of words, substitution of words, or addition of words not in the passage.

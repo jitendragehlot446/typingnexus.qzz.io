@@ -58,7 +58,7 @@ A half mistake is counted for:
 
 ## 4. How Net Speed is Calculated
 
-Your qualification is determined by your **Net Speed (WPM)**, not your Gross Speed. 
+Your qualification is determined by your **Net Speed (WPM)**, not your Gross Speed.
 
 **Gross Speed Formula:**
 ```text

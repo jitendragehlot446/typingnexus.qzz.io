@@ -40,13 +40,13 @@ This test is qualifying in nature, but because it features a very strict error c
 
 ## 4. Error Margin and Evaluation Formula
 
-The Supreme Court JCA typing test allows a **maximum error margin of 3%**. 
+The Supreme Court JCA typing test allows a **maximum error margin of 3%**.
 
 ### The Penalty Mechanism:
 *   If your mistakes exceed the 3% threshold, the additional mistakes are heavily penalized.
 *   A mistake count exceeding the threshold can lead to direct disqualification, even if your gross speed is much higher than 35 WPM.
 *   **Calculation Formula**:
-    
+
     ```text
     Net Speed = [Gross Words - (Mistakes exceeding 3% limit x 10)] / 10 Minutes
     ```
