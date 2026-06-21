@@ -3,7 +3,7 @@ title: "JSSC Clerk Typing Test: Rules & Extreme Accuracy Guide"
 examName: "JSSC Clerk"
 description: "A complete guide to the JSSC Clerk typing test, covering the mandatory 25 WPM Hindi speed, the strict 98% accuracy rule, Mangal Remington Gail font layout, and backspace rules."
 pubDate: "2026-06-21"
-heroImage: "../../assets/blog-placeholder-2.jpg"
+heroImage: "../../assets/covers/jssc-clerk-typing-test-rules.jpg"
 imageAlt: "JSSC Clerk typing test rules guide with Remington Gail layout and 98% accuracy requirement"
 ---
 

@@ -3,7 +3,7 @@ title: "JKSSB Junior Assistant Typing Test: Speed & Marks Guide"
 examName: "JKSSB Junior Assistant"
 description: "A complete guide to the JKSSB Junior Assistant typing test, covering the WPM speed limits, 90% accuracy requirement, scoring weights, and backspace guidelines."
 pubDate: "2026-06-21"
-heroImage: "../../assets/blog-placeholder-1.jpg"
+heroImage: "../../assets/covers/jkssb-junior-assistant-typing-test-rules.jpg"
 imageAlt: "JKSSB Junior Assistant typing test speed requirements and scoring weights guide"
 ---
 

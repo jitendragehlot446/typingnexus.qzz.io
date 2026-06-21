@@ -3,7 +3,7 @@ title: "Rajasthan Informatics Assistant (IA) Typing Test Rules & Speed Guide"
 examName: "Rajasthan IA"
 description: "A complete guide to the Rajasthan Informatics Assistant (Suchna Sahayak) typing test speed requirements, Hindi Mangal keyboard layouts, and backspace guidelines."
 pubDate: "2026-06-21"
-heroImage: "../../assets/blog-placeholder-2.jpg"
+heroImage: "../../assets/covers/rajasthan-ia-informatics-assistant-typing-test-rules.jpg"
 imageAlt: "Rajasthan Informatics Assistant typing test rules with speed and layout details"
 ---
 

@@ -3,7 +3,7 @@ title: "DRDO CEPTAM Typing Test: Speed, Layout, and Rules Guide"
 examName: "DRDO CEPTAM"
 description: "A complete guide to the DRDO CEPTAM typing test, covering the WPM speed limits, Hindi Mangal keyboard layouts, backspace rules, and evaluation details."
 pubDate: "2026-06-21"
-heroImage: "../../assets/blog-placeholder-4.jpg"
+heroImage: "../../assets/covers/drdo-ceptam-typing-test-rules.jpg"
 imageAlt: "DRDO CEPTAM typing test rules with speed and backspace guidelines"
 ---
 

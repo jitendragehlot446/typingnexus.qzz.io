@@ -3,7 +3,7 @@ title: "MP CPCT Typing Test: Rules, Speed, and Layout Guide"
 examName: "MP CPCT"
 description: "Everything you need to know about the MP CPCT typing test speed requirements, Hindi Mangal Remington Gail layouts, backspace rules, and scorecard details."
 pubDate: "2026-06-21"
-heroImage: "../../assets/blog-placeholder-3.jpg"
+heroImage: "../../assets/covers/mp-cpct-typing-test-rules.jpg"
 imageAlt: "MP CPCT typing test rules with Remington Gail layout and speed criteria"
 ---
 

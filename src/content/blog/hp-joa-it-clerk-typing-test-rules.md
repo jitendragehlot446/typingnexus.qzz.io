@@ -3,7 +3,7 @@ title: "HP JOA IT & Clerk Typing Test: Rules & Speed Guide"
 examName: "HP JOA IT & Clerk"
 description: "A complete guide to the Himachal Pradesh JOA IT and Clerk typing test speed requirements, Hindi Mangal Remington Gail layouts, and backspace guidelines."
 pubDate: "2026-06-21"
-heroImage: "../../assets/blog-placeholder-5.jpg"
+heroImage: "../../assets/covers/hp-joa-it-clerk-typing-test-rules.jpg"
 imageAlt: "HP JOA IT and Clerk typing test rules with speed and accuracy guidelines"
 ---
 

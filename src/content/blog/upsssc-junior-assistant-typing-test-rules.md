@@ -3,7 +3,7 @@ title: "UPSSSC Junior Assistant Typing Test: Rules & Speed Guide"
 examName: "UPSSSC Junior Assistant"
 description: "A complete guide to the UPSSSC Junior Assistant typing test, covering the WPM speed requirements, Hindi Mangal Remington Gail & Inscript layouts, and backspace rules."
 pubDate: "2026-06-21"
-heroImage: "../../assets/blog-placeholder-1.jpg"
+heroImage: "../../assets/covers/upsssc-junior-assistant-typing-test-rules.png"
 imageAlt: "UPSSSC Junior Assistant typing test speed requirements and Hindi layout guidelines"
 ---
 
