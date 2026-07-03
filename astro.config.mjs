@@ -7,7 +7,7 @@ import fs from 'node:fs';
 
 // https://astro.build/config
 export default defineConfig({
-	site: 'https://typingnexus.qzz.io',
+	site: 'https://blog.typingnexus.in',
 	integrations: [
 		mdx(),
 		sitemap(),

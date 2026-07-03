@@ -44,7 +44,14 @@ const ogImageHeight = image.height || 630;
 // Generate BreadcrumbList from URL
 const pathParts = Astro.url.pathname.split('/').filter(Boolean);
 const breadcrumbItems = [
-	{ "@type": "ListItem", position: 1, name: 'Home', item: `${canonicalURL.origin}/` }
+	{ 
+		"@type": "ListItem", 
+		position: 1, 
+		name: 'Home', 
+		item: {
+			"@id": `${canonicalURL.origin}/`
+		}
+	}
 ];
 let accumulatedPath = '';
 for (let i = 0; i < pathParts.length; i++) {
@@ -55,7 +62,9 @@ for (let i = 0; i < pathParts.length; i++) {
 		"@type": "ListItem",
 		position: i + 2,
 		name: label,
-		item: `${canonicalURL.origin}${accumulatedPath}/`
+		item: {
+			"@id": `${canonicalURL.origin}${accumulatedPath}/`
+		}
 	});
 }
 const breadcrumbSchema = breadcrumbItems.length > 1 ? {

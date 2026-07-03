@@ -7,7 +7,7 @@ export async function GET(context: any) {
 		(a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf()
 	);
 	
-	const baseUrl = context.site ? context.site.origin : 'https://typingnexus.qzz.io';
+	const baseUrl = context.site ? context.site.origin : 'https://blog.typingnexus.in';
 	
 	let content = `# ${SITE_TITLE}\n\n`;
 	content += `> ${SITE_DESCRIPTION}\n\n`;
