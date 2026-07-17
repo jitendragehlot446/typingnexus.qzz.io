@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://blog.typingnexus.in/sitemap.xml
+Sitemap: https://blog.typingnexus.in/sitemap-index.xml
