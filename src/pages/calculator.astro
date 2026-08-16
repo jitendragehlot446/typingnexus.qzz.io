@@ -6,11 +6,11 @@ import Footer from '../components/Footer.astro';
 const toolSchema = {
 	"@context": "https://schema.org",
 	"@type": "WebApplication",
-	"name": "Typing Speed & KDPH Calculator for Government Exams",
+	"name": "Exam-Wise Typing Speed & KDPH Calculator",
 	"url": "https://blog.typingnexus.in/calculator/",
 	"applicationCategory": "EducationalApplication",
 	"operatingSystem": "All",
-	"description": "Free online typing speed calculator to compute Gross WPM, Net WPM, Accuracy Percentage, KDPH, and pass/fail qualification status for SSC CGL, SSC CHSL, RRB NTPC, and High Court exams.",
+	"description": "Free online exam-specific typing speed calculator for SSC CGL, SSC CHSL, RRB NTPC, High Courts, AIIMS, and CRPF HCM. Computes Gross WPM, Net WPM, Accuracy %, KDPH, and category-wise Pass/Fail eligibility.",
 	"offers": {
 		"@type": "Offer",
 		"price": "0",
@@ -23,8 +23,8 @@ const toolSchema = {
 <html lang="en">
 	<head>
 		<BaseHead 
-			title="Typing Speed & KDPH Calculator: Gross vs Net WPM (Govt Exams) | Typing Nexus" 
-			description="Free interactive typing speed calculator to calculate Gross WPM, Net WPM, Accuracy %, KDPH, and error penalty for SSC CGL, SSC CHSL, RRB NTPC, High Court, and Police exams." 
+			title="Exam-Wise Typing Speed Calculator: SSC, Railways, High Court, AIIMS & Police" 
+			description="Official exam-specific typing speed calculator. Compute Gross WPM, Net WPM, Accuracy %, KDPH, and Category-Wise Pass/Fail verdict for SSC CGL, CHSL, RRB NTPC, High Court, and CRPF HCM." 
 		/>
 		<script type="application/ld+json" set:html={JSON.stringify(toolSchema)} />
 		<style>
@@ -35,22 +35,53 @@ const toolSchema = {
 			}
 			.calc-hero {
 				text-align: center;
-				margin-bottom: var(--spacing-xl);
+				margin-bottom: var(--spacing-lg);
 				border-bottom: 1px solid var(--colors-hairline);
-				padding-bottom: var(--spacing-xl);
+				padding-bottom: var(--spacing-lg);
 			}
 			.calc-hero .eyebrow {
 				display: block;
-				margin-bottom: var(--spacing-sm);
+				margin-bottom: var(--spacing-xs);
 				opacity: 0.8;
 			}
+			
+			/* Exam Tabs */
+			.exam-tabs-wrapper {
+				margin-bottom: var(--spacing-xl);
+				display: flex;
+				justify-content: center;
+				flex-wrap: wrap;
+				gap: var(--spacing-xs);
+			}
+			.exam-tab-btn {
+				background-color: var(--colors-surface-soft);
+				color: var(--colors-primary);
+				border: 1px solid var(--colors-hairline);
+				padding: 10px 18px;
+				font-size: 14px;
+				font-weight: 540;
+				font-family: var(--font-sans);
+				border-radius: var(--rounded-pill);
+				cursor: pointer;
+				transition: all 0.2s ease;
+			}
+			.exam-tab-btn:hover {
+				background-color: var(--colors-hairline);
+			}
+			.exam-tab-btn.active {
+				background-color: var(--colors-primary);
+				color: var(--colors-on-primary);
+				border-color: var(--colors-primary);
+				box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+			}
+
 			.calc-container {
 				display: grid;
-				grid-template-columns: 1fr 1fr;
+				grid-template-columns: 1.1fr 1fr;
 				gap: var(--spacing-xl);
 				margin-bottom: var(--spacing-section);
 			}
-			@media (max-width: 900px) {
+			@media (max-width: 960px) {
 				.calc-container {
 					grid-template-columns: 1fr;
 				}
@@ -62,26 +93,51 @@ const toolSchema = {
 				padding: var(--spacing-xl);
 				box-shadow: 0 4px 20px rgba(0, 0, 0, 0.04);
 			}
-			.calc-form-group {
+			.active-exam-banner {
+				background-color: var(--colors-surface-soft);
+				border: 1px solid var(--colors-hairline);
+				border-radius: var(--rounded-md);
+				padding: var(--spacing-md);
 				margin-bottom: var(--spacing-lg);
+				display: flex;
+				align-items: center;
+				justify-content: space-between;
+			}
+			.active-exam-title {
+				font-size: 16px;
+				font-weight: 700;
+				color: var(--colors-primary);
+			}
+			.active-exam-rule-tag {
+				font-family: var(--font-mono);
+				font-size: 12px;
+				background-color: var(--colors-primary);
+				color: var(--colors-on-primary);
+				padding: 3px 8px;
+				border-radius: var(--rounded-xs);
+				text-transform: uppercase;
+			}
+
+			.calc-form-group {
+				margin-bottom: var(--spacing-md);
 			}
 			.calc-form-group label {
 				display: block;
-				font-size: 15px;
+				font-size: 14px;
 				font-weight: 600;
-				margin-bottom: var(--spacing-xs);
+				margin-bottom: 4px;
 				color: var(--colors-primary);
 			}
 			.calc-form-group .hint {
-				font-size: 13px;
+				font-size: 12px;
 				opacity: 0.7;
-				margin-bottom: var(--spacing-xs);
+				margin-bottom: 6px;
 				display: block;
 			}
-			.calc-input {
+			.calc-input, .calc-select {
 				width: 100%;
-				padding: 12px 16px;
-				font-size: 18px;
+				padding: 10px 14px;
+				font-size: 16px;
 				font-family: var(--font-mono);
 				border: 1px solid var(--colors-hairline);
 				border-radius: var(--rounded-sm);
@@ -89,12 +145,24 @@ const toolSchema = {
 				color: var(--colors-primary);
 				transition: border-color 0.2s ease, box-shadow 0.2s ease;
 			}
-			.calc-input:focus {
+			.calc-input:focus, .calc-select:focus {
 				outline: none;
 				border-color: var(--colors-primary);
 				background-color: var(--colors-canvas);
 				box-shadow: 0 0 0 3px rgba(0, 0, 0, 0.05);
 			}
+			.input-row {
+				display: grid;
+				grid-template-columns: 1fr 1fr;
+				gap: var(--spacing-md);
+			}
+			@media (max-width: 600px) {
+				.input-row {
+					grid-template-columns: 1fr;
+				}
+			}
+
+			/* Results Styling */
 			.results-grid {
 				display: grid;
 				grid-template-columns: 1fr 1fr;
@@ -109,15 +177,15 @@ const toolSchema = {
 				text-align: center;
 			}
 			.result-stat-label {
-				font-size: 13px;
+				font-size: 12px;
 				font-family: var(--font-mono);
 				text-transform: uppercase;
 				opacity: 0.7;
-				margin-bottom: var(--spacing-xxs);
+				margin-bottom: 4px;
 				letter-spacing: 0.05em;
 			}
 			.result-stat-val {
-				font-size: 32px;
+				font-size: 30px;
 				font-weight: 700;
 				font-family: var(--font-sans);
 				color: var(--colors-primary);
@@ -126,32 +194,66 @@ const toolSchema = {
 			.result-stat-val.highlight {
 				color: var(--colors-semantic-success);
 			}
+
+			/* Verdict Banner */
+			.verdict-banner {
+				border-radius: var(--rounded-md);
+				padding: var(--spacing-md) var(--spacing-lg);
+				margin-bottom: var(--spacing-lg);
+				display: flex;
+				align-items: center;
+				gap: var(--spacing-md);
+				border: 1px solid transparent;
+			}
+			.verdict-banner.pass {
+				background-color: #ecfdf5;
+				border-color: #a7f3d0;
+				color: #065f46;
+			}
+			.verdict-banner.fail {
+				background-color: #fef2f2;
+				border-color: #fecaca;
+				color: #991b1b;
+			}
+			.verdict-icon {
+				font-size: 28px;
+			}
+			.verdict-title {
+				font-size: 18px;
+				font-weight: 700;
+				margin-bottom: 2px;
+			}
+			.verdict-desc {
+				font-size: 13px;
+				opacity: 0.9;
+			}
+
 			.exam-qualify-card {
-				background: var(--colors-block-cream);
+				background: var(--colors-canvas);
 				border: 1px solid var(--colors-hairline);
 				border-radius: var(--rounded-md);
-				padding: var(--spacing-lg);
-				margin-top: var(--spacing-lg);
+				padding: var(--spacing-md);
+				margin-top: var(--spacing-md);
 			}
 			.exam-qualify-card h3 {
-				font-size: 18px;
-				margin-bottom: var(--spacing-md);
+				font-size: 16px;
+				margin-bottom: var(--spacing-sm);
 			}
 			.exam-status-item {
 				display: flex;
 				justify-content: space-between;
 				align-items: center;
 				padding: 8px 0;
-				border-bottom: 1px solid rgba(0, 0, 0, 0.08);
-				font-size: 14px;
+				border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+				font-size: 13px;
 			}
 			.exam-status-item:last-child {
 				border-bottom: none;
 			}
 			.status-pill {
-				padding: 4px 12px;
+				padding: 3px 10px;
 				border-radius: var(--rounded-pill);
-				font-size: 12px;
+				font-size: 11px;
 				font-weight: 600;
 				font-family: var(--font-mono);
 				text-transform: uppercase;
@@ -169,59 +271,104 @@ const toolSchema = {
 				border-top: 1px solid var(--colors-hairline);
 				padding-top: var(--spacing-xl);
 			}
-			.info-section h2 {
-				margin-bottom: var(--spacing-md);
-			}
-			.info-section p {
-				margin-bottom: var(--spacing-md);
-				line-height: 1.6;
-			}
 		</style>
 	</head>
 	<body>
 		<Header />
 		<main>
 			<section class="calc-hero">
-				<span class="eyebrow">Official Formula Engine</span>
-				<h1 class="display-lg">Typing Speed & KDPH Calculator</h1>
-				<p class="body-lg" style="max-width: 700px; margin: var(--spacing-sm) auto 0;">
-					Calculate your Gross WPM, Net WPM, Accuracy %, and Key Depressions Per Hour (KDPH) according to official SSC, Railway, and High Court examination evaluation norms.
+				<span class="eyebrow">Official Government Evaluation Algorithms</span>
+				<h1 class="display-lg">Exam-Specific Typing Speed Calculator</h1>
+				<p class="body-lg" style="max-width: 750px; margin: var(--spacing-xs) auto 0;">
+					Select your target government exam below to apply its exact evaluation formulas, permissible error cutoffs, and category relaxations.
 				</p>
+			</section>
+
+			<!-- Exam Selection Tab Bar -->
+			<section class="exam-tabs-wrapper">
+				<button class="exam-tab-btn active" data-exam="ssc">SSC CGL & CHSL (DEST)</button>
+				<button class="exam-tab-btn" data-exam="rrb">Railway RRB NTPC</button>
+				<button class="exam-tab-btn" data-exam="highcourt">High Court LDC / Typist</button>
+				<button class="exam-tab-btn" data-exam="aiims">AIIMS CRE / Central Univ</button>
+				<button class="exam-tab-btn" data-exam="crpf">CRPF & Paramilitary HCM</button>
+				<button class="exam-tab-btn" data-exam="general">General / Custom Calculator</button>
 			</section>
 
 			<section class="calc-container">
 				<!-- Input Panel -->
 				<div class="calc-card">
-					<h2 class="headline" style="margin-bottom: var(--spacing-lg);">Enter Test Statistics</h2>
-					
-					<div class="calc-form-group">
-						<label for="char-count">Total Characters / Key Depressions Typed</label>
-						<span class="hint">Includes letters, spaces, and punctuation (e.g. 1750 for 35 WPM in 10 mins)</span>
-						<input type="number" id="char-count" class="calc-input" value="1850" min="0" />
+					<div class="active-exam-banner">
+						<div>
+							<div class="active-exam-title" id="active-exam-heading">SSC CGL & CHSL Typing Test</div>
+							<div style="font-size: 12px; opacity: 0.8;" id="active-exam-subtext">5-Keystroke Rule • Category-wise Error Relaxation</div>
+						</div>
+						<span class="active-exam-rule-tag" id="active-exam-tag">SSC Rules</span>
 					</div>
 
-					<div class="calc-form-group">
-						<label for="duration">Test Duration (Minutes)</label>
-						<span class="hint">Standard government exam duration is 10 or 15 minutes</span>
-						<input type="number" id="duration" class="calc-input" value="10" min="1" max="60" />
+					<div class="input-row">
+						<div class="calc-form-group">
+							<label for="category-select">Candidate Category</label>
+							<select id="category-select" class="calc-select">
+								<option value="UR">UR / General</option>
+								<option value="OBC">OBC</option>
+								<option value="EWS">EWS</option>
+								<option value="SC">SC</option>
+								<option value="ST">ST</option>
+								<option value="PwD">PwD / Handicapped</option>
+							</select>
+						</div>
+						<div class="calc-form-group">
+							<label for="language-select">Typing Medium</label>
+							<select id="language-select" class="calc-select">
+								<option value="English">English (35 WPM / 10,500 KDPH)</option>
+								<option value="Hindi">Hindi (30 WPM / 9,000 KDPH)</option>
+							</select>
+						</div>
 					</div>
 
-					<div class="calc-form-group">
-						<label for="full-mistakes">Full Mistakes (Word Omissions / Additions / Substitutions)</label>
-						<span class="hint">Penalty: 1.0 Word per full mistake</span>
-						<input type="number" id="full-mistakes" class="calc-input" value="4" min="0" />
+					<div class="input-row">
+						<div class="calc-form-group">
+							<label for="char-count">Total Characters / Key Depressions</label>
+							<span class="hint" id="char-hint">Expected: 1750 (English) / 1500 (Hindi)</span>
+							<input type="number" id="char-count" class="calc-input" value="1800" min="0" />
+						</div>
+						<div class="calc-form-group">
+							<label for="duration">Test Duration (Minutes)</label>
+							<span class="hint" id="duration-hint">Standard duration: 10 or 15 Mins</span>
+							<input type="number" id="duration" class="calc-input" value="10" min="1" max="60" />
+						</div>
 					</div>
 
-					<div class="calc-form-group">
-						<label for="half-mistakes">Half Mistakes (Spelling / Capitalization / Spacing)</label>
-						<span class="hint">Penalty: 0.5 Word per half mistake</span>
-						<input type="number" id="half-mistakes" class="calc-input" value="6" min="0" />
+					<div class="input-row">
+						<div class="calc-form-group">
+							<label for="full-mistakes">Full Mistakes (Words Missed/Added)</label>
+							<span class="hint">Penalty: 1.0 Word per omission/addition</span>
+							<input type="number" id="full-mistakes" class="calc-input" value="3" min="0" />
+						</div>
+						<div class="calc-form-group">
+							<label for="half-mistakes">Half Mistakes (Spelling/Caps/Punctuation)</label>
+							<span class="hint">Penalty: 0.5 Word per minor error</span>
+							<input type="number" id="half-mistakes" class="calc-input" value="6" min="0" />
+						</div>
+					</div>
+
+					<div id="exam-specific-note" style="font-size: 13px; background: var(--colors-surface-soft); padding: 10px 14px; border-radius: var(--rounded-sm); border-left: 3px solid var(--colors-primary);">
+						💡 <strong>SSC Benchmark</strong>: Max permissible mistake limit is <strong>7% for UR</strong> and <strong>10% for OBC/SC/ST</strong> in CHSL LDC/JSA.
 					</div>
 				</div>
 
 				<!-- Output Panel -->
 				<div class="calc-card">
-					<h2 class="headline" style="margin-bottom: var(--spacing-lg);">Live Evaluation Results</h2>
+					<h2 class="headline" style="margin-bottom: var(--spacing-md);">Evaluation Breakdown</h2>
+
+					<!-- Verdict Banner -->
+					<div class="verdict-banner pass" id="verdict-banner">
+						<div class="verdict-icon" id="verdict-icon">🎉</div>
+						<div>
+							<div class="verdict-title" id="verdict-title">QUALIFIED</div>
+							<div class="verdict-desc" id="verdict-desc">Your Net Speed and Error % are within official limits.</div>
+						</div>
+					</div>
 
 					<div class="results-grid">
 						<div class="result-stat-box">
@@ -230,28 +377,28 @@ const toolSchema = {
 						</div>
 						<div class="result-stat-box">
 							<div class="result-stat-label">Gross Speed</div>
-							<div class="result-stat-val" id="gross-wpm">37.0 WPM</div>
+							<div class="result-stat-val" id="gross-wpm">36.0 WPM</div>
 						</div>
 						<div class="result-stat-box">
-							<div class="result-stat-label">Net Accuracy</div>
-							<div class="result-stat-val" id="accuracy">95.4%</div>
+							<div class="result-stat-label">Error Rate</div>
+							<div class="result-stat-val" id="error-percentage">1.67%</div>
 						</div>
 						<div class="result-stat-box">
 							<div class="result-stat-label">Calculated KDPH</div>
-							<div class="result-stat-val" id="kdph">11,100</div>
+							<div class="result-stat-val" id="kdph">10,800</div>
 						</div>
 					</div>
 
 					<div class="exam-qualify-card">
-						<h3>Exam Qualification Status</h3>
+						<h3>All Exam Eligibility Check</h3>
 						<div id="exam-status-list">
-							<!-- Dynamic status will be rendered here -->
+							<!-- Populated via JavaScript -->
 						</div>
 					</div>
 
 					<div style="margin-top: var(--spacing-lg); text-align: center;">
 						<a href="https://typingnexus.in" target="_blank" class="button-primary" style="display: inline-block; width: 100%;">
-							Practice Live Mock Tests on Typing Nexus →
+							Practice This Exam on Typing Nexus Free →
 						</a>
 					</div>
 				</div>
@@ -259,82 +406,294 @@ const toolSchema = {
 
 			<!-- Mathematical Explanation -->
 			<section class="info-section">
-				<h2>How Government Exam Speeds are Calculated</h2>
-				<p>
-					In all central and state government typing tests (SSC, RRB, Courts, and Police), speed is measured using the <strong>5-Keystroke Standard</strong>, where 5 key depressions (including spaces and punctuation) represent 1 standard word.
-				</p>
+				<h2>How Each Exam Calculates Typing Speed</h2>
 				<div class="prose">
-					<blockquote>
-						<strong>Gross WPM</strong> = <code>(Total Characters Typed / 5) / Time (Minutes)</code><br />
-						<strong>Total Error Words</strong> = <code>Full Mistakes + (Half Mistakes × 0.5)</code><br />
-						<strong>Net WPM</strong> = <code>Gross WPM - (Total Error Words / Time)</code><br />
-						<strong>KDPH (Key Depressions Per Hour)</strong> = <code>(Total Characters / Time) × 60</code>
-					</blockquote>
+					<table>
+						<thead>
+							<tr>
+								<th>Exam Body</th>
+								<th>Speed Benchmark</th>
+								<th>Allowed Mistakes</th>
+								<th>Evaluation Formula</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td><strong>SSC (CGL & CHSL)</strong></td>
+								<td>35 WPM (Eng) / 30 WPM (Hindi)</td>
+								<td>7% (UR) / 10% (Reserved)</td>
+								<td>5 Keystrokes = 1 Word • Net WPM = Gross WPM - (Errors / Time)</td>
+							</tr>
+							<tr>
+								<td><strong>Railway RRB NTPC</strong></td>
+								<td>35 WPM (Eng) / 30 WPM (Hindi)</td>
+								<td>Up to 5% Free Mistakes</td>
+								<td>Excess errors penalized heavily from gross score</td>
+							</tr>
+							<tr>
+								<td><strong>High Courts (LDC/Typist)</strong></td>
+								<td>40 WPM (Eng) / 35 WPM (Hindi)</td>
+								<td>3% to 5% Maximum</td>
+								<td>0.50 Mark deducted per mistake from 50/40 marks total</td>
+							</tr>
+							<tr>
+								<td><strong>AIIMS CRE / Central Univ</strong></td>
+								<td>10,500 KDPH / 9,000 KDPH</td>
+								<td>Up to 5% to 7% Mistakes</td>
+								<td>KDPH = (Characters / Time in Minutes) × 60</td>
+							</tr>
+							<tr>
+								<td><strong>CRPF & Paramilitary HCM</strong></td>
+								<td>35 WPM (Eng) / 30 WPM (Hindi)</td>
+								<td>5% Maximum Errors</td>
+								<td><strong>10 words deducted per mistake</strong> for errors &gt; 5%!</td>
+							</tr>
+						</tbody>
+					</table>
 				</div>
 			</section>
 		</main>
 		<Footer />
 
 		<script>
+			// Exam Configuration Presets
+			const examConfigs: Record<string, any> = {
+				ssc: {
+					heading: 'SSC CGL & CHSL (DEST) Calculator',
+					subtext: '5-Keystroke Standard • 1750 / 2000 Keystrokes • Category Relaxations',
+					tag: 'SSC Rules',
+					duration: 10,
+					chars: 1850,
+					note: '💡 <strong>SSC Rules</strong>: CHSL requires 35 WPM (Eng) / 30 WPM (Hindi). Maximum permissible errors: <strong>7% for UR</strong> and <strong>10% for OBC/SC/ST/EWS</strong>.',
+					evalFn: (gross: number, net: number, errPct: number, cat: string, lang: string) => {
+						const targetSpeed = lang === 'Hindi' ? 30 : 35;
+						const maxErr = cat === 'UR' ? 7 : 10;
+						const pass = net >= targetSpeed && errPct <= maxErr;
+						return {
+							pass,
+							title: pass ? 'QUALIFIED FOR SSC' : 'NOT QUALIFIED FOR SSC',
+							desc: pass 
+								? `Congratulations! Net Speed (${net.toFixed(1)} WPM) >= ${targetSpeed} WPM and Error (${errPct.toFixed(2)}%) <= ${maxErr}% for ${cat} category.` 
+								: `Required: ${targetSpeed} WPM with max ${maxErr}% error for ${cat}. Your Error is ${errPct.toFixed(2)}%.`
+						};
+					}
+				},
+				rrb: {
+					heading: 'Railway RRB NTPC Typing Calculator',
+					subtext: '35 WPM (English) / 30 WPM (Hindi) • 5% Mistake Quota',
+					tag: 'Railway Rules',
+					duration: 10,
+					chars: 1900,
+					note: '💡 <strong>Railway RRB NTPC</strong>: 5% mistakes are excused. For every mistake beyond 5%, 10 times the error is deducted from total words.',
+					evalFn: (gross: number, net: number, errPct: number, cat: string, lang: string) => {
+						const targetSpeed = lang === 'Hindi' ? 30 : 35;
+						const pass = net >= targetSpeed && errPct <= 5;
+						return {
+							pass,
+							title: pass ? 'QUALIFIED FOR RRB NTPC' : 'NOT QUALIFIED FOR RRB NTPC',
+							desc: pass
+								? `Pass! Your Net Speed (${net.toFixed(1)} WPM) qualifies for Railway NTPC standards.`
+								: `Required: ${targetSpeed} WPM with maximum 5% mistakes. Practice more on Typing Nexus!`
+						};
+					}
+				},
+				highcourt: {
+					heading: 'High Court LDC / Typist Calculator',
+					subtext: 'Rajasthan, Allahabad, MP, Patna & Delhi District Courts',
+					tag: 'Court Rules',
+					duration: 10,
+					chars: 2100,
+					note: '💡 <strong>High Court Norms</strong>: 40 WPM in English / 35 WPM in Hindi. Legal judgments with 0.50 mark deduction per mistake.',
+					evalFn: (gross: number, net: number, errPct: number, cat: string, lang: string) => {
+						const targetSpeed = lang === 'Hindi' ? 35 : 40;
+						const pass = net >= targetSpeed && errPct <= 4;
+						return {
+							pass,
+							title: pass ? 'QUALIFIED FOR HIGH COURT' : 'NOT QUALIFIED FOR HIGH COURT',
+							desc: pass
+								? `Qualified! Net speed of ${net.toFixed(1)} WPM exceeds High Court 40 WPM benchmark.`
+								: `High Courts require minimum 40 WPM with strict 3-4% accuracy limit.`
+						};
+					}
+				},
+				aiims: {
+					heading: 'AIIMS CRE & Central University Calculator',
+					subtext: '10,500 KDPH English / 9,000 KDPH Hindi Benchmark',
+					tag: 'AIIMS Rules',
+					duration: 10,
+					chars: 1800,
+					note: '💡 <strong>AIIMS CRE Norms</strong>: Requires 10,500 Key Depressions Per Hour (English) or 9,000 KDPH (Hindi) with 95%+ accuracy.',
+					evalFn: (gross: number, net: number, errPct: number, cat: string, lang: string, kdph: number) => {
+						const targetKdph = lang === 'Hindi' ? 9000 : 10500;
+						const pass = kdph >= targetKdph && errPct <= 7;
+						return {
+							pass,
+							title: pass ? 'QUALIFIED FOR AIIMS CRE' : 'NOT QUALIFIED FOR AIIMS CRE',
+							desc: pass
+								? `Pass! Your KDPH (${kdph.toLocaleString()}) meets the required ${targetKdph.toLocaleString()} KDPH threshold.`
+								: `Required: ${targetKdph.toLocaleString()} KDPH. Your calculated KDPH is ${kdph.toLocaleString()}.`
+						};
+					}
+				},
+				crpf: {
+					heading: 'CRPF & Paramilitary HCM Calculator',
+					subtext: '35 WPM English / 30 WPM Hindi • Strict 10-Word Penalty Rule',
+					tag: 'CRPF HCM Rules',
+					duration: 10,
+					chars: 1850,
+					note: '⚠️ <strong>CRPF HCM Penalty</strong>: Mistakes up to 5% are free. Above 5%, <strong>10 words are deducted per error</strong> from your word count!',
+					evalFn: (gross: number, net: number, errPct: number, cat: string, lang: string, kdph: number, totalWords: number, totalErrors: number) => {
+						const allowedFreeErrors = totalWords * 0.05;
+						const excessErrors = Math.max(0, totalErrors - allowedFreeErrors);
+						const crpfNetWords = Math.max(0, totalWords - (excessErrors * 10));
+						const crpfNetWpm = crpfNetWords / 10;
+						const targetSpeed = lang === 'Hindi' ? 30 : 35;
+						const pass = crpfNetWpm >= targetSpeed && errPct <= 5;
+
+						return {
+							pass,
+							title: pass ? 'QUALIFIED FOR CRPF HCM' : 'FAILED CRPF HCM SKILL TEST',
+							desc: pass
+								? `Pass! Net Speed after CRPF 10-word penalty is ${crpfNetWpm.toFixed(1)} WPM (>= ${targetSpeed} WPM).`
+								: `Failed: Due to ${excessErrors.toFixed(1)} excess errors, CRPF penalty deducted ${(excessErrors * 10).toFixed(0)} words. Net Speed dropped to ${crpfNetWpm.toFixed(1)} WPM.`
+						};
+					}
+				},
+				general: {
+					heading: 'General Typing Speed Calculator',
+					subtext: 'Custom Speed & Error Breakdown for Any Test',
+					tag: 'Custom',
+					duration: 10,
+					chars: 1800,
+					note: '💡 Enter any duration and keystrokes to compute standard WPM, Accuracy, and KDPH.',
+					evalFn: (gross: number, net: number, errPct: number) => {
+						const pass = net >= 30 && errPct <= 10;
+						return {
+							pass,
+							title: pass ? 'GOOD TYPING SPEED' : 'NEEDS PRACTICE',
+							desc: `Net Speed: ${net.toFixed(1)} WPM | Accuracy: ${(100 - errPct).toFixed(1)}%`
+						};
+					}
+				}
+			};
+
+			let currentExam = 'ssc';
+
+			const tabButtons = document.querySelectorAll('.exam-tab-btn');
 			const charInput = document.getElementById('char-count') as HTMLInputElement;
 			const durationInput = document.getElementById('duration') as HTMLInputElement;
 			const fullMistakesInput = document.getElementById('full-mistakes') as HTMLInputElement;
 			const halfMistakesInput = document.getElementById('half-mistakes') as HTMLInputElement;
+			const categorySelect = document.getElementById('category-select') as HTMLSelectElement;
+			const languageSelect = document.getElementById('language-select') as HTMLSelectElement;
+
+			const examHeadingEl = document.getElementById('active-exam-heading');
+			const examSubtextEl = document.getElementById('active-exam-subtext');
+			const examTagEl = document.getElementById('active-exam-tag');
+			const examNoteEl = document.getElementById('exam-specific-note');
+
+			const verdictBanner = document.getElementById('verdict-banner');
+			const verdictIcon = document.getElementById('verdict-icon');
+			const verdictTitle = document.getElementById('verdict-title');
+			const verdictDesc = document.getElementById('verdict-desc');
 
 			const netWpmEl = document.getElementById('net-wpm');
 			const grossWpmEl = document.getElementById('gross-wpm');
-			const accuracyEl = document.getElementById('accuracy');
+			const errorPctEl = document.getElementById('error-percentage');
 			const kdphEl = document.getElementById('kdph');
 			const examStatusList = document.getElementById('exam-status-list');
+
+			function updateExamTab(examKey: string) {
+				currentExam = examKey;
+				tabButtons.forEach(btn => {
+					if (btn.getAttribute('data-exam') === examKey) {
+						btn.classList.add('active');
+					} else {
+						btn.classList.remove('active');
+					}
+				});
+
+				const conf = examConfigs[examKey];
+				if (conf) {
+					if (examHeadingEl) examHeadingEl.textContent = conf.heading;
+					if (examSubtextEl) examSubtextEl.textContent = conf.subtext;
+					if (examTagEl) examTagEl.textContent = conf.tag;
+					if (examNoteEl) examNoteEl.innerHTML = conf.note;
+					if (durationInput) durationInput.value = conf.duration.toString();
+				}
+				calculate();
+			}
 
 			function calculate() {
 				const chars = Math.max(0, parseFloat(charInput?.value || '0'));
 				const duration = Math.max(1, parseFloat(durationInput?.value || '10'));
 				const full = Math.max(0, parseFloat(fullMistakesInput?.value || '0'));
 				const half = Math.max(0, parseFloat(halfMistakesInput?.value || '0'));
+				const cat = categorySelect?.value || 'UR';
+				const lang = languageSelect?.value || 'English';
 
-				// 5 keystrokes = 1 word
+				// Standard 5-keystroke rule
 				const totalWords = chars / 5;
 				const grossWpm = totalWords / duration;
+				const totalErrors = full + (half * 0.5);
 
-				const errorWords = full + (half * 0.5);
-				const netWpm = Math.max(0, grossWpm - (errorWords / duration));
-
-				const accuracy = totalWords > 0 ? Math.max(0, Math.min(100, ((totalWords - errorWords) / totalWords) * 100)) : 0;
+				const netWpm = Math.max(0, grossWpm - (totalErrors / duration));
+				const errPct = totalWords > 0 ? (totalErrors / totalWords) * 100 : 0;
 				const kdph = Math.round((chars / duration) * 60);
 
 				if (grossWpmEl) grossWpmEl.textContent = `${grossWpm.toFixed(1)} WPM`;
 				if (netWpmEl) netWpmEl.textContent = `${netWpm.toFixed(1)} WPM`;
-				if (accuracyEl) accuracyEl.textContent = `${accuracy.toFixed(1)}%`;
+				if (errorPctEl) errorPctEl.textContent = `${errPct.toFixed(2)}%`;
 				if (kdphEl) kdphEl.textContent = kdph.toLocaleString();
 
-				// Exam eligibility benchmarks
-				const benchmarks = [
-					{ name: 'SSC CHSL English (35 WPM / 10,500 KDPH)', pass: netWpm >= 35 && accuracy >= 90 },
-					{ name: 'SSC CHSL Hindi (30 WPM / 9,000 KDPH)', pass: netWpm >= 30 && accuracy >= 90 },
-					{ name: 'SSC CGL DEST (27 WPM / 8,000 KDPH)', pass: kdph >= 8000 && accuracy >= 93 },
-					{ name: 'RRB NTPC English (35 WPM)', pass: netWpm >= 35 && accuracy >= 95 },
-					{ name: 'High Court LDC / Typist (40 WPM)', pass: netWpm >= 40 && accuracy >= 95 },
-					{ name: 'CRPF HCM English (35 WPM / 5% Error)', pass: netWpm >= 35 && accuracy >= 95 }
+				// Exam Specific Verdict Evaluation
+				const conf = examConfigs[currentExam] || examConfigs.general;
+				const verdict = conf.evalFn(grossWpm, netWpm, errPct, cat, lang, kdph, totalWords, totalErrors);
+
+				if (verdictBanner) {
+					verdictBanner.className = `verdict-banner ${verdict.pass ? 'pass' : 'fail'}`;
+				}
+				if (verdictIcon) verdictIcon.textContent = verdict.pass ? '🎉' : '⚠️';
+				if (verdictTitle) verdictTitle.textContent = verdict.title;
+				if (verdictDesc) verdictDesc.textContent = verdict.desc;
+
+				// Global Multi-Exam Matrix Check
+				const allBenchmarks = [
+					{ name: 'SSC CHSL (35 WPM Eng / 7-10% Err)', pass: netWpm >= 35 && errPct <= (cat === 'UR' ? 7 : 10) },
+					{ name: 'SSC CGL DEST (8,000 KDPH)', pass: kdph >= 8000 && errPct <= (cat === 'UR' ? 7 : 10) },
+					{ name: 'RRB NTPC (35 WPM / 5% Err)', pass: netWpm >= 35 && errPct <= 5 },
+					{ name: 'High Court LDC (40 WPM / 3-4% Err)', pass: netWpm >= 40 && errPct <= 4 },
+					{ name: 'AIIMS CRE (10,500 KDPH)', pass: kdph >= 10500 && errPct <= 7 },
+					{ name: 'CRPF HCM (35 WPM / 5% Err Rule)', pass: netWpm >= 35 && errPct <= 5 }
 				];
 
 				if (examStatusList) {
-					examStatusList.innerHTML = benchmarks.map(b => `
+					examStatusList.innerHTML = allBenchmarks.map(b => `
 						<div class="exam-status-item">
 							<span>${b.name}</span>
 							<span class="status-pill ${b.pass ? 'status-pass' : 'status-fail'}">
-								${b.pass ? '✓ Qualified' : '✗ Need Practice'}
+								${b.pass ? '✓ Qualified' : '✗ Unqualified'}
 							</span>
 						</div>
 					`).join('');
 				}
 			}
 
-			[charInput, durationInput, fullMistakesInput, halfMistakesInput].forEach(input => {
-				input?.addEventListener('input', calculate);
+			// Tab click listeners
+			tabButtons.forEach(btn => {
+				btn.addEventListener('click', () => {
+					const examKey = btn.getAttribute('data-exam') || 'ssc';
+					updateExamTab(examKey);
+				});
 			});
 
-			// Initial calculation
+			// Input listeners
+			[charInput, durationInput, fullMistakesInput, halfMistakesInput, categorySelect, languageSelect].forEach(el => {
+				el?.addEventListener('input', calculate);
+				el?.addEventListener('change', calculate);
+			});
+
+			// Initial run
 			calculate();
 		</script>
 	</body>
