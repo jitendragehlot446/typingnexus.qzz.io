@@ -11,40 +11,88 @@ The **Indian Air Force (IAF)** regularly recruits civilian personnel for **Group
 
 The IAF Group C typing test is strictly qualifying, but failing it results in immediate disqualification regardless of your written exam score.
 
----
-
-## 1. Speed and Duration Rules
-
-The IAF conducts the typing test either on a computer or occasionally on manual typewriters (though computers are standard now). The official rules state:
-
-*   **English Typing**: Minimum speed of **35 Words Per Minute (WPM)** on the computer.
-*   **Hindi Typing**: Minimum speed of **30 Words Per Minute (WPM)** on the computer.
-*   **Test Duration**: Exactly **10 minutes**.
-*   **KDPH Equivalent**: 35 WPM corresponds to 10,500 KDPH, and 30 WPM corresponds to 9,000 KDPH, where 5 key depressions equal one word.
+Passing the Air Force Group C typing test is mandatory for final selection. Candidates must qualify with the prescribed speed and accuracy threshold under timed examination conditions.
 
 ---
 
-## 2. Font and Keyboard Layouts
+## Quick Overview: Key Specifications
 
-*   **English**: Standard QWERTY keyboard.
-*   **Hindi**: Hindi typists must type using the **Unicode Mangal Font**.
-*   **Hindi Layout**: Candidates are usually provided the **Remington Gail** or **Inscript** keyboard layout.
+| Parameter | Official Rule / Benchmark |
+| :--- | :--- |
+| **Exam Name** | **Air Force Group C** |
+| **English Typing Speed** | **35 Words Per Minute WPM** |
+| **Hindi Typing Speed** | **30 Words Per Minute WPM** |
+| **Test Duration** | **10 minutes** |
+| **Backspace Key Rule** | **Allowed (Use moderately to avoid slowing speed)** |
+| **Font & Keyboard Layout** | **Mangal Font (Remington Gail / Inscript) for Hindi; Standard QWERTY for English** |
+| **Minimum Accuracy** | **95% Net Accuracy** |
+| **Evaluation Nature** | Qualifying & Merit Screening |
 
 ---
 
-## 3. Test Interface and Backspace
+## 1. Speed Requirements and Test Duration
 
-*   **Offline/Online Format**: Depending on the Air Force Station conducting the exam, you may be given a printed paper sheet to type from, or the text will be displayed on the top half of the screen.
-*   **Backspace**: If the test is software-based, backspace is **usually permitted** to correct errors. If it is a basic Notepad test (sometimes conducted at smaller stations), backspace is technically allowed, but you will be graded on your final printed output.
-*   **Errors**: Missing words, spelling mistakes, and punctuation errors carry severe penalties. Focus on 100% accuracy.
+To qualify the **Air Force Group C** typing test, candidates must meet the official speed thresholds:
+
+* **English Typing Benchmark**: Minimum **35 Words Per Minute WPM** on computer with standardized 5 keystrokes per word evaluation.
+* **Hindi Typing Benchmark**: Minimum **30 Words Per Minute WPM** on computer adhering to official font encoding standards.
+* **Test Duration**: The examination runs for exactly **10 minutes**.
+* **Key Depressions**: In standard evaluation, 1 word is calculated as 5 key depressions including spaces and punctuation marks.
 
 ---
 
-## 4. Practice for Air Force Group C
+## 2. Keyboard Layout and Font Specifications
 
-Prepare for the IAF Group C LDC typing test using our specialized mock exams:
+Exam authorities strictly enforce font and layout standards:
 
-* **[Practice Air Force Group C Hindi Typing (Remington Gail)](https://typingnexus.in/practice-exams/air-force-group-c-hindi-typing-remington-gail-keyboard)**
-* **[Practice Air Force Group C English Typing](https://typingnexus.in/practice-exams/air-force-group-c-english-typing)**
+* **English Typing Layout**: Standard QWERTY physical keyboard layout.
+* **Hindi Font & Layout**: Candidates are provided **Mangal Font (Remington Gail / Inscript) for Hindi; Standard QWERTY for English**. Candidates trained on typewriter layouts should choose **Remington Gail**, while touch-typists comfortable with Indian standard layout can opt for **Inscript**.
 
-Practicing from a printed paper sheet while typing on the computer is highly recommended to simulate the real exam environment.
+---
+
+## 3. Backspace Rules and Error Evaluation
+
+* **Backspace Functionality**: Backspace is **Allowed (Use moderately to avoid slowing speed)**. Candidates can correct mistakes within the active word/line before moving forward.
+* **Full Mistakes vs Half Mistakes**:
+  * **Full Mistakes**: Omission of words, substitution of incorrect words, or addition of alien words not in the master passage.
+  * **Half Mistakes**: Spelling errors, incorrect capitalization, punctuation mismatch, and extra/missing spacing.
+* **Accuracy Threshold**: Maintain **95% Net Accuracy** to ensure net typing speed comfortably clears the cut-off.
+
+---
+
+## 4. Pro Tips to Crack the Air Force Group C Typing Test
+
+1. **Focus on Accuracy First**: Do not rush at the start. Typing steadily with 98%+ accuracy in the first 2 minutes establishes rhythm.
+2. **Limit Backspace Usage**: Frequent backspacing shatters typing flow and reduces net WPM by 5–8 words.
+3. **Practice with Exact Paragraph Timers**: Train with full 10 minutes mock tests daily to build finger stamina and eliminate examination nervousness.
+4. **Master Hindi Alt Codes (if applicable)**: Ensure you are comfortable with special conjunct characters and matras without hesitation.
+
+---
+
+## 5. Frequently Asked Questions (FAQ)
+
+**Q1: Is backspace allowed in the Air Force Group C typing test?**  
+**Answer**: Yes, allowed (use moderately to avoid slowing speed). However, excessive use should be avoided to protect your net speed score.
+
+**Q2: What is the minimum passing speed required for Air Force Group C?**  
+**Answer**: Candidates opting for English must achieve at least **35 Words Per Minute WPM**, while Hindi typists must achieve **30 Words Per Minute WPM** within the **10 minutes** time limit.
+
+**Q3: Which font and keyboard layout is provided for Hindi typing?**  
+**Answer**: The official exam software utilizes **Mangal Font (Remington Gail / Inscript) for Hindi; Standard QWERTY for English**.
+
+**Q4: How are typing speed and net errors calculated?**  
+**Answer**: Gross speed is calculated from total words typed divided by test minutes (10 minutes). Net speed is derived after deducting penalty points for Full Mistakes and Half Mistakes.
+
+**Q5: Where can I practice free mock tests for Air Force Group C?**  
+**Answer**: You can practice free realistic mock tests on the [Typing Nexus Exam Simulator](https://typingnexus.in/practice-exams/air-force-group-c-hindi-typing-remington-gail-keyboard) with real-time speed calculation, error breakdown, and exact layout support.
+
+---
+
+## 6. Official Practice & Free Mock Tests
+
+Master the real test environment with full-length timed mock tests matching the Air Force Group C interface:
+
+* **[Practice Air Force Group C Typing Test on Typing Nexus](https://typingnexus.in/practice-exams/air-force-group-c-hindi-typing-remington-gail-keyboard)**
+* **[Explore All Government Typing Exam Profiles](https://typingnexus.in/practice-exams)**
+
+Consistent daily practice on [Typing Nexus](https://typingnexus.in) will help you build muscle memory and pass the Air Force Group C typing skill test with ease!

@@ -11,34 +11,88 @@ If you are applying for the **Copyist** or **Typist** position at the Andhra Pra
 
 Here is a breakdown of the official rules and guidelines for this typing test.
 
----
-
-## 1. The 45 WPM Rule
-
-Unlike standard LDC posts that ask for 30 or 35 WPM, the AP High Court sets a very high bar:
-
-*   **Target Speed**: **45 Words Per Minute (WPM)** in English.
-*   **Duration**: The test is conducted for **10 minutes**.
-*   **Total Words**: You will be required to type at least **450 words** correctly within the timeframe.
+Passing the AP High Court Copyist Typist typing test is mandatory for final selection. Candidates must qualify with the prescribed speed and accuracy threshold under timed examination conditions.
 
 ---
 
-## 2. Backspace and Software Interface
+## Quick Overview: Key Specifications
 
-*   **Backspace Permitted**: Yes, you can use backspace. However, you cannot go back to previous lines once you have hit 'Enter' (if line-by-line typing is enforced), though modern tests generally use a continuous paragraph box.
-*   **Auto-Scroll**: Do not rely on auto-scroll. Practice scrolling with your mouse while keeping your eyes on the screen to avoid losing your place in the text.
+| Parameter | Official Rule / Benchmark |
+| :--- | :--- |
+| **Exam Name** | **AP High Court Copyist Typist** |
+| **English Typing Speed** | **45 Words Per Minute WPM** |
+| **Hindi Typing Speed** | **30 WPM (9,000 KDPH)** |
+| **Test Duration** | **10 minutes** |
+| **Backspace Key Rule** | **Allowed (Standard rules apply)** |
+| **Font & Keyboard Layout** | **Mangal Font (Remington Gail / Inscript) for Hindi; Standard QWERTY for English** |
+| **Minimum Accuracy** | **90% - 95% Net Accuracy (Strict Evaluation)** |
+| **Evaluation Nature** | Qualifying & Merit Screening |
 
 ---
 
-## 3. Accuracy is Key
+## 1. Speed Requirements and Test Duration
 
-*   **Error Tolerance**: Accuracy must be maintained above **95%**. 
-*   **Deductions**: Any spelling mistake, omission of a word, or punctuation error will result in a penalty, reducing your net speed. If your net speed drops to 44.9 WPM, you will fail.
+To qualify the **AP High Court Copyist Typist** typing test, candidates must meet the official speed thresholds:
+
+* **English Typing Benchmark**: Minimum **45 Words Per Minute WPM** on computer with standardized 5 keystrokes per word evaluation.
+* **Hindi Typing Benchmark**: Minimum **30 WPM (9,000 KDPH)** on computer adhering to official font encoding standards.
+* **Test Duration**: The examination runs for exactly **10 minutes**.
+* **Key Depressions**: In standard evaluation, 1 word is calculated as 5 key depressions including spaces and punctuation marks.
 
 ---
 
-## 4. Practice Link
+## 2. Keyboard Layout and Font Specifications
 
-Test your skills on an interface designed exactly like the AP High Court software:
+Exam authorities strictly enforce font and layout standards:
 
-* **[Practice AP High Court Copyist Typist English Typing Test](https://typingnexus.in/practice-exams/ap-high-court-copyist-typist-english-typing-test)**
+* **English Typing Layout**: Standard QWERTY physical keyboard layout.
+* **Hindi Font & Layout**: Candidates are provided **Mangal Font (Remington Gail / Inscript) for Hindi; Standard QWERTY for English**. Candidates trained on typewriter layouts should choose **Remington Gail**, while touch-typists comfortable with Indian standard layout can opt for **Inscript**.
+
+---
+
+## 3. Backspace Rules and Error Evaluation
+
+* **Backspace Functionality**: Backspace is **Allowed (Standard rules apply)**. Candidates can correct mistakes within the active word/line before moving forward.
+* **Full Mistakes vs Half Mistakes**:
+  * **Full Mistakes**: Omission of words, substitution of incorrect words, or addition of alien words not in the master passage.
+  * **Half Mistakes**: Spelling errors, incorrect capitalization, punctuation mismatch, and extra/missing spacing.
+* **Accuracy Threshold**: Maintain **90% - 95% Net Accuracy (Strict Evaluation)** to ensure net typing speed comfortably clears the cut-off.
+
+---
+
+## 4. Pro Tips to Crack the AP High Court Copyist Typist Typing Test
+
+1. **Focus on Accuracy First**: Do not rush at the start. Typing steadily with 98%+ accuracy in the first 2 minutes establishes rhythm.
+2. **Limit Backspace Usage**: Frequent backspacing shatters typing flow and reduces net WPM by 5–8 words.
+3. **Practice with Exact Paragraph Timers**: Train with full 10 minutes mock tests daily to build finger stamina and eliminate examination nervousness.
+4. **Master Hindi Alt Codes (if applicable)**: Ensure you are comfortable with special conjunct characters and matras without hesitation.
+
+---
+
+## 5. Frequently Asked Questions (FAQ)
+
+**Q1: Is backspace allowed in the AP High Court Copyist Typist typing test?**  
+**Answer**: Yes, allowed (standard rules apply). However, excessive use should be avoided to protect your net speed score.
+
+**Q2: What is the minimum passing speed required for AP High Court Copyist Typist?**  
+**Answer**: Candidates opting for English must achieve at least **45 Words Per Minute WPM**, while Hindi typists must achieve **30 WPM (9,000 KDPH)** within the **10 minutes** time limit.
+
+**Q3: Which font and keyboard layout is provided for Hindi typing?**  
+**Answer**: The official exam software utilizes **Mangal Font (Remington Gail / Inscript) for Hindi; Standard QWERTY for English**.
+
+**Q4: How are typing speed and net errors calculated?**  
+**Answer**: Gross speed is calculated from total words typed divided by test minutes (10 minutes). Net speed is derived after deducting penalty points for Full Mistakes and Half Mistakes.
+
+**Q5: Where can I practice free mock tests for AP High Court Copyist Typist?**  
+**Answer**: You can practice free realistic mock tests on the [Typing Nexus Exam Simulator](https://typingnexus.in/practice-exams/ap-high-court-copyist-typist-english-typing-test) with real-time speed calculation, error breakdown, and exact layout support.
+
+---
+
+## 6. Official Practice & Free Mock Tests
+
+Master the real test environment with full-length timed mock tests matching the AP High Court Copyist Typist interface:
+
+* **[Practice AP High Court Copyist Typist Typing Test on Typing Nexus](https://typingnexus.in/practice-exams/ap-high-court-copyist-typist-english-typing-test)**
+* **[Explore All Government Typing Exam Profiles](https://typingnexus.in/practice-exams)**
+
+Consistent daily practice on [Typing Nexus](https://typingnexus.in) will help you build muscle memory and pass the AP High Court Copyist Typist typing skill test with ease!

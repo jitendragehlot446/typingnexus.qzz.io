@@ -11,36 +11,88 @@ The **Banaras Hindu University (BHU)** conducts recruitment for the **Junior Cle
 
 The BHU typing test is strictly qualifying in nature. Here is a detailed breakdown of the rules and speed requirements.
 
+Passing the BHU Junior Clerk typing test is mandatory for final selection. Candidates must qualify with the prescribed speed and accuracy threshold under timed examination conditions.
+
 ---
 
-## 1. Speed Requirements
+## Quick Overview: Key Specifications
 
-BHU sets standard clerical speed requirements:
+| Parameter | Official Rule / Benchmark |
+| :--- | :--- |
+| **Exam Name** | **BHU Junior Clerk** |
+| **English Typing Speed** | **30 Words Per Minute WPM** |
+| **Hindi Typing Speed** | **25 Words Per Minute WPM** |
+| **Test Duration** | **10 minutes** |
+| **Backspace Key Rule** | **Allowed (Standard rules apply)** |
+| **Font & Keyboard Layout** | **Mangal Font (Remington Gail / Inscript) for Hindi; Standard QWERTY for English** |
+| **Minimum Accuracy** | **95% Net Accuracy** |
+| **Evaluation Nature** | Qualifying & Merit Screening |
 
-*   **English Typing**: Minimum **30 Words Per Minute (WPM)**.
-*   **Hindi Typing**: Minimum **25 Words Per Minute (WPM)**.
-*   **Test Duration**: Typically **10 minutes**.
+---
+
+## 1. Speed Requirements and Test Duration
+
+To qualify the **BHU Junior Clerk** typing test, candidates must meet the official speed thresholds:
+
+* **English Typing Benchmark**: Minimum **30 Words Per Minute WPM** on computer with standardized 5 keystrokes per word evaluation.
+* **Hindi Typing Benchmark**: Minimum **25 Words Per Minute WPM** on computer adhering to official font encoding standards.
+* **Test Duration**: The examination runs for exactly **10 minutes**.
+* **Key Depressions**: In standard evaluation, 1 word is calculated as 5 key depressions including spaces and punctuation marks.
 
 ---
 
 ## 2. Keyboard Layout and Font Specifications
 
-*   **Hindi Font**: **Mangal Font** is mandatory for the Hindi typing test.
-*   **Hindi Layout**: Candidates are provided with the **Remington Gail** or **Inscript** keyboard layout. Practice on Remington Gail is highly recommended.
-*   **English Layout**: Standard QWERTY layout.
+Exam authorities strictly enforce font and layout standards:
+
+* **English Typing Layout**: Standard QWERTY physical keyboard layout.
+* **Hindi Font & Layout**: Candidates are provided **Mangal Font (Remington Gail / Inscript) for Hindi; Standard QWERTY for English**. Candidates trained on typewriter layouts should choose **Remington Gail**, while touch-typists comfortable with Indian standard layout can opt for **Inscript**.
 
 ---
 
-## 3. Backspace and Interface Rules
+## 3. Backspace Rules and Error Evaluation
 
-*   **Backspace**: Backspace is **enabled** and can be used to correct typographical errors.
-*   **On-Screen Passage**: You will read the passage from the computer screen and type it in the text box below. Ensure you scroll carefully if the text exceeds the visible window.
-*   **Evaluation**: Your Net Speed will be calculated after deducting penalties for spelling errors, missing words, and punctuation mistakes.
+* **Backspace Functionality**: Backspace is **Allowed (Standard rules apply)**. Candidates can correct mistakes within the active word/line before moving forward.
+* **Full Mistakes vs Half Mistakes**:
+  * **Full Mistakes**: Omission of words, substitution of incorrect words, or addition of alien words not in the master passage.
+  * **Half Mistakes**: Spelling errors, incorrect capitalization, punctuation mismatch, and extra/missing spacing.
+* **Accuracy Threshold**: Maintain **95% Net Accuracy** to ensure net typing speed comfortably clears the cut-off.
 
 ---
 
-## 4. BHU Junior Clerk Practice Links
+## 4. Pro Tips to Crack the BHU Junior Clerk Typing Test
 
-Practice on our specialized BHU Junior Clerk mock exams to ensure you pass with flying colors:
+1. **Focus on Accuracy First**: Do not rush at the start. Typing steadily with 98%+ accuracy in the first 2 minutes establishes rhythm.
+2. **Limit Backspace Usage**: Frequent backspacing shatters typing flow and reduces net WPM by 5–8 words.
+3. **Practice with Exact Paragraph Timers**: Train with full 10 minutes mock tests daily to build finger stamina and eliminate examination nervousness.
+4. **Master Hindi Alt Codes (if applicable)**: Ensure you are comfortable with special conjunct characters and matras without hesitation.
 
-* **[Practice BHU Junior Clerk Exam English (Remington Gail Keyboard)](https://typingnexus.in/practice-exams/bhu-junior-clerk-exam-english-remington-gail-keyboard)**
+---
+
+## 5. Frequently Asked Questions (FAQ)
+
+**Q1: Is backspace allowed in the BHU Junior Clerk typing test?**  
+**Answer**: Yes, allowed (standard rules apply). However, excessive use should be avoided to protect your net speed score.
+
+**Q2: What is the minimum passing speed required for BHU Junior Clerk?**  
+**Answer**: Candidates opting for English must achieve at least **30 Words Per Minute WPM**, while Hindi typists must achieve **25 Words Per Minute WPM** within the **10 minutes** time limit.
+
+**Q3: Which font and keyboard layout is provided for Hindi typing?**  
+**Answer**: The official exam software utilizes **Mangal Font (Remington Gail / Inscript) for Hindi; Standard QWERTY for English**.
+
+**Q4: How are typing speed and net errors calculated?**  
+**Answer**: Gross speed is calculated from total words typed divided by test minutes (10 minutes). Net speed is derived after deducting penalty points for Full Mistakes and Half Mistakes.
+
+**Q5: Where can I practice free mock tests for BHU Junior Clerk?**  
+**Answer**: You can practice free realistic mock tests on the [Typing Nexus Exam Simulator](https://typingnexus.in/practice-exams/bhu-junior-clerk-exam-english-remington-gail-keyboard) with real-time speed calculation, error breakdown, and exact layout support.
+
+---
+
+## 6. Official Practice & Free Mock Tests
+
+Master the real test environment with full-length timed mock tests matching the BHU Junior Clerk interface:
+
+* **[Practice BHU Junior Clerk Typing Test on Typing Nexus](https://typingnexus.in/practice-exams/bhu-junior-clerk-exam-english-remington-gail-keyboard)**
+* **[Explore All Government Typing Exam Profiles](https://typingnexus.in/practice-exams)**
+
+Consistent daily practice on [Typing Nexus](https://typingnexus.in) will help you build muscle memory and pass the BHU Junior Clerk typing skill test with ease!
