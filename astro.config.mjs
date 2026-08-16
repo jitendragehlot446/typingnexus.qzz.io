@@ -15,10 +15,10 @@ export default defineConfig({
 			name: 'copy-sitemap',
 			hooks: {
 				'astro:build:done': async ({ dir }) => {
-					const sitemapIndex = new URL('sitemap-index.xml', dir);
+					const sitemap0 = new URL('sitemap-0.xml', dir);
 					const sitemap = new URL('sitemap.xml', dir);
-					if (fs.existsSync(sitemapIndex)) {
-						fs.copyFileSync(sitemapIndex, sitemap);
+					if (fs.existsSync(sitemap0)) {
+						fs.copyFileSync(sitemap0, sitemap);
 					}
 				},
 			},
