@@ -32,10 +32,10 @@ In this comprehensive guide, we explain the exact mathematical formulas used by 
 
 In all government typing tests (SSC, NTA, Central Universities, Courts), **a "word" is NOT counted by dictionary space boundaries**. Instead:
 
-$$\text{1 Word} = 5 \text{ Key Depressions (Characters + Spaces + Punctuation)}$$
+> **1 Standard Word = 5 Key Depressions (Characters + Spaces + Punctuation)**
 
 * **Example**: If you type the phrase `"The quick brown fox jumps"`, the total character count including 4 spaces is **25 characters**.
-* Total standard words = $25 / 5 = \mathbf{5 \text{ words}}$.
+* Total standard words = `25 / 5 = 5 Words`.
 
 ---
 
@@ -44,12 +44,14 @@ $$\text{1 Word} = 5 \text{ Key Depressions (Characters + Spaces + Punctuation)}$
 ### A. Gross Typing Speed (Gross WPM)
 Gross speed measures the total raw volume of words you typed during the test duration, regardless of mistakes.
 
-$$\text{Gross WPM} = \frac{\text{Total Characters Typed} / 5}{\text{Test Duration in Minutes}}$$
+> **Gross WPM Formula**:  
+> `Gross WPM = (Total Characters Typed / 5) / Test Duration in Minutes`
 
 ### B. Net Typing Speed (Net WPM)
 Net speed is the final qualifying score after subtracting the error penalty from your gross throughput.
 
-$$\text{Net WPM} = \text{Gross WPM} - \left(\frac{\text{Total Error Penalty Words}}{\text{Test Duration in Minutes}}\right)$$
+> **Net WPM Formula**:  
+> `Net WPM = Gross WPM - (Total Error Penalty Words / Test Duration in Minutes)`
 
 > **Key Takeaway**: If you type fast with high errors, your Net WPM drops drastically. For instance, in SSC and High Court exams, making 10 wrong words in a 10-minute test can reduce your Net Speed by **5 to 10 WPM**!
 
@@ -69,7 +71,8 @@ Government exam commissions categorize errors into two tiers:
 | **Half Mistake** | Punctuation | Missing comma `,` or full stop `.` | **0.5 Word Penalty** |
 | **Half Mistake** | Spacing Error | Double space between words or missing space | **0.5 Word Penalty** |
 
-$$\text{Total Errors} = \text{Full Mistakes} + (\text{Half Mistakes} \times 0.5)$$
+> **Total Mistakes Formula**:  
+> `Total Errors = Full Mistakes + (Half Mistakes × 0.5)`
 
 ---
 
@@ -79,13 +82,14 @@ Many central exam notifications (such as AIIMS, EPFO, DDA, SSC DEST) express spe
 
 | KDPH Requirement | Calculation (`KDPH / 300`) | Equivalent WPM | Typical Exams |
 | :--- | :--- | :--- | :--- |
-| **8,000 KDPH** | $8000 / 300$ | **26.66 WPM** | SSC CGL Tax Assistant (DEST) |
-| **9,000 KDPH** | $9000 / 300$ | **30.00 WPM** | Hindi Typing Benchmark (SSC, RRB, AIIMS) |
-| **10,500 KDPH** | $10500 / 300$ | **35.00 WPM** | English Typing Benchmark (SSC CHSL, AIIMS) |
-| **12,000 KDPH** | $12000 / 300$ | **40.00 WPM** | High Court Typist / Clerk Exams |
-| **15,000 KDPH** | $15000 / 300$ | **50.00 WPM** | Supreme Court Senior Personal Assistant |
+| **8,000 KDPH** | `8000 / 300` | **26.66 WPM** | SSC CGL Tax Assistant (DEST) |
+| **9,000 KDPH** | `9000 / 300` | **30.00 WPM** | Hindi Typing Benchmark (SSC, RRB, AIIMS) |
+| **10,500 KDPH** | `10500 / 300` | **35.00 WPM** | English Typing Benchmark (SSC CHSL, AIIMS) |
+| **12,000 KDPH** | `12000 / 300` | **40.00 WPM** | High Court Typist / Clerk Exams |
+| **15,000 KDPH** | `15000 / 300` | **50.00 WPM** | Supreme Court Senior Personal Assistant |
 
-$$\text{Formula}: \text{WPM} = \frac{\text{KDPH}}{5 \times 60} = \frac{\text{KDPH}}{300}$$
+> **KDPH to WPM Conversion Formula**:  
+> `WPM = KDPH / (5 × 60) = KDPH / 300`
 
 ---
 
@@ -103,7 +107,7 @@ $$\text{Formula}: \text{WPM} = \frac{\text{KDPH}}{5 \times 60} = \frac{\text{KDP
 **Answer**: Exactly 5 keystrokes (including characters, punctuation, and spaces) are calculated as 1 standard word in all government exams.
 
 **Q2: What is the formula to convert KDPH into WPM?**  
-**Answer**: Divide the KDPH value by 300. For example, $10,500 \text{ KDPH} / 300 = \mathbf{35 \text{ WPM}}$.
+**Answer**: Divide the KDPH value by 300. For example, 10,500 KDPH / 300 = **35 WPM**.
 
 **Q3: Does making spelling errors count as a full mistake or half mistake?**  
 **Answer**: Spelling, capitalization, and minor punctuation errors are classified as Half Mistakes (0.5 penalty), whereas missing a whole word or typing an extra word is a Full Mistake (1.0 penalty).

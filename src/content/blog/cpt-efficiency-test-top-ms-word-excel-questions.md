@@ -35,21 +35,21 @@ Here is the definitive compilation of the **Top 20 most frequently asked practic
 * **Step-by-step Solution**:
   1. Select the 2nd paragraph with mouse cursor.
   2. In the **Home Tab**, locate the **Paragraph** section.
-  3. Click the **Line and Paragraph Spacing** icon $\rightarrow$ Select **1.5** (or open Paragraph Dialog box `Alt + H + P + G` $\rightarrow$ set Line Spacing to *At Least* or *Exactly* and enter `18 pt`).
+  3. Click the **Line and Paragraph Spacing** icon → Select **1.5** (or open Paragraph Dialog box `Alt + H + P + G` → set Line Spacing to *At Least* or *Exactly* and enter `18 pt`).
 
 ### Question 2: Apply Custom First Line Indent (0.5 inch / 1.27 cm)
 * **Task**: *"Apply a First Line Indent of 0.5 inches to all paragraphs."*
 * **Step-by-step Solution**:
   1. Select all paragraphs (`Ctrl + A`).
   2. Open the **Paragraph Dialog Box** (click small arrow at bottom-right of Paragraph group).
-  3. Under **Special**, select **First Line** $\rightarrow$ set **By: 0.5" (1.27 cm)** $\rightarrow$ Click **OK**.
+  3. Under **Special**, select **First Line** → set **By: 0.5" (1.27 cm)** → Click **OK**.
 
 ### Question 3: Table Borders & Shading
 * **Task**: *"Create a 4x4 table, apply All Borders (Double line style), and fill header row with Light Gray background."*
 * **Step-by-step Solution**:
-  1. Go to **Insert Tab** $\rightarrow$ **Table** $\rightarrow$ Select **4 columns × 4 rows**.
-  2. Select the whole table $\rightarrow$ Under **Table Design / Format**, select **Borders** $\rightarrow$ **All Borders**.
-  3. Select the 1st row $\rightarrow$ Click **Shading (Paint bucket icon)** $\rightarrow$ Choose light gray.
+  1. Go to **Insert Tab** → **Table** → Select **4 columns × 4 rows**.
+  2. Select the whole table → Under **Table Design / Format**, select **Borders** → **All Borders**.
+  3. Select the 1st row → Click **Shading (Paint bucket icon)** → Choose light gray.
 
 ### Question 4: Find & Replace Specific Words
 * **Task**: *"Replace all occurrences of the word 'India' with 'BHARAT' in bold format."*
@@ -57,20 +57,20 @@ Here is the definitive compilation of the **Top 20 most frequently asked practic
   1. Press `Ctrl + H` to open the **Find and Replace** dialog.
   2. In **Find what**, type `India`.
   3. In **Replace with**, type `BHARAT`.
-  4. Click **More >>** $\rightarrow$ Click **Format** $\rightarrow$ **Font** $\rightarrow$ Select **Bold** $\rightarrow$ Click **Replace All**.
+  4. Click **More >>** → Click **Format** → **Font** → Select **Bold** → Click **Replace All**.
 
 ### Question 5: Page Margins (Gutter Margin & Orientation)
 * **Task**: *"Set page orientation to Landscape and Left Margin to 1.5 inches with 0.5 inch Gutter margin."*
 * **Step-by-step Solution**:
-  1. Go to **Page Layout Tab** $\rightarrow$ Click **Margins** $\rightarrow$ **Custom Margins**.
+  1. Go to **Page Layout Tab** → Click **Margins** → **Custom Margins**.
   2. Under Orientation, choose **Landscape**.
-  3. Set **Left**: `1.5"` and **Gutter**: `0.5"` $\rightarrow$ Click **OK**.
+  3. Set **Left**: `1.5"` and **Gutter**: `0.5"` → Click **OK**.
 
 ### Question 6: Insert Header with Page Number and Date
 * **Task**: *"Insert a header with current date aligned to the Right and 'Typing Nexus Exam' aligned to the Left."*
 * **Step-by-step Solution**:
-  1. Double click the top margin area of the document or go to **Insert** $\rightarrow$ **Header**.
-  2. Type text on left, press `Tab` key twice to move cursor to right $\rightarrow$ Click **Date & Time** $\rightarrow$ Insert.
+  1. Double click the top margin area of the document or go to **Insert** → **Header**.
+  2. Type text on left, press `Tab` key twice to move cursor to right → Click **Date & Time** → Insert.
 
 ---
 

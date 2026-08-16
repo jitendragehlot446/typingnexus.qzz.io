@@ -36,20 +36,20 @@ In CRPF HCM, the error deduction scheme is unique and much harsher than SSC:
 1. **Permissible Free Error Quota**: Up to **5% errors** of your total typed words are forgiven without heavy penalty.
 2. **Above 5% Error Penalty (The 10-Word Penalty)**: For EVERY SINGLE ERROR made beyond the 5% margin, **10 words are directly deducted from your total word count!**
 
-$$\text{Allowable Errors (5\%)} = \text{Total Words Typed} \times 0.05$$
-$$\text{Net Words} = \text{Total Words Typed} - (\text{Excess Mistakes} \times 10)$$
-$$\text{Net WPM} = \frac{\text{Net Words}}{10 \text{ Minutes}}$$
+> **Allowable Errors (5%) Formula**: `Total Words Typed × 0.05`  
+> **Net Words Formula**: `Total Words Typed - (Excess Mistakes × 10)`  
+> **Net WPM Formula**: `Net Words / 10 Minutes`
 
 ### Live Example:
 * Suppose you typed **400 words** in 10 minutes (40 Gross WPM).
-* Permissible 5% Errors = $400 \times 0.05 = \mathbf{20 \text{ errors}}$.
+* Permissible 5% Errors = `400 × 0.05 = 20 errors`.
 * If you made **25 errors** (5 excess errors):
-  * Penalty = $5 \times 10 = \mathbf{50 \text{ words deducted}}!$
-  * Net Words = $400 - 50 = \mathbf{350 \text{ words}}$.
-  * Net Speed = $350 / 10 = \mathbf{35.0 \text{ WPM}}$ (Borderline Pass).
-* If you made **28 errors**:
-  * Penalty = $8 \times 10 = \mathbf{80 \text{ words deducted}}!$
-  * Net Speed = $(400 - 80) / 10 = \mathbf{32.0 \text{ WPM}} \rightarrow$ **DISQUALIFIED / FAILED!**
+  * Penalty = `5 × 10 = 50 words deducted`!
+  * Net Words = `400 - 50 = 350 words`.
+  * Net Speed = `350 / 10 = 35.0 WPM` (Borderline Pass).
+* If you made **28 errors** (8 excess errors):
+  * Penalty = `8 × 10 = 80 words deducted`!
+  * Net Speed = `(400 - 80) / 10 = 32.0 WPM` → **DISQUALIFIED / FAILED!**
 
 ---
 

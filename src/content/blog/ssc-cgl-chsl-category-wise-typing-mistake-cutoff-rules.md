@@ -68,12 +68,13 @@ Candidates with physical disabilities (Orthopedically Handicapped / Visually Imp
 
 ## 4. How Error Percentage is Calculated in Exam Software
 
-$$\text{Error Percentage (\%)} = \left(\frac{\text{Total Full Mistakes} + (\text{Total Half Mistakes} \times 0.5)}{\text{Total Master Words in Passage}}\right) \times 100$$
+> **Error Percentage (%) Formula**:  
+> `Error Percentage (%) = [(Total Full Mistakes + Half Mistakes × 0.5) / Total Master Words] × 100`
 
 * **Example**: If a 350-word passage was assigned in SSC CHSL and you made 14 Full Mistakes and 8 Half Mistakes:
-  $$\text{Total Errors} = 14 + (8 \times 0.5) = \mathbf{18 \text{ Errors}}$$
-  $$\text{Error \%} = \left(\frac{18}{350}\right) \times 100 = \mathbf{5.14\%}$$
-* **Result**: Since $5.14\% < 7\%$, a UR candidate is **QUALIFIED**!
+  * Total Errors = `14 + (8 × 0.5) = 18 Errors`
+  * Error % = `(18 / 350) × 100 = 5.14%`
+* **Result**: Since `5.14% < 7%`, a UR candidate is **QUALIFIED**!
 
 ---
 

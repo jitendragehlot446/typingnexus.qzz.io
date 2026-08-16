@@ -38,7 +38,7 @@ To type in Remington Gail, you must install **Microsoft Hindi Indic Input 3**. I
 
 ### Step 2: Run the Setup Installer
 1. Double-click `Hindi_Indic_Input_3_64-bit.msi`.
-2. Follow the setup wizard $\rightarrow$ Click **Next** $\rightarrow$ Accept License Agreement $\rightarrow$ Click **Install**.
+2. Follow the setup wizard → Click **Next** → Accept License Agreement → Click **Install**.
 3. Once installation completes, click **Close**.
 
 ---
@@ -50,7 +50,7 @@ After installing the tool, you must select Remington Gail as your active keyboar
 1. Look at the bottom right corner of your Windows Taskbar next to the clock. You will see the language abbreviation (e.g. **`ENG`** or **`HIN`**).
 2. Click on the language icon (or press `Windows Key + Spacebar`) and switch to **Hindi (India) - Hindi Indic Input 3**.
 3. A small floating toolbar (Language Bar) will appear on screen.
-4. Click the small **Settings / Gear Icon** on the Language Bar $\rightarrow$ Go to **Keyboards**.
+4. Click the small **Settings / Gear Icon** on the Language Bar → Go to **Keyboards**.
 5. Select **"Hindi Remington (GAIL)"**.
 6. You are now ready to type in Mangal Remington Gail in MS Word, Notepad, and web browsers!
 
@@ -59,9 +59,9 @@ After installing the tool, you must select Remington Gail as your active keyboar
 ## 3. How to Fix Common Windows 10/11 Language Bar Issues
 
 ### Issue 1: Floating Language Bar is Missing
-* **Fix**: Open Windows **Settings** $\rightarrow$ Go to **Time & Language** $\rightarrow$ **Typing** $\rightarrow$ **Advanced keyboard settings**.
+* **Fix**: Open Windows **Settings** → Go to **Time & Language** → **Typing** → **Advanced keyboard settings**.
 * Check the box for **"Use the desktop language bar when it's available"**.
-* Click **Language bar options** $\rightarrow$ Select **"Floating On Desktop"** or **"Docked in the taskbar"**.
+* Click **Language bar options** → Select **"Floating On Desktop"** or **"Docked in the taskbar"**.
 
 ### Issue 2: Switching Quickly Between English and Hindi
 * Press **`Alt + Shift`** to instantly toggle between English typing and Hindi typing.
@@ -84,7 +84,7 @@ After installing the tool, you must select Remington Gail as your active keyboar
 **Answer**: Yes, all standard Alt codes (`Alt + 0216`, `Alt + 0228`, etc.) are fully supported when NumLock is ON.
 
 **Q5: Which version should I install: 32-bit or 64-bit?**  
-**Answer**: Check your Windows system type in Settings $\rightarrow$ System $\rightarrow$ About. If it says "64-bit operating system", install the 64-bit version.
+**Answer**: Check your Windows system type in Settings → System → About. If it says "64-bit operating system", install the 64-bit version.
 
 ---
 

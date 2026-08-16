@@ -19,10 +19,10 @@ In this guide, we provide **actionable physiological and mental techniques** to 
 
 | Factor | Problem Cause | Instant Solution |
 | :--- | :--- | :--- |
-| **Cold Temperature** | AC chilling hands $\rightarrow$ Stiff fingers | 2-minute friction rubbing + warm water wash before entry |
-| **Adrenaline Rush** | Nervousness $\rightarrow$ Rapid shallow breathing | 4-7-8 Deep box breathing drill |
-| **Typing Noise Chaos** | 100+ candidates typing $\rightarrow$ Panic rush | Earplugs / Mental focus on active word only |
-| **Starting Rush** | Trying to type at 50 WPM on 1st second $\rightarrow$ Errors | **The "2-Minute 95% Accuracy" Rule** |
+| **Cold Temperature** | AC chilling hands → Stiff fingers | 2-minute friction rubbing + warm water wash before entry |
+| **Adrenaline Rush** | Nervousness → Rapid shallow breathing | 4-7-8 Deep box breathing drill |
+| **Typing Noise Chaos** | 100+ candidates typing → Panic rush | Earplugs / Mental focus on active word only |
+| **Starting Rush** | Trying to type at 50 WPM on 1st second → Errors | **The "2-Minute 95% Accuracy" Rule** |
 | **Practice Simulator** | Training under pressure | [Practice on Typing Nexus](https://typingnexus.in) |
 
 ---

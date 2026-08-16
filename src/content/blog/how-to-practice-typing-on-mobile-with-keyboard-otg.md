@@ -30,8 +30,8 @@ Here is the complete step-by-step setup guide for both **English and Hindi (Mang
 ## 1. Step-by-Step Hardware Connection Guide
 
 ### Step 1: Check Your Mobile Charging Port Type
-* If your phone uses the modern reversible oval charging port $\rightarrow$ Buy a **Type-C OTG Adapter**.
-* If your phone uses the older trapezoidal charging port $\rightarrow$ Buy a **Micro-USB OTG Adapter**.
+* If your phone uses the modern reversible oval charging port → Buy a **Type-C OTG Adapter**.
+* If your phone uses the older trapezoidal charging port → Buy a **Micro-USB OTG Adapter**.
 
 ### Step 2: Enable OTG in Mobile Settings (Crucial Step!)
 On many smartphones (such as **Realme, Oppo, Vivo, OnePlus, and Xiaomi**), OTG power is turned off by default:
@@ -53,8 +53,8 @@ On many smartphones (such as **Realme, Oppo, Vivo, OnePlus, and Xiaomi**), OTG p
 
 ### For Hindi Typing (Mangal Remington Gail & Inscript on Mobile):
 1. Install **Gboard (Google Keyboard)** or **Indic Keyboard** from Google Play Store.
-2. Go to **Settings $\rightarrow$ System $\rightarrow$ Languages & Input $\rightarrow$ Physical Keyboard**.
-3. Tap on your connected physical keyboard $\rightarrow$ Select **Hindi**.
+2. Go to **Settings → System → Languages & Input → Physical Keyboard**.
+3. Tap on your connected physical keyboard → Select **Hindi**.
 4. Choose your preferred layout: **Hindi (Inscript)** or **Hindi (Remington Gail)**.
 5. You can now type Hindi Unicode seamlessly on mobile web browsers!
 
@@ -76,7 +76,7 @@ On many smartphones (such as **Realme, Oppo, Vivo, OnePlus, and Xiaomi**), OTG p
 **Answer**: Absolutely! Because you are typing on the exact same physical desktop keyboard used with computers, your finger muscle memory and speed develop identically.
 
 **Q2: Why is my physical keyboard not responding after connecting to mobile?**  
-**Answer**: In 95% of cases, this is because the "OTG Connection" setting is turned OFF in phone settings. Go to Settings $\rightarrow$ search "OTG" $\rightarrow$ turn it ON.
+**Answer**: In 95% of cases, this is because the "OTG Connection" setting is turned OFF in phone settings. Go to Settings → search "OTG" → turn it ON.
 
 **Q3: Can wireless/Bluetooth keyboards also be connected to mobile?**  
 **Answer**: Yes, Bluetooth keyboards pair directly without an OTG adapter, but standard wired USB keyboards with an OTG cable provide zero input latency and are cheaper.
