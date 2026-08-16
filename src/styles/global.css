@@ -325,6 +325,92 @@ hr {
 	color: var(--colors-on-primary);
 }
 
+/* Modern Markdown Table & Prose Formatting */
+.prose table,
+table {
+	width: 100%;
+	border-collapse: separate;
+	border-spacing: 0;
+	margin: var(--spacing-lg) 0 var(--spacing-xl) 0;
+	border: 1px solid var(--colors-hairline);
+	border-radius: var(--rounded-md);
+	overflow: hidden;
+	background-color: var(--colors-canvas);
+	box-shadow: 0 2px 8px rgba(0, 0, 0, 0.03);
+	font-size: 15px;
+	line-height: 1.5;
+	display: table;
+}
+
+.prose thead,
+thead {
+	background-color: var(--colors-surface-soft);
+}
+
+.prose th,
+th {
+	padding: 12px 16px;
+	text-align: left;
+	font-weight: 600;
+	font-family: var(--font-sans);
+	color: var(--colors-primary);
+	border-bottom: 2px solid var(--colors-hairline);
+	letter-spacing: -0.01em;
+}
+
+.prose td,
+td {
+	padding: 12px 16px;
+	text-align: left;
+	border-bottom: 1px solid var(--colors-hairline-soft);
+	color: var(--colors-primary);
+	vertical-align: middle;
+}
+
+.prose tr:last-child td,
+tr:last-child td {
+	border-bottom: none;
+}
+
+.prose tbody tr:nth-child(even),
+tbody tr:nth-child(even) {
+	background-color: rgba(245, 245, 247, 0.45);
+}
+
+.prose tbody tr:hover,
+tbody tr:hover {
+	background-color: var(--colors-surface-soft);
+	transition: background-color 0.15s ease;
+}
+
+.prose blockquote {
+	border-left: 4px solid var(--colors-primary);
+	padding: 12px 20px;
+	background-color: var(--colors-surface-soft);
+	border-radius: 0 var(--rounded-sm) var(--rounded-sm) 0;
+	margin: var(--spacing-lg) 0;
+	font-style: italic;
+}
+
+.prose code:not(pre code) {
+	background-color: var(--colors-surface-soft);
+	padding: 2px 6px;
+	border-radius: var(--rounded-xs);
+	font-family: var(--font-mono);
+	font-size: 0.9em;
+	border: 1px solid var(--colors-hairline);
+}
+
+@media (max-width: 768px) {
+	.prose table,
+	table {
+		display: block;
+		overflow-x: auto;
+		-webkit-overflow-scrolling: touch;
+		white-space: nowrap;
+	}
+}
+
 /* Scrollbar */
 ::-webkit-scrollbar {
 	width: 8px;
